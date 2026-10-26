@@ -55,8 +55,12 @@ jobs:
           echo "Ora di Roma $(date +%H:%M), sveglia: $vai"
           echo "LAVORA=$vai" >> "$GITHUB_ENV"
 
+      # Sempre l'ultima versione di main, non quella di quando la sveglia è stata lanciata:
+      # se nel frattempo un'altra sveglia ha salvato il conto, si parte da quel conto.
       - uses: actions/checkout@v4
         if: env.LAVORA == '1'
+        with:
+          ref: main
 
       # L'iPhone e gli orari di GitHub lanciano la stessa sveglia: la seconda che arriva
       # trova la prima appena fatta (meno di 45 minuti fa) e si ferma subito, senza consumare minuti.
@@ -133,5 +137,8 @@ jobs:
           git add stato dashboard.html
           git diff --cached --quiet && exit 0
           git commit -q -m "Sveglia $(date '+%d/%m %H:%M')"
-          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done
+          for i in 1 2 3; do
+            git pull -q --rebase && git push -q && exit 0
+            git rebase --abort 2>/dev/null; sleep 5
+          done
           exit 1
