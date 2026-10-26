@@ -53,27 +53,44 @@ jobs:
             echo "Riga «$RIGA» = $voluta a Roma"
           fi
           echo "Ora di Roma $(date +%H:%M), sveglia: $vai"
-          echo "vai=$vai" >> "$GITHUB_OUTPUT"
+          echo "LAVORA=$vai" >> "$GITHUB_ENV"
 
       - uses: actions/checkout@v4
-        if: steps.ora.outputs.vai == '1'
+        if: env.LAVORA == '1'
+
+      # L'iPhone e gli orari di GitHub lanciano la stessa sveglia: la seconda che arriva
+      # trova la prima appena fatta (meno di 45 minuti fa) e si ferma subito, senza consumare minuti.
+      - name: Già fatta dall'iPhone?
+        if: env.LAVORA == '1' && github.event_name == 'schedule'
+        run: |
+          python3 - <<'FINE'
+          import json, os
+          from datetime import datetime
+          quando = json.load(open("stato/conto.json")).get("ultima_sveglia", {}).get("quando")
+          if quando:
+              prima = datetime.fromisoformat(quando)
+              minuti = (datetime.now(prima.tzinfo) - prima).total_seconds() / 60
+              if 0 <= minuti < 45:
+                  print(f"Sveglia già fatta {minuti:.0f} minuti fa: mi fermo.")
+                  open(os.environ["GITHUB_ENV"], "a").write("LAVORA=0\n")
+          FINE
 
       - uses: actions/setup-python@v5
-        if: steps.ora.outputs.vai == '1'
+        if: env.LAVORA == '1'
         with:
           python-version: "3.12"
 
       - name: Librerie e modello Timestral (dalla cache se ci sono già)
-        if: steps.ora.outputs.vai == '1'
+        if: env.LAVORA == '1'
         uses: actions/cache@v4
         with:
           path: |
             .venv
             ~/.cache/huggingface
-          key: trader-${{ runner.os }}-${{ hashFiles('.github/workflows/sveglia.yml') }}
+          key: trader-${{ runner.os }}-v1
 
       - name: Installazione
-        if: steps.ora.outputs.vai == '1'
+        if: env.LAVORA == '1'
         run: |
           if ! .venv/bin/python -c "import torch, timestral, certifi" 2>/dev/null; then
             rm -rf .venv
@@ -87,7 +104,7 @@ jobs:
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
 
       - name: Sveglia
-        if: steps.ora.outputs.vai == '1'
+        if: env.LAVORA == '1'
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
@@ -100,7 +117,7 @@ jobs:
           rm -f stato/telegram.json
 
       - name: Salvo il conto nel repository
-        if: always() && steps.ora.outputs.vai == '1'
+        if: always() && env.LAVORA == '1'
         run: |
           rm -f stato/telegram.json
           git config user.name "Trader Claude"
