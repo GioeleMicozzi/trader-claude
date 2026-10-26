@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.DS_Store
+# Le chiavi non vanno mai nel repository: su GitHub stanno nei Secrets.
+stato/telegram.json
+stato/sveglia.lock
+stato/*.tmp
+SUL_SERVER

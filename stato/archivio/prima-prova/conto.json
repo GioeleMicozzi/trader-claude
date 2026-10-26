@@ -1,0 +1,154 @@
+{
+ "contanti": 52013.191596,
+ "posizioni": {
+  "PST.MI": {
+   "quantita": 330,
+   "prezzo_medio": 24.16,
+   "dal": "2026-10-26T10:34"
+  },
+  "G.MI": {
+   "quantita": 188,
+   "prezzo_medio": 42.45,
+   "dal": "2026-10-26T10:34"
+  },
+  "SRG.MI": {
+   "quantita": 1340,
+   "prezzo_medio": 5.968,
+   "dal": "2026-10-26T10:34"
+  },
+  "AZM.MI": {
+   "quantita": 229,
+   "prezzo_medio": 34.85,
+   "dal": "2026-10-26T10:34"
+  },
+  "BAMI.MI": {
+   "quantita": 602,
+   "prezzo_medio": 13.275,
+   "dal": "2026-10-26T10:34"
+  },
+  "IG.MI": {
+   "quantita": 908,
+   "prezzo_medio": 8.802,
+   "dal": "2026-10-26T10:34"
+  }
+ },
+ "ordini": [
+  {
+   "quando": "2026-10-26T10:34",
+   "azione": "compra",
+   "simbolo": "PST.MI",
+   "quantita": 330,
+   "prezzo": 24.16,
+   "costi": 11.96,
+   "motivo": "Mediana migliore tra i titoli (+0,32% a 5 giorni) con ribasso del 10% contenuto (-3,9%); ha perso il 6,7% in 20 giorni"
+  },
+  {
+   "quando": "2026-10-26T10:34",
+   "azione": "compra",
+   "simbolo": "G.MI",
+   "quantita": 188,
+   "prezzo": 42.45,
+   "costi": 11.97,
+   "motivo": "Mediana positiva (+0,19%) con una forbice tra le più strette; titolo assicurativo difensivo"
+  },
+  {
+   "quando": "2026-10-26T10:34",
+   "azione": "compra",
+   "simbolo": "SRG.MI",
+   "quantita": 1340,
+   "prezzo": 5.968,
+   "costi": 12.0,
+   "motivo": "Rete del gas regolata a bassa volatilità, mediana positiva (+0,14%) e ribasso del 10% di appena -2,45%"
+  },
+  {
+   "quando": "2026-10-26T10:34",
+   "azione": "compra",
+   "simbolo": "AZM.MI",
+   "quantita": 229,
+   "prezzo": 34.85,
+   "costi": 11.97,
+   "motivo": "Mediana +0,27% con rischio moderato; ha perso l'11% in 20 giorni, c'è spazio per un recupero"
+  },
+  {
+   "quando": "2026-10-26T10:34",
+   "azione": "compra",
+   "simbolo": "BAMI.MI",
+   "quantita": 602,
+   "prezzo": 13.275,
+   "costi": 11.99,
+   "motivo": "Mediana +0,29% dopo un calo del 19% in 20 giorni; quota della posizione limitata per via della volatilità"
+  },
+  {
+   "quando": "2026-10-26T10:34",
+   "azione": "compra",
+   "simbolo": "IG.MI",
+   "quantita": 908,
+   "prezzo": 8.802,
+   "costi": 11.99,
+   "motivo": "Rete del gas regolata e difensiva, mediana positiva (+0,14%) e prezzo vicino ai minimi annuali"
+  }
+ ],
+ "andamento": [
+  {
+   "quando": "2026-10-26T10:33+01:00",
+   "patrimonio": 99928.13,
+   "ftsemib": 48990.77
+  },
+  {
+   "quando": "2026-10-26T10:35+01:00",
+   "patrimonio": 99939.99,
+   "ftsemib": 49008.21
+  },
+  {
+   "quando": "2026-10-26T11:01+01:00",
+   "patrimonio": 100007.55,
+   "ftsemib": 49061.07
+  }
+ ],
+ "ultima_analisi": {
+  "quando": "2026-10-26T11:01+01:00",
+  "momento": "apertura",
+  "testo": "La borsa apre in rialzo (FTSE MIB +0,3/+0,8%) dopo la peggior settimana da marzo. Spingono banche e auto, i rendimenti dei titoli di Stato francesi si calmano e il greggio scende (Eni -2,7%). Questa settimana conta la BCE, poi le trimestrali di MPS e Stellantis. Su Banco BPM pesano Crédit Agricole, UniCredit e la mossa di Intesa su MPS. La notizia muove il titolo (+2%) ma i fondamentali non cambiano ancora. Il portafoglio ha 6 posizioni bilanciate, ognuna intorno all'8% del patrimonio, più il 52% in contanti, ed è in pari. Per nessun titolo, posseduto o no, c'è un segnale forte: le mediane delle previsioni stanno tutte entro ±0,35% a 5 giorni. Non c'è un piano precedente da eseguire e oggi il mercato rimbalza: comprare adesso vorrebbe dire inseguire il rialzo, non entrare su un ritracciamento. Non faccio niente.",
+  "con_previsioni": true
+ },
+ "prezzi": {
+  "ENI.MI": 26.905,
+  "ENEL.MI": 9.254,
+  "ISP.MI": 5.941,
+  "UCG.MI": 73.75,
+  "STLAM.MI": 3.672,
+  "RACE.MI": 357.15,
+  "G.MI": 42.51,
+  "TIT.MI": 5.655,
+  "PST.MI": 24.13,
+  "MB.MI": 25.23,
+  "BAMI.MI": 13.35,
+  "BPE.MI": 12.948,
+  "LDO.MI": 49.04,
+  "PRY.MI": 101.5,
+  "MONC.MI": 42.93,
+  "TEN.MI": 25.88,
+  "SRG.MI": 5.982,
+  "TRN.MI": 9.526,
+  "A2A.MI": 2.44,
+  "HER.MI": 3.602,
+  "CPR.MI": 6.758,
+  "AMP.MI": 12.95,
+  "DIA.MI": 80.56,
+  "REC.MI": 53.0,
+  "FBK.MI": 20.98,
+  "BMED.MI": 22.55,
+  "PIRC.MI": 6.59,
+  "INW.MI": 7.365,
+  "NEXI.MI": 4.431,
+  "IVG.MI": 14.28,
+  "AZM.MI": 34.88,
+  "BMPS.MI": 10.786,
+  "BC.MI": 84.92,
+  "IG.MI": 8.81,
+  "UNI.MI": 24.92,
+  "LTMC.MI": 25.12
+ },
+ "testimone": "Sveglia delle 09:35 del 26/10: nessun ordine. Possiedo PST 330, G 188, SRG 1340, AZM 229, BAMI 602, IG 908, tutti circa in pari. Il 52% è in contanti. Strano: gli acquisti risultano fatti il 26/10 alle 10:34, cioè dopo questa sveglia, e non c'era nessun testimone. Probabile un problema di fuso orario o una sessione precedente andata persa: verificare se si ripete. PIANO: tenere il 30-40% in contanti come riserva e investire il resto solo sui ritracciamenti, in modo graduale, entro la riunione BCE. Candidati per diversificare (prezzi d'ingresso che ritengo corretti): ENEL sotto 9,05 (oggi 9,25), TRN sotto 9,30 (oggi 9,53), BPE sotto 12,40 (oggi 12,95) se il settore bancario regge, ma ho già BAMI e AZM come finanziari. Una posizione per titolo, circa l'8%. Da controllare per prime: le notizie BCE (tassi, banche), i conti di BAMI e il dossier Crédit Agricole/UniCredit, le trimestrali di Italgas e Snam di questa settimana. Lo stop scatta a -10%: BAMI a 11,95, AZM a 31,37, PST a 21,74.",
+ "ultimi_scartati": []
+}

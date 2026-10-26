@@ -1,0 +1,1987 @@
+{
+ "ABP.MI": {
+  "nome": "A.B.P. Nocivelli",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005439861"
+ },
+ "A2A.MI": {
+  "nome": "A2a",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001233417"
+ },
+ "AAT.MI": {
+  "nome": "Aatech",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005548521"
+ },
+ "ABC.MI": {
+  "nome": "Abc Company",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005466294"
+ },
+ "ABT.MI": {
+  "nome": "Abitare In",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005445280"
+ },
+ "ACE.MI": {
+  "nome": "Acea",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001207098"
+ },
+ "AC5.MI": {
+  "nome": "Acinque",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001382024"
+ },
+ "ADV.MI": {
+  "nome": "Adventure",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005735722"
+ },
+ "AEDES.MI": {
+  "nome": "Aedes",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005708174"
+ },
+ "AEF.MI": {
+  "nome": "Aeffe",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001384590"
+ },
+ "ADB.MI": {
+  "nome": "Aeroporto Guglielmo Marconi Di Bologna",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001006128"
+ },
+ "ARN.MI": {
+  "nome": "Alerion",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004720733"
+ },
+ "ABTG.MI": {
+  "nome": "Alfio Bardolla",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005244030"
+ },
+ "ALFO.MI": {
+  "nome": "Alfonsino",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005466039"
+ },
+ "ALMS.MI": {
+  "nome": "Alia Mentis",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005717241"
+ },
+ "CORE.MI": {
+  "nome": "Allcore",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005461303"
+ },
+ "AGP.MI": {
+  "nome": "Altea Green Power",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005472730"
+ },
+ "AMB.MI": {
+  "nome": "Ambromobiliare",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0004779515"
+ },
+ "AMP.MI": {
+  "nome": "Amplifon",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004056880"
+ },
+ "ANIM.MI": {
+  "nome": "Anima Holding",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004998065"
+ },
+ "ECNL.MI": {
+  "nome": "Aquafil",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005241192"
+ },
+ "ARIS.MI": {
+  "nome": "Ariston Holding",
+  "mercato": "Euronext Milan",
+  "isin": "NL0015000N33"
+ },
+ "ARBS.MI": {
+  "nome": "Arterra Bioscience",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005386369"
+ },
+ "ASC.MI": {
+  "nome": "Ascopiave",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004093263"
+ },
+ "ATON.MI": {
+  "nome": "Aton Green Storage",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005449464"
+ },
+ "AUTME.MI": {
+  "nome": "Autostrade Merid",
+  "mercato": "Euronext Milan",
+  "isin": "IT0000084043"
+ },
+ "AVIO.MI": {
+  "nome": "Avio",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005119810"
+ },
+ "AZM.MI": {
+  "nome": "Azimut",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003261697"
+ },
+ "BEC.MI": {
+  "nome": "B&C Speakers",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001268561"
+ },
+ "BFG.MI": {
+  "nome": "B.F.",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005187460"
+ },
+ "BGN.MI": {
+  "nome": "Banca Generali",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001031084"
+ },
+ "IF.MI": {
+  "nome": "Banca Ifis",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003188064"
+ },
+ "BMED.MI": {
+  "nome": "Banca Mediolanum",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004776628"
+ },
+ "BMPS.MI": {
+  "nome": "Banca Monte Paschi Siena",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005508921"
+ },
+ "BST.MI": {
+  "nome": "Banca Sistema",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003173629"
+ },
+ "BAMI.MI": {
+  "nome": "Banco Bpm",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005218380"
+ },
+ "BAN.MI": {
+  "nome": "Basicnet",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001033700"
+ },
+ "B.MI": {
+  "nome": "Bastogi Spa",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004412497"
+ },
+ "PRO.MI": {
+  "nome": "Bca Profilo",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005704439"
+ },
+ "BDB.MI": {
+  "nome": "Bco Desio Brianza",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001041000"
+ },
+ "BWZ.MI": {
+  "nome": "Beewize",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001487047"
+ },
+ "BELL.MI": {
+  "nome": "Bellini Nautica",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005497042"
+ },
+ "BFF.MI": {
+  "nome": "Bff Bank",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005244402"
+ },
+ "BSS.MI": {
+  "nome": "Biesse",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003097257"
+ },
+ "BO.MI": {
+  "nome": "Borgosesia",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003217335"
+ },
+ "BPE.MI": {
+  "nome": "Bper Banca",
+  "mercato": "Euronext Milan",
+  "isin": "IT0000066123"
+ },
+ "BRE.MI": {
+  "nome": "Brembo",
+  "mercato": "Euronext Milan",
+  "isin": "NL0015001KT6"
+ },
+ "BRI.MI": {
+  "nome": "Brioschi",
+  "mercato": "Euronext Milan",
+  "isin": "IT0000066180"
+ },
+ "BC.MI": {
+  "nome": "Brunello Cucinelli",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004764699"
+ },
+ "BZU.MI": {
+  "nome": "Buzzi",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001347308"
+ },
+ "CAI.MI": {
+  "nome": "Cairo Communication",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004329733"
+ },
+ "CLF.MI": {
+  "nome": "Caleffi",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003025019"
+ },
+ "CALT.MI": {
+  "nome": "Caltagirone",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003127930"
+ },
+ "CED.MI": {
+  "nome": "Caltagirone Edit",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001472171"
+ },
+ "CPR.MI": {
+  "nome": "Campari",
+  "mercato": "Euronext Milan",
+  "isin": "NL0015435975"
+ },
+ "CRL.MI": {
+  "nome": "Carel Industries",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005331019"
+ },
+ "CDG.MI": {
+  "nome": "Casta Diva Group",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005003782"
+ },
+ "CELL.MI": {
+  "nome": "Cellularline",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005244618"
+ },
+ "CMB.MI": {
+  "nome": "Cembre",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001128047"
+ },
+ "CEM.MI": {
+  "nome": "Cementir Holding",
+  "mercato": "Euronext Milan",
+  "isin": "NL0013995087"
+ },
+ "CLI.MI": {
+  "nome": "Centrale Del Latte D'Italia",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003023980"
+ },
+ "CIR.MI": {
+  "nome": "Cir",
+  "mercato": "Euronext Milan",
+  "isin": "IT0000070786"
+ },
+ "CIRC.MI": {
+  "nome": "Circle",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005344996"
+ },
+ "CLE.MI": {
+  "nome": "Class Editori",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005117848"
+ },
+ "CBB.MI": {
+  "nome": "Cleanbnb",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005377277"
+ },
+ "CFL.MI": {
+  "nome": "Cofle",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005465619"
+ },
+ "CGF.MI": {
+  "nome": "Cogefeed",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005618043"
+ },
+ "CMTL.MI": {
+  "nome": "Com.Tel",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005632945"
+ },
+ "COM.MI": {
+  "nome": "Comer Industries",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005246191"
+ },
+ "CFV.MI": {
+  "nome": "Confinvest Oro",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005379604"
+ },
+ "CVG.MI": {
+  "nome": "Convergenze",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005426215"
+ },
+ "COP.MI": {
+  "nome": "Copernico",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005379406"
+ },
+ "CE.MI": {
+  "nome": "Credem",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003121677"
+ },
+ "CSP.MI": {
+  "nome": "Csp Int Ind Calze",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001127874"
+ },
+ "CUBE.MI": {
+  "nome": "Cube Labs",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005532483"
+ },
+ "CY4.MI": {
+  "nome": "Cy4gate",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005412504"
+ },
+ "CYB.MI": {
+  "nome": "Cyberoo",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005546103"
+ },
+ "DIS.MI": {
+  "nome": "D'Amico",
+  "mercato": "Euronext Milan",
+  "isin": "LU2592315662"
+ },
+ "DAN.MI": {
+  "nome": "Danieli & C",
+  "mercato": "Euronext Milan",
+  "isin": "IT0000076502"
+ },
+ "DANR.MI": {
+  "nome": "Danieli & C Risp Nc",
+  "mercato": "Euronext Milan",
+  "isin": "IT0000076486"
+ },
+ "DATA.MI": {
+  "nome": "Datrix",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005468357"
+ },
+ "DBA.MI": {
+  "nome": "Dba Group",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005285942"
+ },
+ "DLG.MI": {
+  "nome": "De'Longhi",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003115950"
+ },
+ "DDM.MI": {
+  "nome": "Dedem",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005659724"
+ },
+ "ART.MI": {
+  "nome": "Deodato.Gallery",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005528937"
+ },
+ "DIT.MI": {
+  "nome": "Destination Italia",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005454027"
+ },
+ "DEX.MI": {
+  "nome": "Dexelance",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005543480"
+ },
+ "DHH.MI": {
+  "nome": "Dhh",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005203622"
+ },
+ "DIA.MI": {
+  "nome": "Diasorin",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003492391"
+ },
+ "DIB.MI": {
+  "nome": "Digital Bros",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001469995"
+ },
+ "DGT.MI": {
+  "nome": "Digitouch",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005089476"
+ },
+ "DPG.MI": {
+  "nome": "Dipietro Group",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005716813"
+ },
+ "D.MI": {
+  "nome": "Directa Sim",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0001463063"
+ },
+ "DEA.MI": {
+  "nome": "Distribuzione Elettrica Adriatica",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005600249"
+ },
+ "DOT.MI": {
+  "nome": "Dotstay",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005523839"
+ },
+ "DOV.MI": {
+  "nome": "Dovalue",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005610958"
+ },
+ "DOX.MI": {
+  "nome": "Doxee",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005394413"
+ },
+ "EGB.MI": {
+  "nome": "E-Globe",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005557514"
+ },
+ "ETS.MI": {
+  "nome": "E.T.S. Engineering And Technical Services",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005669558"
+ },
+ "ECMB.MI": {
+  "nome": "Ecomembrane",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005543332"
+ },
+ "ECK.MI": {
+  "nome": "Ecosuntek",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005654766"
+ },
+ "ELB.MI": {
+  "nome": "Edgelab",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005627762"
+ },
+ "ESF.MI": {
+  "nome": "Edil San Felice",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005561441"
+ },
+ "EDAC.MI": {
+  "nome": "Ediliziacrobatica",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005351504"
+ },
+ "EDNR.MI": {
+  "nome": "Edison R",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003372205"
+ },
+ "EHI.MI": {
+  "nome": "Ehi",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005723405"
+ },
+ "ELN.MI": {
+  "nome": "El.En.",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005453250"
+ },
+ "ELC.MI": {
+  "nome": "Elica",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003404214"
+ },
+ "ELSA.MI": {
+  "nome": "Elsa Solutions",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005561466"
+ },
+ "EM.MI": {
+  "nome": "Emak",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001237053"
+ },
+ "EAV.MI": {
+  "nome": "Emma Villas",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005562183"
+ },
+ "ENA.MI": {
+  "nome": "Ena",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005468290"
+ },
+ "ENAV.MI": {
+  "nome": "Enav",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005176406"
+ },
+ "ENEL.MI": {
+  "nome": "Enel",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003128367"
+ },
+ "ENY.MI": {
+  "nome": "Energy",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005500712"
+ },
+ "ET.MI": {
+  "nome": "Energy Time",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005660219"
+ },
+ "ENV.MI": {
+  "nome": "Enervit",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004356751"
+ },
+ "ENI.MI": {
+  "nome": "Eni",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003132476"
+ },
+ "ENT.MI": {
+  "nome": "Entera",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005353575"
+ },
+ "EPH.MI": {
+  "nome": "Eph Invest",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005730095"
+ },
+ "EPRB.MI": {
+  "nome": "Eprcomunicazione",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005519837"
+ },
+ "EQUI.MI": {
+  "nome": "Equita Group",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005312027"
+ },
+ "ERG.MI": {
+  "nome": "Erg",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001157020"
+ },
+ "RDUE.MI": {
+  "nome": "Erredue",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005521247"
+ },
+ "ESAU.MI": {
+  "nome": "Esautomotion",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005337107"
+ },
+ "ESIGM.MI": {
+  "nome": "Esi",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005421885"
+ },
+ "ESPE.MI": {
+  "nome": "Espe",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005573818"
+ },
+ "PRT.MI": {
+  "nome": "Esprinet",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003850929"
+ },
+ "ESTM.MI": {
+  "nome": "Estrima",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005468191"
+ },
+ "ETI.MI": {
+  "nome": "Eti",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005720005"
+ },
+ "EUK.MI": {
+  "nome": "Eukedos",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004818297"
+ },
+ "EGLA.MI": {
+  "nome": "Eurogroup Laminations",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005527616"
+ },
+ "ETH.MI": {
+  "nome": "Eurotech",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003895668"
+ },
+ "EVISO.MI": {
+  "nome": "Eviso",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005430936"
+ },
+ "EXEC.MI": {
+  "nome": "Execus",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005557530"
+ },
+ "EXAI.MI": {
+  "nome": "Expert.Ai",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0004496029"
+ },
+ "FAE.MI": {
+  "nome": "Fae Technology",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005500688"
+ },
+ "COSMO.MI": {
+  "nome": "Farmacosmo",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005487670"
+ },
+ "RACE.MI": {
+  "nome": "Ferrari",
+  "mercato": "Euronext Milan",
+  "isin": "NL0011585146"
+ },
+ "YACHT.MI": {
+  "nome": "Ferretti",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005383291"
+ },
+ "FDA.MI": {
+  "nome": "Fidia",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005654683"
+ },
+ "FM.MI": {
+  "nome": "Fiera Milano",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003365613"
+ },
+ "FILA.MI": {
+  "nome": "Fila",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004967292"
+ },
+ "FTC.MI": {
+  "nome": "Finanza.Tech",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005475162"
+ },
+ "FCT.MI": {
+  "nome": "Fincantieri",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005599938"
+ },
+ "FF.MI": {
+  "nome": "Fine Foods & Pharmaceuticals Ntm",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005215329"
+ },
+ "FBK.MI": {
+  "nome": "Finecobank",
+  "mercato": "Euronext Milan",
+  "isin": "IT0000072170"
+ },
+ "FIC.MI": {
+  "nome": "First Capital",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005252736"
+ },
+ "FPT.MI": {
+  "nome": "First Point",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005720500"
+ },
+ "FNM.MI": {
+  "nome": "Fnm",
+  "mercato": "Euronext Milan",
+  "isin": "IT0000060886"
+ },
+ "FPE.MI": {
+  "nome": "Fope",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005203424"
+ },
+ "FCH.MI": {
+  "nome": "Franchetti",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005508574"
+ },
+ "FUM.MI": {
+  "nome": "Franchi Umberto Marmi",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005335754"
+ },
+ "FRE.MI": {
+  "nome": "Frendy Energy",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0004819857"
+ },
+ "AMI.MI": {
+  "nome": "Friends",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005664641"
+ },
+ "GML.MI": {
+  "nome": "G.M. Leather",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005498610"
+ },
+ "GAB.MI": {
+  "nome": "Gabetti",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005023038"
+ },
+ "GAMB.MI": {
+  "nome": "Gambero Rosso",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005122392"
+ },
+ "GHC.MI": {
+  "nome": "Garofalo Health Care",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005345233"
+ },
+ "GSP.MI": {
+  "nome": "Gas Plus",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004098510"
+ },
+ "GE.MI": {
+  "nome": "Gefran",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003203947"
+ },
+ "GEL.MI": {
+  "nome": "Gel",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005312365"
+ },
+ "GF.MI": {
+  "nome": "Generalfinance",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005144784"
+ },
+ "G.MI": {
+  "nome": "Generali",
+  "mercato": "Euronext Milan",
+  "isin": "IT0000062072"
+ },
+ "OROX.MI": {
+  "nome": "Gens Aurea",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005713232"
+ },
+ "GM.MI": {
+  "nome": "Gentili Mosconi",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005531261"
+ },
+ "GEO.MI": {
+  "nome": "Geox",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003697080"
+ },
+ "GCOM.MI": {
+  "nome": "Giglio.Com",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005453003"
+ },
+ "GMS.MI": {
+  "nome": "Giocamondo Study",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005652489"
+ },
+ "GIS.MI": {
+  "nome": "Gismondi 1754",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005391138"
+ },
+ "GPSY.MI": {
+  "nome": "Giunti Psychometrics Holding",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005722191"
+ },
+ "GPI.MI": {
+  "nome": "Gpi",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005221517"
+ },
+ "GRN.MI": {
+  "nome": "Green Oleo",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005549768"
+ },
+ "GRAL.MI": {
+  "nome": "Grifal",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005332595"
+ },
+ "GROW.MI": {
+  "nome": "Growens",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005040354"
+ },
+ "GDT.MI": {
+  "nome": "Guidotti Ships",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005723074"
+ },
+ "GVS.MI": {
+  "nome": "Gvs",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005411209"
+ },
+ "FARM.MI": {
+  "nome": "H-Farm",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0004674666"
+ },
+ "HIK.MI": {
+  "nome": "Haiki+",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005628778"
+ },
+ "HLX.MI": {
+  "nome": "Helyx Industries",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005451213"
+ },
+ "HER.MI": {
+  "nome": "Hera",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001250932"
+ },
+ "HQF.MI": {
+  "nome": "High Quality Food",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005450694"
+ },
+ "HZY.MI": {
+  "nome": "Homizy",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005468662"
+ },
+ "IGV.MI": {
+  "nome": "I Grandi Viaggi",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005108219"
+ },
+ "IMD.MI": {
+  "nome": "I.M.D. International Medical Devices",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005549255"
+ },
+ "ICOP.MI": {
+  "nome": "Icop",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001214433"
+ },
+ "IDNTT.MI": {
+  "nome": "Idntt",
+  "mercato": "Euronext Growth Milan",
+  "isin": "CH1118852594"
+ },
+ "IGD.MI": {
+  "nome": "Igd",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005322612"
+ },
+ "ILP.MI": {
+  "nome": "Ilpra",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005359101"
+ },
+ "IMS.MI": {
+  "nome": "Immsi",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001413837"
+ },
+ "MPT.MI": {
+  "nome": "Impianti",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005518953"
+ },
+ "INDB.MI": {
+  "nome": "Indel B",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005245508"
+ },
+ "ICF.MI": {
+  "nome": "Industrie Chimiche Forestali",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005416281"
+ },
+ "DNR.MI": {
+  "nome": "Industrie De Nora",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005186371"
+ },
+ "IB.MI": {
+  "nome": "Iniziative Bresciane",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005037905"
+ },
+ "INC.MI": {
+  "nome": "Innovatec",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005412298"
+ },
+ "ICOS.MI": {
+  "nome": "Intercos",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005455875"
+ },
+ "ICC.MI": {
+  "nome": "International Care Company",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005469371"
+ },
+ "IP.MI": {
+  "nome": "Interpump Group",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001078911"
+ },
+ "ISP.MI": {
+  "nome": "Intesa Sanpaolo",
+  "mercato": "Euronext Milan",
+  "isin": "IT0000072618"
+ },
+ "ITD.MI": {
+  "nome": "Intred",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005337818"
+ },
+ "INW.MI": {
+  "nome": "Inwit",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005090300"
+ },
+ "IRC.MI": {
+  "nome": "Irce",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001077780"
+ },
+ "IRE.MI": {
+  "nome": "Iren",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003027817"
+ },
+ "ISC.MI": {
+  "nome": "Iscc Fintech",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005474108"
+ },
+ "ITW.MI": {
+  "nome": "It Way",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003057624"
+ },
+ "IG.MI": {
+  "nome": "Italgas",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005211237"
+ },
+ "IEG.MI": {
+  "nome": "Italian Exhibition Group",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003411417"
+ },
+ "IWB.MI": {
+  "nome": "Italian Wine Brands",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005075764"
+ },
+ "ITM.MI": {
+  "nome": "Italmobiliare",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005253205"
+ },
+ "IVG.MI": {
+  "nome": "Iveco Group",
+  "mercato": "Euronext Milan",
+  "isin": "NL0015000LU4"
+ },
+ "IVN.MI": {
+  "nome": "Ivision Tech",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005554784"
+ },
+ "JUVE.MI": {
+  "nome": "Juventus Fc",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005572778"
+ },
+ "KME.MI": {
+  "nome": "Kme Group",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004552359"
+ },
+ "KMER.MI": {
+  "nome": "Kme Group Rsp",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004552367"
+ },
+ "KK.MI": {
+  "nome": "Kruso Kapital",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005707341"
+ },
+ "ERFO.MI": {
+  "nome": "Laboratorio Farmaceutico Erfo",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005497885"
+ },
+ "LNDR.MI": {
+  "nome": "Landi Renzo",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005619843"
+ },
+ "LS.MI": {
+  "nome": "Lemon Sistemi",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005573438"
+ },
+ "LDO.MI": {
+  "nome": "Leonardo",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003856405"
+ },
+ "LFG.MI": {
+  "nome": "Leone Film Group",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0004973696"
+ },
+ "LDB.MI": {
+  "nome": "Lindbergh",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005469272"
+ },
+ "LTX.MI": {
+  "nome": "Litix",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005600801"
+ },
+ "LON.MI": {
+  "nome": "Longino&Cardenal",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005337073"
+ },
+ "LTMC.MI": {
+  "nome": "Lottomatica Group",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005541336"
+ },
+ "LMG.MI": {
+  "nome": "Lucisano Media Group",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0004522162"
+ },
+ "LUVE.MI": {
+  "nome": "Luve",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005107492"
+ },
+ "MGS.MI": {
+  "nome": "Magis",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005525347"
+ },
+ "MAIRE.MI": {
+  "nome": "Maire",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004931058"
+ },
+ "MAPS.MI": {
+  "nome": "Maps",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005364333"
+ },
+ "MARE.MI": {
+  "nome": "Mare Engineering Group",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005588626"
+ },
+ "MARK.MI": {
+  "nome": "Markbass",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005670960"
+ },
+ "MARR.MI": {
+  "nome": "Marr",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003428445"
+ },
+ "MARP.MI": {
+  "nome": "Marzocchi Pompe",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0004376858"
+ },
+ "MASI.MI": {
+  "nome": "Masi Agricola",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0004125677"
+ },
+ "MFT.MI": {
+  "nome": "Matica Fintec",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005388449"
+ },
+ "MB.MI": {
+  "nome": "Mediobanca",
+  "mercato": "Euronext Milan",
+  "isin": "IT0000062957"
+ },
+ "MET.MI": {
+  "nome": "Met.Extra Group",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005481855"
+ },
+ "MTK.MI": {
+  "nome": "Metriks Ai",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005651481"
+ },
+ "MEV.MI": {
+  "nome": "Mevim",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005586950"
+ },
+ "MFEA.MI": {
+  "nome": "Mfe A",
+  "mercato": "Euronext Milan",
+  "isin": "NL0015001OI1"
+ },
+ "MFEB.MI": {
+  "nome": "Mfe B",
+  "mercato": "Euronext Milan",
+  "isin": "NL0015001OJ9"
+ },
+ "MS.MI": {
+  "nome": "Misitano & Stracuzzi",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005603078"
+ },
+ "MTS.MI": {
+  "nome": "Mit Sim",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005427510"
+ },
+ "MOL.MI": {
+  "nome": "Moltiply Group",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004195308"
+ },
+ "MONC.MI": {
+  "nome": "Moncler",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004965148"
+ },
+ "MN.MI": {
+  "nome": "Mondadori Edit",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001469383"
+ },
+ "MTV.MI": {
+  "nome": "Mondo Tv",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001447785"
+ },
+ "NABLA.MI": {
+  "nome": "Nabla",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005730384"
+ },
+ "NDT.MI": {
+  "nome": "Neodecortech",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005275778"
+ },
+ "NRST.MI": {
+  "nome": "Neurosoft",
+  "mercato": "Euronext Growth Milan",
+  "isin": "GRS802003004"
+ },
+ "NWL.MI": {
+  "nome": "Newprinces",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005385213"
+ },
+ "NEXI.MI": {
+  "nome": "Nexi",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005366767"
+ },
+ "NXT.MI": {
+  "nome": "Next Geosolutions Europe",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005594418"
+ },
+ "NPI.MI": {
+  "nome": "Notorious Pictures",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005025355"
+ },
+ "NOVA.MI": {
+  "nome": "Novamarine",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005605701"
+ },
+ "NUS.MI": {
+  "nome": "Nusco",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005453110"
+ },
+ "OS.MI": {
+  "nome": "Officina Stellare",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005374035"
+ },
+ "OLI.MI": {
+  "nome": "Olidata",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005634610"
+ },
+ "OMER.MI": {
+  "nome": "Omer",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005453748"
+ },
+ "OPTS.MI": {
+  "nome": "Opt",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005713646"
+ },
+ "OMG.MI": {
+  "nome": "Orange Media Group",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005733040"
+ },
+ "ORS.MI": {
+  "nome": "Orsero",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005138703"
+ },
+ "OTO.MI": {
+  "nome": "Otofarma",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005663361"
+ },
+ "OVS.MI": {
+  "nome": "Ovs",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005043507"
+ },
+ "PSQ.MI": {
+  "nome": "Pasquarelli Auto",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005546319"
+ },
+ "PTR.MI": {
+  "nome": "Pattern",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005378143"
+ },
+ "PHN.MI": {
+  "nome": "Pharmanutra",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005274094"
+ },
+ "PHIL.MI": {
+  "nome": "Philogen",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005373789"
+ },
+ "PIA.MI": {
+  "nome": "Piaggio",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003073266"
+ },
+ "PINF.MI": {
+  "nome": "Pininfarina Spa",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003056386"
+ },
+ "PQ.MI": {
+  "nome": "Piquadro",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004240443"
+ },
+ "PIRC.MI": {
+  "nome": "Pirelli & C",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005278236"
+ },
+ "PMED.MI": {
+  "nome": "Piu' Medical",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005676140"
+ },
+ "PLN.MI": {
+  "nome": "Planetel",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005430951"
+ },
+ "PLC.MI": {
+  "nome": "Plc",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005339160"
+ },
+ "POPR.MI": {
+  "nome": "Poligrafici Printing",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0004587470"
+ },
+ "PAG.MI": {
+  "nome": "Porto Aviation Group",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005545238"
+ },
+ "POR.MI": {
+  "nome": "Portobello",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005337495"
+ },
+ "PST.MI": {
+  "nome": "Poste Italiane",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003796171"
+ },
+ "PWS.MI": {
+  "nome": "Powersoft",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005353815"
+ },
+ "POZ.MI": {
+  "nome": "Pozzi Milano",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005499949"
+ },
+ "PRXD.MI": {
+  "nome": "Praexidia Industrie Strategiche",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005687469"
+ },
+ "PRE.MI": {
+  "nome": "Predict",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005611071"
+ },
+ "PMT.MI": {
+  "nome": "Promotica",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005425365"
+ },
+ "PRY.MI": {
+  "nome": "Prysmian",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004176001"
+ },
+ "RFG.MI": {
+  "nome": "Racing Force",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005466963"
+ },
+ "RAD.MI": {
+  "nome": "Radici",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005379737"
+ },
+ "RWAY.MI": {
+  "nome": "Rai Way",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005054967"
+ },
+ "RAT.MI": {
+  "nome": "Ratti",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004724107"
+ },
+ "RCS.MI": {
+  "nome": "Rcs Mediagroup",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004931496"
+ },
+ "REC.MI": {
+  "nome": "Recordati Ord",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003828271"
+ },
+ "RDF.MI": {
+  "nome": "Redelfi",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005496101"
+ },
+ "RFLTC.MI": {
+  "nome": "Redfish Longterm Capital",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005549354"
+ },
+ "RNV.MI": {
+  "nome": "Renovalo",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005500571"
+ },
+ "REY.MI": {
+  "nome": "Reply",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005282865"
+ },
+ "RES.MI": {
+  "nome": "Res",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005543613"
+ },
+ "RETI.MI": {
+  "nome": "Reti",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005418204"
+ },
+ "REVO.MI": {
+  "nome": "Revo Insurance",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005513202"
+ },
+ "RWY.MI": {
+  "nome": "Reway Group",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005528069"
+ },
+ "RPTN.MI": {
+  "nome": "Rino Petino",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005663429"
+ },
+ "RN.MI": {
+  "nome": "Risanamento",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001402269"
+ },
+ "RKT.MI": {
+  "nome": "Rocket Sharing Company",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005481830"
+ },
+ "YRM.MI": {
+  "nome": "Rosetti Marino",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0001017851"
+ },
+ "RTL.MI": {
+  "nome": "Rt&L",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005680373"
+ },
+ "SSL.MI": {
+  "nome": "S.S. Lazio",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003621783"
+ },
+ "SAB.MI": {
+  "nome": "Sabaf",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001042610"
+ },
+ "SAC.MI": {
+  "nome": "Saccheria F.Lli Franceschetti",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005521551"
+ },
+ "SFL.MI": {
+  "nome": "Safilo Group",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004604762"
+ },
+ "SPM.MI": {
+  "nome": "Saipem",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005495657"
+ },
+ "SFER.MI": {
+  "nome": "Salvatore Ferragamo",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004712375"
+ },
+ "SL.MI": {
+  "nome": "Sanlorenzo",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003549422"
+ },
+ "VARV.MI": {
+  "nome": "Sbe-Varvit",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005568461"
+ },
+ "IOT.MI": {
+  "nome": "Seco",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005438046"
+ },
+ "SERI.MI": {
+  "nome": "Seri Industrial",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005283640"
+ },
+ "SES.MI": {
+  "nome": "Sesa",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004729759"
+ },
+ "SGC.MI": {
+  "nome": "Sg Company",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005337172"
+ },
+ "SIAV.MI": {
+  "nome": "Siav",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005504128"
+ },
+ "SBC.MI": {
+  "nome": "Sicily By Car",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005556581"
+ },
+ "SMN.MI": {
+  "nome": "Simone",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005573123"
+ },
+ "SIT.MI": {
+  "nome": "Sit",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005262149"
+ },
+ "SMCAP.MI": {
+  "nome": "Smart Capital",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005621070"
+ },
+ "SRG.MI": {
+  "nome": "Snam",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003153415"
+ },
+ "SEIF.MI": {
+  "nome": "Societa' Editoriale Il Fatto",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005353484"
+ },
+ "SFT.MI": {
+  "nome": "Softlab",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001469953"
+ },
+ "SGF.MI": {
+  "nome": "Sogefi",
+  "mercato": "Euronext Milan",
+  "isin": "IT0000076536"
+ },
+ "SOGES.MI": {
+  "nome": "Soges Group",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005597411"
+ },
+ "SOL.MI": {
+  "nome": "Sol",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001206769"
+ },
+ "S3D.MI": {
+  "nome": "Solid World Group",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005497893"
+ },
+ "SOM.MI": {
+  "nome": "Somec",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005329815"
+ },
+ "SOS.MI": {
+  "nome": "Sostravel.Com",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005338675"
+ },
+ "STLAM.MI": {
+  "nome": "Stellantis",
+  "mercato": "Euronext Milan",
+  "isin": "NL00150001Q9"
+ },
+ "SVS.MI": {
+  "nome": "Svas Biosana",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005469264"
+ },
+ "SYS.MI": {
+  "nome": "Sys-Dat",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005595423"
+ },
+ "TIP.MI": {
+  "nome": "Tamburi",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003153621"
+ },
+ "TGYM.MI": {
+  "nome": "Technogym",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005162406"
+ },
+ "TPRO.MI": {
+  "nome": "Technoprobe",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005482333"
+ },
+ "TCM.MI": {
+  "nome": "Tecma Solutions",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005425050"
+ },
+ "TCG.MI": {
+  "nome": "Tecno",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005658841"
+ },
+ "TIT.MI": {
+  "nome": "Telecom Italia",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005712671"
+ },
+ "TLS.MI": {
+  "nome": "Telesia",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005240046"
+ },
+ "TLM.MI": {
+  "nome": "Telmes",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005683401"
+ },
+ "TEN.MI": {
+  "nome": "Tenaris",
+  "mercato": "Euronext Milan",
+  "isin": "LU2598331598"
+ },
+ "TNX.MI": {
+  "nome": "Tenax International",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005428898"
+ },
+ "TRN.MI": {
+  "nome": "Terna",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003242622"
+ },
+ "TES.MI": {
+  "nome": "Tesmec",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004585243"
+ },
+ "TSL.MI": {
+  "nome": "Tessellis",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005496473"
+ },
+ "TISG.MI": {
+  "nome": "The Italian Sea Group",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005439085"
+ },
+ "TMP.MI": {
+  "nome": "Tmp Group",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005531238"
+ },
+ "TYA.MI": {
+  "nome": "Toscana Aeroporti",
+  "mercato": "Euronext Milan",
+  "isin": "IT0000214293"
+ },
+ "TPS.MI": {
+  "nome": "Tps",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005246142"
+ },
+ "TRAI.MI": {
+  "nome": "Tradelab",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005651507"
+ },
+ "TWL.MI": {
+  "nome": "Trawell Co",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005717571"
+ },
+ "TFIN.MI": {
+  "nome": "Trevi Fin Ind",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005709909"
+ },
+ "TB.MI": {
+  "nome": "Triboo",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005001554"
+ },
+ "TXT.MI": {
+  "nome": "Txt E-Solutions",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001454435"
+ },
+ "UBA.MI": {
+  "nome": "Ubaldi Costruzioni",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005628158"
+ },
+ "U24.MI": {
+  "nome": "Ucapital24",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005380461"
+ },
+ "UCG.MI": {
+  "nome": "Unicredit",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005239360"
+ },
+ "UD.MI": {
+  "nome": "Unidata",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005573065"
+ },
+ "UNI.MI": {
+  "nome": "Unipol",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004810054"
+ },
+ "VLC.MI": {
+  "nome": "Valica",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005562514"
+ },
+ "VLS.MI": {
+  "nome": "Valsoia",
+  "mercato": "Euronext Milan",
+  "isin": "IT0001018362"
+ },
+ "VLT.MI": {
+  "nome": "Valtecne",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005532525"
+ },
+ "VNT.MI": {
+  "nome": "Vantea Smart",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005433765"
+ },
+ "VIM.MI": {
+  "nome": "Vimi Fasteners",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0004717200"
+ },
+ "VNXT.MI": {
+  "nome": "Vinext",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005652414"
+ },
+ "VVG.MI": {
+  "nome": "Vivenda Group",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005622581"
+ },
+ "VNE.MI": {
+  "nome": "Vne",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005556110"
+ },
+ "WAAT26.MI": {
+  "nome": "Warr Aatech 2023-2028",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005550501"
+ },
+ "WABTG.MI": {
+  "nome": "Warr Alfio Bardolla 2017-2027",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005245607"
+ },
+ "WAMB26.MI": {
+  "nome": "Warr Ambromobiliare 2020-2026",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005425092"
+ },
+ "WART28.MI": {
+  "nome": "Warr Deodato.Gallery 2023-2028",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005528929"
+ },
+ "WDEA27.MI": {
+  "nome": "Warr Distribuzione Elettrica Adriatica 2024-2027",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005600231"
+ },
+ "WFTC24.MI": {
+  "nome": "Warr Finanza.Tech 2021-2026",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005475147"
+ },
+ "WGIS26.MI": {
+  "nome": "Warr Gismondi 1754 2019-2026",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005391104"
+ },
+ "WHIK26.MI": {
+  "nome": "Warr Haiki+ 2025-2026",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005628760"
+ },
+ "WINC26.MI": {
+  "nome": "Warr Innovatec 23-26",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005568305"
+ },
+ "WSGC27.MI": {
+  "nome": "Warr Sg Company 2018-2028",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005347593"
+ },
+ "WSBCA.MI": {
+  "nome": "Warr Sicily By Car A",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005556532"
+ },
+ "WSBCB.MI": {
+  "nome": "Warr Sicily By Car B",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005556599"
+ },
+ "WSBCC.MI": {
+  "nome": "Warr Sicily By Car C",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005556607"
+ },
+ "WSOS24.MI": {
+  "nome": "Warr Sostravel.Com 2021-2026",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005446718"
+ },
+ "WDHH28.MI": {
+  "nome": "Warrant Dhh 2025-2028",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005645541"
+ },
+ "WGML25.MI": {
+  "nome": "Warrant G.M. Leather 2022-2027",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005498602"
+ },
+ "WMARK.MI": {
+  "nome": "Warrant Markbass 2025-2027",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005670929"
+ },
+ "WPOZ27.MI": {
+  "nome": "Warrant Pozzi Milano 2022-2027",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005499923"
+ },
+ "WBS.MI": {
+  "nome": "Websolute",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005384901"
+ },
+ "WBD.MI": {
+  "nome": "Webuild",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003865570"
+ },
+ "WBDR.MI": {
+  "nome": "Webuild Rsp",
+  "mercato": "Euronext Milan",
+  "isin": "IT0003865588"
+ },
+ "WIIT.MI": {
+  "nome": "Wiit",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005440893"
+ },
+ "XHS.MI": {
+  "nome": "Xenia Hotellerie Solution",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005568487"
+ },
+ "YKY.MI": {
+  "nome": "Yakkyo",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005573966"
+ },
+ "YOLO.MI": {
+  "nome": "Yolo Group",
+  "mercato": "Euronext Growth Milan",
+  "isin": "IT0005495871"
+ },
+ "ZEST.MI": {
+  "nome": "Zest",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005013013"
+ },
+ "ZV.MI": {
+  "nome": "Zignago Vetro",
+  "mercato": "Euronext Milan",
+  "isin": "IT0004171440"
+ },
+ "ZUC.MI": {
+  "nome": "Zucchi",
+  "mercato": "Euronext Milan",
+  "isin": "IT0005395071"
+ }
+}

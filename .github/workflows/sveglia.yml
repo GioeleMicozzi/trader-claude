@@ -1,0 +1,112 @@
+name: Sveglia del trader
+
+on:
+  schedule:
+    # GitHub ragiona in ora UTC: Roma è UTC+1 d'inverno e UTC+2 d'estate, quindi ogni sveglia
+    # ha due righe e il primo passo lascia lavorare solo quella che a Roma dà l'orario giusto.
+    # Gli orari sono un po' prima del dovuto perché GitHub a volte parte in ritardo.
+    - cron: "12 6 * * 1-5"     # piano 08:12 (estate)
+    - cron: "12 7 * * 1-5"     # piano 08:12 (inverno)
+    - cron: "17 7 * * 1-5"     # apertura 09:17 (estate)
+    - cron: "17 8 * * 1-5"     # apertura 09:17 (inverno)
+    - cron: "43 10 * * 1-5"    # metà seduta 12:43 (estate)
+    - cron: "43 11 * * 1-5"    # metà seduta 12:43 (inverno)
+    - cron: "52 14 * * 1-5"    # chiusura 16:52 (estate)
+    - cron: "52 15 * * 1-5"    # chiusura 16:52 (inverno)
+    - cron: "3 16 * * 5"       # pagella venerdì 18:03 (estate)
+    - cron: "3 17 * * 5"       # pagella venerdì 18:03 (inverno)
+  workflow_dispatch:             # lancio a mano, o dall'iPhone (Comandi Rapidi)
+    inputs:
+      momento:
+        description: "Vuoto = deciso dall'ora di Roma. Oppure: piano, apertura, meta, chiusura, pagella, prova"
+        required: false
+        default: ""
+
+# Una sveglia alla volta: se ne parte un'altra, aspetta che la prima finisca.
+concurrency:
+  group: trader
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  TZ: Europe/Rome
+
+jobs:
+  sveglia:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: È l'ora giusta?
+        id: ora
+        env:
+          RIGA: ${{ github.event.schedule }}
+        run: |
+          vai=1
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            # Che ora di Roma voleva dire questa riga, con il fuso di oggi?
+            read -r minuto ora _ <<< "$RIGA"
+            spostamento=$((10#$(date +%z | tr -d +) / 100))
+            voluta=$(printf "%02d%02d" $(((ora + spostamento) % 24)) "$minuto")
+            case "$voluta" in 0812|0917|1243|1652|1803) ;; *) vai=0 ;; esac
+            echo "Riga «$RIGA» = $voluta a Roma"
+          fi
+          echo "Ora di Roma $(date +%H:%M), sveglia: $vai"
+          echo "vai=$vai" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+        if: steps.ora.outputs.vai == '1'
+
+      - uses: actions/setup-python@v5
+        if: steps.ora.outputs.vai == '1'
+        with:
+          python-version: "3.12"
+
+      - name: Librerie e modello Timestral (dalla cache se ci sono già)
+        if: steps.ora.outputs.vai == '1'
+        uses: actions/cache@v4
+        with:
+          path: |
+            .venv
+            ~/.cache/huggingface
+          key: trader-${{ runner.os }}-${{ hashFiles('.github/workflows/sveglia.yml') }}
+
+      - name: Installazione
+        if: steps.ora.outputs.vai == '1'
+        run: |
+          if ! .venv/bin/python -c "import torch, timestral, certifi" 2>/dev/null; then
+            rm -rf .venv
+            python -m venv .venv
+            .venv/bin/pip install -q certifi numpy
+            # Solo la versione per processore: niente librerie per schede grafiche (2 GB in meno).
+            .venv/bin/pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+            .venv/bin/pip install -q "git+https://github.com/mistralai/timestral.git"
+          fi
+          curl -fsSL https://claude.ai/install.sh | bash
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Sveglia
+        if: steps.ora.outputs.vai == '1'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MOMENTO: ${{ inputs.momento }}
+        run: |
+          case "$MOMENTO" in ""|piano|apertura|meta|chiusura|pagella|prova) ;; *) echo "Momento sconosciuto: $MOMENTO"; exit 1 ;; esac
+          .venv/bin/python -c "import json, os; open('stato/telegram.json', 'w').write(json.dumps({'token': os.environ['TELEGRAM_TOKEN'], 'chat_id': os.environ['TELEGRAM_CHAT_ID']}))"
+          .venv/bin/python giro.py $MOMENTO 2>&1 | tee -a stato/giri.log
+          rm -f stato/telegram.json
+
+      - name: Salvo il conto nel repository
+        if: always() && steps.ora.outputs.vai == '1'
+        run: |
+          rm -f stato/telegram.json
+          git config user.name "Trader Claude"
+          git config user.email "trader-claude@users.noreply.github.com"
+          git add stato dashboard.html
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Sveglia $(date '+%d/%m %H:%M')"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done
+          exit 1

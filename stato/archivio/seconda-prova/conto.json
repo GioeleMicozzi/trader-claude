@@ -1,0 +1,144 @@
+{
+ "contanti": 58030.57014500001,
+ "posizioni": {
+  "ISP.MI": {
+   "quantita": 1180,
+   "prezzo_medio": 5.937,
+   "dal": "2026-10-26T11:06"
+  },
+  "G.MI": {
+   "quantita": 165,
+   "prezzo_medio": 42.5,
+   "dal": "2026-10-26T11:06"
+  },
+  "ENEL.MI": {
+   "quantita": 760,
+   "prezzo_medio": 9.249,
+   "dal": "2026-10-26T11:06"
+  },
+  "PST.MI": {
+   "quantita": 290,
+   "prezzo_medio": 24.13,
+   "dal": "2026-10-26T11:06"
+  },
+  "TRN.MI": {
+   "quantita": 735,
+   "prezzo_medio": 9.522,
+   "dal": "2026-10-26T11:06"
+  },
+  "LDO.MI": {
+   "quantita": 140,
+   "prezzo_medio": 49.02,
+   "dal": "2026-10-26T11:06"
+  }
+ },
+ "ordini": [
+  {
+   "quando": "2026-10-26T11:06",
+   "azione": "compra",
+   "simbolo": "ISP.MI",
+   "quantita": 1180,
+   "prezzo": 5.937,
+   "costi": 10.51,
+   "motivo": "Primaria banca italiana con dividendo alto, scesa del 12% in 20 giorni. Prezzo corretto stimato 6,30 €, oggi 5,94: ritracciamento."
+  },
+  {
+   "quando": "2026-10-26T11:06",
+   "azione": "compra",
+   "simbolo": "G.MI",
+   "quantita": 165,
+   "prezzo": 42.5,
+   "costi": 10.52,
+   "motivo": "Assicurazione difensiva e meno volatile, 8% sotto il massimo. Prezzo corretto stimato 45 €, oggi 42,5."
+  },
+  {
+   "quando": "2026-10-26T11:06",
+   "azione": "compra",
+   "simbolo": "ENEL.MI",
+   "quantita": 760,
+   "prezzo": 9.249,
+   "costi": 10.54,
+   "motivo": "Utility difensiva da dividendo, 10% sotto il massimo, forbice di previsione stretta. Prezzo corretto stimato 9,80 €."
+  },
+  {
+   "quando": "2026-10-26T11:06",
+   "azione": "compra",
+   "simbolo": "PST.MI",
+   "quantita": 290,
+   "prezzo": 24.13,
+   "costi": 10.5,
+   "motivo": "Titolo da dividendo stabile, -6,8% in 20 giorni e 17% sotto il massimo. Prezzo corretto stimato 26 €."
+  },
+  {
+   "quando": "2026-10-26T11:06",
+   "azione": "compra",
+   "simbolo": "TRN.MI",
+   "quantita": 735,
+   "prezzo": 9.522,
+   "costi": 10.5,
+   "motivo": "Rete elettrica regolata, bassa volatilità, sotto il massimo di 10,385. Prezzo corretto stimato 10 €."
+  },
+  {
+   "quando": "2026-10-26T11:06",
+   "azione": "compra",
+   "simbolo": "LDO.MI",
+   "quantita": 140,
+   "prezzo": 49.02,
+   "costi": 10.29,
+   "motivo": "Difesa con tendenza strutturale favorevole, 24% sotto il massimo di 64 e vicino ai minimi dell'anno. Prezzo corretto stimato 55 €."
+  }
+ ],
+ "andamento": [
+  {
+   "quando": "2026-10-26T11:05+01:00",
+   "patrimonio": 99937.14,
+   "ftsemib": 49036.65
+  }
+ ],
+ "ultima_analisi": {
+  "quando": "2026-10-26T11:05+01:00",
+  "momento": "apertura",
+  "testo": "Il mercato rimbalza dopo un ottobre difficile, con le banche in testa e il Brent a 114 $. Si allenta la tensione sui titoli di Stato francesi. In settimana ci sono la BCE e le trimestrali di MPS e Stellantis. Le previsioni Timestral hanno tutte mediane vicine a zero, quindi non danno segnale; decidono i fondamentali e i ritracciamenti. Evito i titoli sui massimi a 52 settimane (Eni, Campari, DiaSorin) e quelli molto volatili o in crisi (Stellantis, Prysmian, Telecom Italia). Costruisco un primo nucleo diversificato di circa il 42% del patrimonio: banche, assicurazioni, utility, Poste e difesa, puntando su titoli di qualità che hanno ritracciato. Il resto lo tengo in contanti per entrare a tappe dopo la BCE.",
+  "con_previsioni": true
+ },
+ "testimone": "26/10, ore 11:05, prima sveglia. Ho comprato 6 titoli per circa 7.000 € ciascuno (42% del patrimonio in totale): ISP 1180, G 165, ENEL 760, PST 290, TRN 735, LDO 140. Restano circa 58.000 € in contanti. Da fare: completare il portafoglio a tappe dopo la BCE di questa settimana, arrivando a 10-12 titoli con almeno il 10-15% sempre in contanti. Candidati da comprare sui ritracciamenti: Snam, Mediobanca/MPS dopo i conti, Moncler vicino al minimo annuale (42,4), Ferrari se torna sotto 340, Eni se scende verso 25. Da controllare per primo: gli ordini eseguiti o respinti, poi le notizie su BCE, conti MPS e Stellantis e sul Brent. Niente fretta.",
+ "ultimi_scartati": [],
+ "prezzi": {
+  "ENI.MI": 26.885,
+  "ENEL.MI": 9.249,
+  "ISP.MI": 5.937,
+  "UCG.MI": 73.72,
+  "STLAM.MI": 3.671,
+  "RACE.MI": 356.65,
+  "G.MI": 42.5,
+  "TIT.MI": 5.649,
+  "PST.MI": 24.13,
+  "MB.MI": 25.22,
+  "BAMI.MI": 13.35,
+  "BPE.MI": 12.948,
+  "LDO.MI": 49.02,
+  "PRY.MI": 101.6,
+  "MONC.MI": 42.9,
+  "TEN.MI": 25.88,
+  "SRG.MI": 5.976,
+  "TRN.MI": 9.522,
+  "A2A.MI": 2.436,
+  "HER.MI": 3.6,
+  "CPR.MI": 6.754,
+  "AMP.MI": 12.945,
+  "DIA.MI": 80.44,
+  "REC.MI": 53.0,
+  "FBK.MI": 20.99,
+  "BMED.MI": 22.55,
+  "PIRC.MI": 6.59,
+  "INW.MI": 7.365,
+  "NEXI.MI": 4.425,
+  "IVG.MI": 14.285,
+  "AZM.MI": 34.91,
+  "BMPS.MI": 10.778,
+  "BC.MI": 84.92,
+  "IG.MI": 8.8,
+  "UNI.MI": 24.9,
+  "LTMC.MI": 25.12
+ }
+}
