@@ -5,7 +5,7 @@ in pochi secondi invece di aspettare in coda. Se l'iPhone è spento o scarico, l
 parte lo stesso con gli orari di GitHub. Se partono tutte e due, la seconda si ferma da sola.
 
 ## 1. Il codice che permette all'iPhone di avviare le sveglie (una volta sola)
-Fallo dall'iPhone, con Safari, entrando in GitHub con l'account valeriabraglia62-sys:
+Fallo dall'iPhone, con Safari, entrando in GitHub con il tuo account (GioeleMicozzi):
 1. Apri **github.com/settings/personal-access-tokens/new**
 2. **Token name:** `iPhone trader`
 3. **Expiration:** la durata più lunga che ti propone (poi va rifatto alla scadenza)
@@ -20,7 +20,7 @@ altre cose e non può cambiare il codice. Non mandarlo a nessuno.
 App **Comandi Rapidi** → **+** in alto → **Aggiungi azione** → cerca **URL** →
 **Ottieni contenuti dell'URL**. Poi:
 1. Tocca «URL» e incolla:
-   `https://api.github.com/repos/valeriabraglia62-sys/trader-claude/actions/workflows/sveglia.yml/dispatches`
+   `https://api.github.com/repos/GioeleMicozzi/trader-claude/actions/workflows/sveglia.yml/dispatches`
 2. Tocca la freccina **>** accanto all'azione per vedere tutte le opzioni:
    - **Metodo:** POST
    - **Intestazioni** → *Aggiungi nuova intestazione*, due volte:
