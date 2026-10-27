@@ -227,7 +227,7 @@ class Rompilo(unittest.TestCase):
         self.lancia("bilancio", FINTO_ORA="2026-10-26T22:00", FINTO_LISTINO='{"ISP.MI": 4.0}')
         c = self.conto()
         self.assertEqual(c["posizioni"]["ISP.MI"]["quantita"], 100, "né l'ordine né lo stop si eseguono")
-        self.assertEqual(c["ultima_sveglia"]["id"], "2026-10-26-bilancio")
+        self.assertEqual(c["ultima_sveglia"]["id"], "2026-10-26-2200-bilancio")
         self.assertIn("Bilancio della giornata", self.messaggi())
 
 

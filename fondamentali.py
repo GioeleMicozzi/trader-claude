@@ -43,7 +43,7 @@ def _sessione():
 
 def _scarica(op, crumb, simbolo):
     url = (f"https://query2.finance.yahoo.com/v10/finance/quoteSummary/{simbolo}"
-           f"?modules=summaryDetail,defaultKeyStatistics,financialData&crumb={crumb}")
+           f"?modules=summaryDetail,defaultKeyStatistics,financialData,calendarEvents,earnings&crumb={crumb}")
     d = json.load(op.open(url, timeout=20))["quoteSummary"]["result"][0]
     out = {}
     for modulo, campo, nome, molt in CAMPI:
@@ -53,6 +53,16 @@ def _scarica(op, crumb, simbolo):
     giudizio = d.get("financialData", {}).get("recommendationKey")
     if giudizio and giudizio != "none":
         out["giudizio_analisti"] = giudizio
+    # Bilanci annuali (ricavi e utile in milioni, dal più vecchio) e data dei prossimi conti.
+    anni = [a for a in d.get("earnings", {}).get("financialsChart", {}).get("yearly", [])
+            if (a.get("revenue") or {}).get("raw")]
+    if anni:
+        periodo = f"{anni[0]['date']}-{str(anni[-1]['date'])[-2:]}: "
+        out["ricavi_annui_mln"] = periodo + ">".join(f"{a['revenue']['raw'] / 1e6:.0f}" for a in anni)
+        out["utile_annuo_mln"] = periodo + ">".join(f"{(a.get('earnings') or {}).get('raw', 0) / 1e6:.0f}" for a in anni)
+    date_conti = d.get("calendarEvents", {}).get("earnings", {}).get("earningsDate") or []
+    if date_conti:
+        out["prossimi_conti"] = date_conti[0]["fmt"]
     return out
 
 

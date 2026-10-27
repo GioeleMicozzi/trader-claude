@@ -289,7 +289,9 @@ def main():
 
 
 def _sveglia_col_lucchetto(ora, momento):
-    sveglia_id = f"{ora:%Y-%m-%d-%H%M}-prova" if momento == "prova" else f"{ora:%Y-%m-%d}-{momento}"
+    # Prova e bilancio si possono rifare più volte nello stesso giorno: l'ora entra nel nome.
+    ripetibile = momento in ("prova", "bilancio")
+    sveglia_id = f"{ora:%Y-%m-%d-%H%M}-{momento}" if ripetibile else f"{ora:%Y-%m-%d}-{momento}"
     conto = c.carica()
     avvisi = []
     if "_recuperato_da" in conto:

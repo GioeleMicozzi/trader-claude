@@ -72,7 +72,8 @@ MOMENTI = {
     "prova": "Sveglia fuori programma, lanciata a mano.",
     "bilancio": "Sveglia fuori programma a borsa chiusa, con i prezzi di chiusura di oggi. Fai il bilancio della giornata. "
                 "Gli ordini di questa sveglia NON vengono eseguiti: lascia vuote «ordini» e «ordini_condizionati». "
-                "Nel testimone scrivi cosa controllare domani mattina.",
+                "Ripassa una per una le posizioni alla luce dei conti e delle notizie: di' se confermi la scelta "
+                "o che cosa faresti domani, e perché. Nel testimone scrivi cosa controllare domani mattina.",
 }
 
 
@@ -134,10 +135,12 @@ def _chiama_claude(sistema, prompt, schema):
 COLONNE = ("simbolo;nome;ftsemib;prezzo;var1g%;var5g%;var20g%;var120g%;min52s;max52s;"
            "prev5g_mediana%;prev5g_basso10%;prev5g_alto90%;scambi_medi_giorno_k€;"
            "pe;pe_atteso;dividendo%;p/bv;roe%;crescita_ricavi%;margine%;debito/patrimonio%;"
-           "obiettivo_analisti;obiettivo_min;obiettivo_max;n_analisti;giudizio")
+           "obiettivo_analisti;obiettivo_min;obiettivo_max;n_analisti;giudizio;"
+           "ricavi_annui_mln;utile_annuo_mln;prossimi_conti")
 _CAMPI_FOND = ["p/e_ultimi_12_mesi", "p/e_atteso", "dividendo_%", "prezzo/valore_contabile", "roe_%",
                "crescita_ricavi_%", "margine_netto_%", "debito/patrimonio_%", "prezzo_obiettivo_medio_analisti",
-               "prezzo_obiettivo_minimo", "prezzo_obiettivo_massimo", "numero_analisti", "giudizio_analisti"]
+               "prezzo_obiettivo_minimo", "prezzo_obiettivo_massimo", "numero_analisti", "giudizio_analisti",
+               "ricavi_annui_mln", "utile_annuo_mln", "prossimi_conti"]
 
 
 def _riga_titolo(s, nome, d, prev, fond):

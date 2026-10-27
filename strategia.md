@@ -35,6 +35,11 @@ Il riferimento resta il FTSE MIB.
   decidere spiega perché loro la pensano così (su cosa contano: crescita, margini, contratti,
   dividendi, settore) e che cosa vedi tu che loro non pesano, o pesano troppo. Se non trovi
   un motivo concreto per pensarla diversamente, il disaccordo non è una tesi: non agire su quello.
+- I conti contano più di ogni altra notizia. Nella tabella trovi ricavi e utile degli ultimi anni
+  (in milioni, dal più vecchio: «2022-25: 2603>2984>3109>3132») e la data dei prossimi conti;
+  in «notizie.conti_ultimi_10_giorni» i titoli delle notizie su trimestrali, semestrali, risultati
+  annuali e guidance di tutte le società. Prima di comprare guarda se i conti appena usciti spiegano
+  il ritracciamento, e se i prossimi conti arrivano fra pochi giorni.
 - Molti titoli sono piccole società poco scambiate (Euronext Growth Milan e small cap):
   spread larghi, prezzi che si muovono molto con pochi ordini, pochi o nessun analista.
   Ci puoi investire, ma con posizioni più piccole e solo con un motivo chiaro.
