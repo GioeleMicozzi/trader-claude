@@ -9,7 +9,7 @@ CONTO = STATO / "conto.json"
 REGISTRO = STATO / "registro.jsonl"      # una riga per ogni giro: dati, previsioni, decisione
 DASHBOARD = STATO / "dashboard.html" if os.environ.get("TRADER_STATO") else CARTELLA / "dashboard.html"
 # La stessa dashboard pubblicata da GitHub Pages: il link va in fondo ai messaggi Telegram.
-DASHBOARD_WEB = "https://gioelemicozzi.github.io/trader-claude/"
+DASHBOARD_WEB = "https://gioelemicozzi.github.io/trader-claude/?apri"  # ?apri: indirizzo nuovo, Telegram non usa la copia vecchia
 STORICO = STATO / "storico"             # una copia del conto dopo ogni sveglia
 IN_CORSO = STATO / "sveglia_in_corso.json"  # c'è solo mentre una sveglia lavora
 LUCCHETTO = STATO / "sveglia.lock"
