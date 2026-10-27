@@ -182,6 +182,10 @@ def sveglia(momento, ora, conto, voce):
     conto["ultima_analisi"] = {"quando": voce["quando"], "momento": momento, "testo": decisione["analisi"],
                                "con_previsioni": prev is not None}
     conto["testimone"] = decisione["testimone"]
+    if not voce.get("cervello_assente"):
+        # La lista nuova sostituisce quella di prima: la sentinella guarda solo questa.
+        conto["condizionati"] = [{**o, "data": ora.date().isoformat(), "da": voce["id"]}
+                                 for o in decisione.get("ordini_condizionati", [])]
     conto["ultimi_scartati"] = scartati
     conto["prezzi"] = {s: d["ultimo"] for s, d in prezzi.items()}
     conto["ultima_sveglia"] = {"id": voce["id"], "quando": voce["quando"]}

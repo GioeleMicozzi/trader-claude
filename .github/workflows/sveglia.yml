@@ -29,6 +29,7 @@ concurrency:
 
 permissions:
   contents: write
+  actions: read
 
 env:
   TZ: Europe/Rome
@@ -54,6 +55,19 @@ jobs:
           fi
           echo "Ora di Roma $(date +%H:%M), sveglia: $vai"
           echo "LAVORA=$vai" >> "$GITHUB_ENV"
+
+      # Se la sentinella sta salvando il conto, si aspetta che finisca (dura un minuto):
+      # così la sveglia parte dal conto con i suoi ordini e i due salvataggi non si scontrano.
+      - name: Aspetto la sentinella
+        if: env.LAVORA == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for i in $(seq 1 20); do
+            n=$(gh run list -R "$GITHUB_REPOSITORY" -w sentinella.yml -s in_progress --json databaseId --jq length)
+            [ "$n" = 0 ] && exit 0
+            echo "La sentinella sta lavorando: aspetto"; sleep 15
+          done
 
       # Sempre l'ultima versione di main, non quella di quando la sveglia è stata lanciata:
       # se nel frattempo un'altra sveglia ha salvato il conto, si parte da quel conto.

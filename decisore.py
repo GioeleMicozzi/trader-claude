@@ -26,10 +26,27 @@ SCHEMA_SVEGLIA = {
                 "required": ["azione", "simbolo", "quantita", "motivo"],
             },
         },
+        "ordini_condizionati": {
+            "type": "array",
+            "description": "Ordini che la sentinella esegue da sola se il prezzo tocca la soglia prima della prossima sveglia. "
+                           "Sostituiscono quelli di prima; valgono solo oggi. Lista vuota se non ne servono.",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "azione": {"enum": ["compra", "vendi"]},
+                    "simbolo": {"type": "string"},
+                    "quantita": {"type": "integer", "minimum": 1},
+                    "se": {"enum": ["sotto", "sopra"], "description": "sotto = prezzo ≤ soglia, sopra = prezzo ≥ soglia"},
+                    "soglia": {"type": "number", "exclusiveMinimum": 0},
+                    "motivo": {"type": "string"},
+                },
+                "required": ["azione", "simbolo", "quantita", "se", "soglia", "motivo"],
+            },
+        },
         "testimone": {"type": "string",
                       "description": "Nota per te stesso alla prossima sveglia: cosa hai fatto, cosa resta, cosa controllare per primo"},
     },
-    "required": ["analisi", "ordini", "testimone"],
+    "required": ["analisi", "ordini", "ordini_condizionati", "testimone"],
 }
 
 SCHEMA_PAGELLA = {
@@ -46,7 +63,8 @@ SCHEMA_PAGELLA = {
 
 MOMENTI = {
     "piano": "Sveglia delle 8:30, borsa chiusa: i prezzi sono quelli di ieri. Prepara il piano della giornata. "
-             "Gli ordini di questa sveglia NON vengono eseguiti: lascia la lista vuota e metti il piano nel testimone.",
+             "Gli ordini di questa sveglia NON vengono eseguiti: lascia vuota la lista «ordini» e metti il piano nel testimone. "
+             "Le soglie del piano scrivile anche negli ordini condizionati.",
     "apertura": "Sveglia del mattino a borsa aperta. Esegui il piano se i prezzi lo confermano.",
     "meta": "Sveglia di metà seduta. Intervieni solo se è cambiato qualcosa di importante.",
     "chiusura": "Sveglia di fine seduta (chiude alle 17:30). Ultimi aggiustamenti e bilancio della giornata.",
@@ -154,6 +172,8 @@ def decidi(momento, conto, prezzi, prev, fond, notizie, nomi):
         "momento": MOMENTI[momento],
         "testimone_della_sveglia_precedente": conto.get("testimone", "Prima sveglia: nessun testimone."),
         "ordini_respinti_l_ultima_volta": conto.get("ultimi_scartati", []),
+        "ordini_condizionati_di_oggi": [o for o in conto.get("condizionati", [])
+                                        if o.get("data") == datetime.now(ZoneInfo("Europe/Rome")).date().isoformat()],
         **_situazione(conto, prezzi),
         "notizie": notizie,
     }

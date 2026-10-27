@@ -13,7 +13,7 @@ from pathlib import Path
 CARTELLA = Path(__file__).resolve().parent
 FINTO = CARTELLA / "prove_finto.py"
 
-COMPRA_ISP = {"analisi": "Prova.", "testimone": "Comprato ISP.",
+COMPRA_ISP = {"analisi": "Prova.", "testimone": "Comprato ISP.", "ordini_condizionati": [],
               "ordini": [{"azione": "compra", "simbolo": "ISP.MI", "quantita": 100, "motivo": "prova"}]}
 
 
@@ -123,7 +123,7 @@ class Rompilo(unittest.TestCase):
         self.assertIn("Cervello non disponibile", self.messaggi())
 
     def test_quantita_negativa_e_azione_inventata(self):
-        self.cervello({"analisi": "x", "testimone": "y", "ordini": [
+        self.cervello({"analisi": "x", "testimone": "y", "ordini_condizionati": [], "ordini": [
             {"azione": "compra", "simbolo": "ISP.MI", "quantita": -50, "motivo": "negativa"},
             {"azione": "short", "simbolo": "ENI.MI", "quantita": 10, "motivo": "inventata"},
             {"azione": "compra", "simbolo": "ENEL.MI", "quantita": "tanti", "motivo": "non numero"},
@@ -169,7 +169,7 @@ class Rompilo(unittest.TestCase):
 
     # La gabbia: un acquisto enorme viene ridotto al 10% del patrimonio e agli scambi del titolo.
     def test_gabbia(self):
-        self.cervello({"analisi": "x", "testimone": "y", "ordini": [
+        self.cervello({"analisi": "x", "testimone": "y", "ordini_condizionati": [], "ordini": [
             {"azione": "compra", "simbolo": "ENEL.MI", "quantita": 100_000, "motivo": "tutto"},
             {"azione": "compra", "simbolo": "SMALL.MI", "quantita": 100_000, "motivo": "piccola"}]})
         self.lancia()
@@ -180,13 +180,44 @@ class Rompilo(unittest.TestCase):
     # Sveglie perse col Mac spento: si elencano, non si recuperano.
     def test_sveglie_perse(self):
         self.lancia("chiusura", FINTO_ORA="2026-10-23T17:15")  # venerdì
-        self.cervello({"analisi": "x", "testimone": "y", "ordini": []})
+        self.cervello({"analisi": "x", "testimone": "y", "ordini_condizionati": [], "ordini": []})
         self.lancia("meta", FINTO_ORA="2026-10-26T13:00")      # lunedì
         m = self.messaggi()
         self.assertIn("Sveglie saltate", m)
         for persa in ("23/10 18:03 pagella", "26/10 08:12 piano", "26/10 09:17 apertura"):
             self.assertIn(persa, m)
         self.assertNotIn("12:43 meta;", m)
+
+
+    # La sentinella: esegue l'ordine condizionato quando il prezzo tocca la soglia, una volta sola.
+    def test_sentinella(self):
+        self.cervello({"analisi": "x", "testimone": "piano", "ordini": [], "ordini_condizionati": [
+            {"azione": "compra", "simbolo": "ENEL.MI", "quantita": 100, "se": "sotto", "soglia": 8.5, "motivo": "ritracciamento"}]})
+        self.lancia("piano", FINTO_ORA="2026-10-26T08:15")
+        prima = (self.stato / "conto.json").read_text()
+        r = self.lancia("sentinella", FINTO_ORA="2026-10-26T10:05")  # ENEL a 9: soglia non toccata
+        self.assertIn("0 ordini eseguiti", r.stdout, r.stdout + r.stderr)
+        self.assertEqual((self.stato / "conto.json").read_text(), prima, "senza scatti il conto non si riscrive")
+        self.lancia("sentinella", FINTO_ORA="2026-10-26T10:35", FINTO_LISTINO='{"ENEL.MI": 8.4}')
+        c = self.conto()
+        self.assertEqual(c["posizioni"]["ENEL.MI"]["quantita"], 100)
+        self.assertIn("eseguito", c["condizionati"][0]["esito"])
+        self.assertIn("Sentinella", self.messaggi())
+        self.lancia("sentinella", FINTO_ORA="2026-10-26T11:05", FINTO_LISTINO='{"ENEL.MI": 8.3}')
+        self.assertEqual(self.conto()["posizioni"]["ENEL.MI"]["quantita"], 100, "l'ordine non si ripete")
+        self.assertEqual(self.chiamate(), 1, "la sentinella non chiama Claude")
+        # il giorno dopo l'ordine di ieri non vale più, e a borsa chiusa non lavora
+        r = self.lancia("sentinella", FINTO_ORA="2026-10-26T18:05")
+        self.assertIn("borsa chiusa", r.stdout)
+
+    # Lo stop scatta anche fra una sveglia e l'altra, senza Claude.
+    def test_sentinella_stop(self):
+        self.lancia()
+        self.lancia("sentinella", FINTO_ORA="2026-10-26T11:05", FINTO_LISTINO='{"ISP.MI": 4.0}')
+        c = self.conto()
+        self.assertNotIn("ISP.MI", c["posizioni"])
+        self.assertTrue(c["ordini"][-1]["motivo"].startswith("Stop automatico"))
+        self.assertEqual(self.chiamate(), 1)
 
 
 if __name__ == "__main__":

@@ -103,4 +103,8 @@ def _salva_con_pausa(c, copia=None):
 conto.salva = _salva_con_pausa
 
 if __name__ == "__main__":
-    giro.main()
+    if sys.argv[1:] == ["sentinella"]:
+        import sentinella
+        sentinella.main()
+    else:
+        giro.main()

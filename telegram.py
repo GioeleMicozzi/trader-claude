@@ -15,7 +15,7 @@ _SSL = ssl.create_default_context(cafile=certifi.where())
 
 TITOLI_MOMENTI = {"piano": "☕ Piano del mattino", "apertura": "🔔 Apertura", "meta": "🕐 Metà seduta",
                   "chiusura": "🏁 Chiusura", "pagella": "📋 Pagella della settimana",
-                  "giro": "🔄 Sveglia", "prova": "🧪 Prova"}
+                  "giro": "🔄 Sveglia", "prova": "🧪 Prova", "sentinella": "👁 Sentinella"}
 
 
 def _chiama(token, metodo, **parametri):

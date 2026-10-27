@@ -1,0 +1,76 @@
+name: Sentinella del trader
+
+on:
+  schedule:
+    # Ogni 15 minuti fra le 8 e le 18 di Roma con tutti e due i fusi: sentinella.py lavora
+    # solo a borsa aperta (9:00–17:30). Minuti lontani dalle sveglie (:12, :17, :43, :52).
+    - cron: "5,20,35,50 7-16 * * 1-5"
+  workflow_dispatch:
+
+# Una sentinella alla volta. Con le sveglie si coordina nel primo passo.
+concurrency:
+  group: sentinella
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: read
+
+env:
+  TZ: Europe/Rome
+
+jobs:
+  sentinella:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Borsa aperta e nessuna sveglia al lavoro?
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          vai=1
+          ora=$(date +%H%M)
+          if [ "$(date +%u)" -gt 5 ] || (( 10#$ora < 900 || 10#$ora > 1730 )); then
+            echo "Borsa chiusa ($(date +%H:%M))"; vai=0
+          else
+            # Se una sveglia sta lavorando sul conto, questo giro si salta: il prossimo è fra 15 minuti.
+            n=$(gh run list -R "$GITHUB_REPOSITORY" -w sveglia.yml -s in_progress --json databaseId --jq length)
+            if [ "$n" != 0 ]; then echo "Una sveglia sta lavorando: salto questo giro"; vai=0; fi
+          fi
+          echo "LAVORA=$vai" >> "$GITHUB_ENV"
+
+      - uses: actions/checkout@v4
+        if: env.LAVORA == '1'
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        if: env.LAVORA == '1'
+        with:
+          python-version: "3.12"
+
+      - name: Sentinella
+        if: env.LAVORA == '1'
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          pip install -q certifi
+          python -c "import json, os; open('stato/telegram.json', 'w').write(json.dumps({'token': os.environ['TELEGRAM_TOKEN'], 'chat_id': os.environ['TELEGRAM_CHAT_ID']}))"
+          python sentinella.py
+          rm -f stato/telegram.json
+
+      - name: Salvo il conto nel repository
+        if: always() && env.LAVORA == '1'
+        run: |
+          rm -f stato/telegram.json
+          git config user.name "Trader Claude"
+          git config user.email "trader-claude@users.noreply.github.com"
+          git add stato dashboard.html
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Sentinella $(date '+%d/%m %H:%M')"
+          for i in 1 2 3; do
+            git pull -q --rebase && git push -q && exit 0
+            git rebase --abort 2>/dev/null; sleep 5
+          done
+          exit 1
