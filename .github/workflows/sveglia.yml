@@ -52,6 +52,10 @@ jobs:
             voluta=$(printf "%02d%02d" $(((ora + spostamento) % 24)) "$minuto")
             case "$voluta" in 0812|0917|1243|1652|1803) ;; *) vai=0 ;; esac
             echo "Riga «$RIGA» = $voluta a Roma"
+            # GitHub a volte lancia gli orari con ore di ritardo: il 27/10 la riga delle 9:17 è partita
+            # alle 15:28 e ha fatto la chiusura al posto di quella vera. Oltre 20 minuti di ritardo si salta.
+            ritardo=$(( 10#$(date +%H) * 60 + 10#$(date +%M) - (10#${voluta:0:2} * 60 + 10#${voluta:2:2}) ))
+            if (( ritardo < 0 || ritardo > 20 )); then echo "In ritardo di $ritardo minuti: salto"; vai=0; fi
           fi
           echo "Ora di Roma $(date +%H:%M), sveglia: $vai"
           echo "LAVORA=$vai" >> "$GITHUB_ENV"
