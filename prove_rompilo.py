@@ -219,6 +219,17 @@ class Rompilo(unittest.TestCase):
         self.assertTrue(c["ordini"][-1]["motivo"].startswith("Stop automatico"))
         self.assertEqual(self.chiamate(), 1)
 
+    # Il bilancio a borsa chiusa: Claude scrive il resoconto, ma ordini e stop non si eseguono.
+    def test_bilancio(self):
+        self.lancia()
+        r = self.lancia("bilancio", FINTO_ORA="2026-10-26T15:00")
+        self.assertIn("borsa chiusa", r.stdout, "durante la seduta il bilancio non parte")
+        self.lancia("bilancio", FINTO_ORA="2026-10-26T22:00", FINTO_LISTINO='{"ISP.MI": 4.0}')
+        c = self.conto()
+        self.assertEqual(c["posizioni"]["ISP.MI"]["quantita"], 100, "né l'ordine né lo stop si eseguono")
+        self.assertEqual(c["ultima_sveglia"]["id"], "2026-10-26-bilancio")
+        self.assertIn("Bilancio della giornata", self.messaggi())
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

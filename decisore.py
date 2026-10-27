@@ -70,6 +70,9 @@ MOMENTI = {
     "chiusura": "Sveglia di fine seduta (chiude alle 17:30). Ultimi aggiustamenti e bilancio della giornata.",
     "giro": "Sveglia durante la seduta.",
     "prova": "Sveglia fuori programma, lanciata a mano.",
+    "bilancio": "Sveglia fuori programma a borsa chiusa, con i prezzi di chiusura di oggi. Fai il bilancio della giornata. "
+                "Gli ordini di questa sveglia NON vengono eseguiti: lascia vuote «ordini» e «ordini_condizionati». "
+                "Nel testimone scrivi cosa controllare domani mattina.",
 }
 
 

@@ -145,7 +145,8 @@ def sveglia(momento, ora, conto, voce):
     except Exception:
         indice = None
 
-    stop = c.stop_loss(conto, prezzi, voce["id"]) if momento != "piano" else []
+    senza_ordini = momento in ("piano", "bilancio")
+    stop = [] if senza_ordini else c.stop_loss(conto, prezzi, voce["id"])
     news = notizie.raccogli(conto["posizioni"], config.TITOLI)
     try:
         import previsioni
@@ -168,7 +169,7 @@ def sveglia(momento, ora, conto, voce):
         voce["cervello_assente"] = str(e)
         decisione = {"analisi": "Cervello non disponibile: applico solo lo stop loss.", "ordini": [],
                      "testimone": conto.get("testimone", "") + f"\n[{ora:%d/%m %H:%M}: sveglia senza Claude, nessun ordine nuovo]"}
-    ordini = [] if momento == "piano" else decisione["ordini"]
+    ordini = [] if senza_ordini else decisione["ordini"]
     scartati = []
     # Claude può metterci minuti: la borsa si ricontrolla subito prima degli ordini.
     if ordini and momento != "prova" and not borsa_aperta(adesso()):
@@ -182,7 +183,7 @@ def sveglia(momento, ora, conto, voce):
     conto["ultima_analisi"] = {"quando": voce["quando"], "momento": momento, "testo": decisione["analisi"],
                                "con_previsioni": prev is not None}
     conto["testimone"] = decisione["testimone"]
-    if not voce.get("cervello_assente"):
+    if not voce.get("cervello_assente") and momento != "bilancio":
         # La lista nuova sostituisce quella di prima: la sentinella guarda solo questa.
         conto["condizionati"] = [{**o, "data": ora.date().isoformat(), "da": voce["id"]}
                                  for o in decisione.get("ordini_condizionati", [])]
@@ -260,6 +261,9 @@ def main():
         da_fare = giorno_di_borsa(ora.date())
     elif momento == "prova":
         da_fare = True
+    elif momento == "bilancio":
+        # Fuori programma a borsa chiusa: resoconto con i prezzi di chiusura, senza ordini.
+        da_fare = giorno_di_borsa(ora.date()) and (ora.hour, ora.minute) > (17, 30)
     else:
         da_fare = borsa_aperta(ora)
     if not da_fare:

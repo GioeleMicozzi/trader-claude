@@ -18,7 +18,7 @@ on:
   workflow_dispatch:             # lancio a mano, o dall'iPhone (Comandi Rapidi)
     inputs:
       momento:
-        description: "Vuoto = deciso dall'ora di Roma. Oppure: piano, apertura, meta, chiusura, pagella, prova, verifica (solo chiavi)"
+        description: "Vuoto = deciso dall'ora di Roma. Oppure: piano, apertura, meta, chiusura, pagella, bilancio, prova, verifica (solo chiavi)"
         required: false
         default: ""
 
@@ -133,7 +133,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           MOMENTO: ${{ inputs.momento }}
         run: |
-          case "$MOMENTO" in ""|piano|apertura|meta|chiusura|pagella|prova|verifica) ;; *) echo "Momento sconosciuto: $MOMENTO"; exit 1 ;; esac
+          case "$MOMENTO" in ""|piano|apertura|meta|chiusura|pagella|bilancio|prova|verifica) ;; *) echo "Momento sconosciuto: $MOMENTO"; exit 1 ;; esac
           .venv/bin/python -c "import json, os; open('stato/telegram.json', 'w').write(json.dumps({'token': os.environ['TELEGRAM_TOKEN'], 'chat_id': os.environ['TELEGRAM_CHAT_ID']}))"
           if [ "$MOMENTO" = verifica ]; then
             # Prova le chiavi senza toccare il conto: una domanda a Claude e un messaggio su Telegram.
