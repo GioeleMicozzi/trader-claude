@@ -86,6 +86,7 @@ def guarda(ora):
     for o in scartati:
         righe.append(f"⛔ Respinto: {o.get('azione')} {o.get('simbolo')} — {o['perche']}")
     righe.append(f"\nPatrimonio {telegram._euro(c.patrimonio(conto, prezzi))}")
+    righe.append(f"📊 Situazione completa: {config.DASHBOARD_WEB}")
     telegram.invia("\n".join(righe))
 
 

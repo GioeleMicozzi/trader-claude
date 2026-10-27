@@ -55,7 +55,8 @@ def partenza(voce):
 
 def resoconto(voce):
     """Il testo del messaggio di fine sveglia, dalla voce del registro."""
-    coda = ["", f"Prossima sveglia: {voce.get('prossima_sveglia', '—')}", f"· sveglia {voce.get('id', '')}"]
+    coda = ["", f"Prossima sveglia: {voce.get('prossima_sveglia', '—')}", f"📊 Situazione completa: {config.DASHBOARD_WEB}",
+            f"· sveglia {voce.get('id', '')}"]
     if "errore" in voce:
         return "\n".join([f"❌ {_titolo(voce)}", "La sveglia non è andata a buon fine:",
                           voce["errore"].strip().splitlines()[-1], "Il conto non è stato toccato."] + coda)
