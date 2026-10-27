@@ -16,7 +16,7 @@ svg{width:100%;height:auto} .zero{stroke:var(--bordo)} .et{fill:var(--tenue);fon
 .legenda{color:var(--tenue);font-size:13px;margin:4px 0 0} .l-p,.l-i{display:inline-block;width:18px;height:3px;margin:0 5px 3px 12px;background:var(--acc)} .l-i{background:var(--ind)}
 table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums} th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--bordo);vertical-align:top}
 th{color:var(--tenue);font-weight:500;font-size:13px} td small{display:block;color:var(--tenue);font-size:11px}
-details summary{cursor:pointer;font-weight:600} .spiega{margin-bottom:20px} .spiega p{margin:10px 0 0}
+details summary{cursor:pointer;font-weight:600} .spiega{margin-bottom:20px} .spiega p{margin:10px 0 0} .spiega ul{margin:6px 0 0;padding-left:20px}
 .giorno{margin-bottom:10px} .voce-d{border-top:1px solid var(--bordo);margin-top:12px;padding-top:4px}
 .voce-d h3{font-size:15px;margin:8px 0 4px} .voce-d p{margin:6px 0} .voce-d ul{margin:4px 0 8px;padding-left:20px}
 .voce-d details{margin:6px 0} .voce-d summary{font-weight:500;color:var(--tenue);font-size:14px}
@@ -31,10 +31,26 @@ virtuale di 100.000,00 € comprando e vendendo azioni di Piazza Affari. Nessun 
 entra o esce: prezzi, commissioni e tasse però sono quelli reali, per capire come andrebbe davvero.</p>
 <p><b>L'obiettivo</b> è fare meglio dell'indice FTSE MIB nel giro di mesi, non di giorni: compra per tenere,
 non fa day trading. Nel grafico la linea arancione è il conto, quella tratteggiata l'indice.</p>
-<p><b>Le sveglie.</b> Ogni giorno di borsa Claude viene svegliato più volte (8:12 piano del mattino, 9:17 apertura, 12:43 metà seduta, 17:07 chiusura; il venerdì sera anche
-la pagella della settimana). A ogni sveglia riceve i prezzi (da Yahoo, con circa 15 minuti di ritardo),
-le notizie, i numeri di bilancio di ogni società con le stime degli analisti e le previsioni statistiche
-di Timestral. Poi decide se comprare, vendere o aspettare, e scrive perché: sono i ragionamenti del diario qui sotto.</p>
+<p><b>Le sveglie.</b> Ogni giorno di borsa Claude viene svegliato più volte (8:12 piano del mattino, 9:17 apertura, 12:43 metà seduta, 17:07 chiusura; la borsa chiude
+alle 17:30; il venerdì sera c'è anche la pagella della settimana). La sveglia delle 8 prepara il piano a
+borsa chiusa e non fa ordini. Poi decide se comprare, vendere o aspettare, e scrive perché: sono i
+ragionamenti del diario qui sotto.</p>
+<p><b>Cosa guarda.</b> A ogni sveglia Claude riceve:</p>
+<ul>
+<li>i prezzi di tutte le azioni di Piazza Affari, da Yahoo, con circa 15 minuti di ritardo;</li>
+<li>le notizie del giorno sulla borsa, sulla BCE e sui titoli che possiede;</li>
+<li>le notizie degli ultimi 10 giorni sui conti di tutte le società: trimestrali, semestrali,
+risultati annuali e previsioni dei manager;</li>
+<li>per ogni società i numeri di bilancio: ricavi e utile degli ultimi anni, rapporto fra prezzo e utili,
+dividendo, debito, e la data dei prossimi conti;</li>
+<li>il prezzo obiettivo degli analisti, con quanti sono;</li>
+<li>le previsioni statistiche di Timestral sui prossimi 5 giorni.</li>
+</ul>
+<p>Prima di comprare deve scrivere quanto pensa che valga il titolo, partendo da questi numeri, e il prezzo
+a cui ammetterebbe di avere torto. Se i conti escono fra pochi giorni, ne deve tenere conto.</p>
+<p><b>Il bilancio.</b> Se la sveglia di chiusura salta, si può lanciare a mano un bilancio a borsa chiusa:
+Claude rilegge la giornata con i prezzi di chiusura e ripassa ogni posizione, dicendo se conferma la scelta
+o cosa farebbe il giorno dopo. Non può dare ordini: è solo un parere.</p>
 <p><b>Le regole</b> non le decide Claude: il programma le fa rispettare e respinge gli ordini fuori regola.
 Nessun titolo oltre il 10% del conto, almeno il 10% sempre in contanti, al massimo 6 ordini per sveglia.
 Se un titolo perde il 10% dal prezzo pagato, il programma lo vende da solo (stop).
