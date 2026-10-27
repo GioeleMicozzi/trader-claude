@@ -1,7 +1,9 @@
 """Scrive dashboard.html: una pagina che si apre col doppio clic, senza server."""
 import html
+import json
 
 import config
+from telegram import TITOLI_MOMENTI
 
 
 def _euro(x):
@@ -51,6 +53,96 @@ def _pagelle(pagelle):
     return f'<h2>Pagelle del venerdì</h2><div class="riquadro">{voci}</div>'
 
 
+def _spiegazione():
+    orari = ", ".join(f"{h}:{m:02d} {TITOLI_MOMENTI[n].split(' ', 1)[1].lower()}" for n, h, m in config.SVEGLIE)
+    commissione = f"{config.COMMISSIONE_PERC * 100:.2f}%".replace(".", ",")
+    return f"""<details class="riquadro spiega" open><summary>Che cos'è e come funziona</summary>
+<p><b>È un esperimento con soldi finti.</b> Claude, l'intelligenza artificiale di Anthropic, gestisce un conto
+virtuale di {_euro(config.CAPITALE_INIZIALE)} comprando e vendendo azioni di Piazza Affari. Nessun euro vero
+entra o esce: prezzi, commissioni e tasse però sono quelli reali, per capire come andrebbe davvero.</p>
+<p><b>L'obiettivo</b> è fare meglio dell'indice FTSE MIB nel giro di mesi, non di giorni: compra per tenere,
+non fa day trading. Nel grafico la linea arancione è il conto, quella tratteggiata l'indice.</p>
+<p><b>Le sveglie.</b> Ogni giorno di borsa Claude viene svegliato più volte ({orari}; il venerdì sera anche
+la pagella della settimana). A ogni sveglia riceve i prezzi (da Yahoo, con circa 15 minuti di ritardo),
+le notizie, i numeri di bilancio di ogni società con le stime degli analisti e le previsioni statistiche
+di Timestral. Poi decide se comprare, vendere o aspettare, e scrive perché: sono i ragionamenti del diario qui sotto.</p>
+<p><b>Le regole</b> non le decide Claude: il programma le fa rispettare e respinge gli ordini fuori regola.
+Nessun titolo oltre il 10% del conto, almeno il 10% sempre in contanti, al massimo 6 ordini per sveglia.
+Se un titolo perde il {config.STOP_LOSS:.0%} dal prezzo pagato, il programma lo vende da solo (stop).
+Ogni ordine paga la commissione ({commissione}, minimo {_euro(config.COMMISSIONE_MIN)})
+e la Tobin tax sugli acquisti.</p>
+<p><b>La sentinella.</b> Fra una sveglia e l'altra un programma semplice, senza Claude, guarda i prezzi
+ogni 15 minuti. Applica gli stop e gli «ordini condizionati» che Claude ha lasciato, tipo «compra FBK se
+scende a 21».</p>
+<p><b>La memoria.</b> Claude non ricorda niente fra una sveglia e l'altra. Per questo alla fine di ogni
+sveglia scrive un «testimone»: cosa ha fatto, cosa resta da fare, cosa controllare. La sveglia dopo
+riparte da lì. Nel diario lo trovi aprendo «Appunti per la sveglia dopo».</p>
+</details>"""
+
+
+def _registro():
+    try:
+        return [json.loads(r) for r in config.REGISTRO.read_text().splitlines() if r.strip()]
+    except FileNotFoundError:
+        return []
+
+
+def _nome(s, nomi):
+    return html.escape(nomi.get(s, str(s)))
+
+
+def _ordine(o, nomi):
+    segno = '<span class="su">Compra</span>' if o.get("azione") == "compra" else '<span class="giu">Vende</span>'
+    return (f"<li>{segno} {o.get('quantita')} {_nome(o.get('simbolo'), nomi)}"
+            + (f" a {_euro(o['prezzo'])}" if "prezzo" in o else "")
+            + (f" — {html.escape(o['motivo'])}" if o.get("motivo") else "") + "</li>")
+
+
+def _voce_diario(v, nomi):
+    parti = [f"<h3>{v['quando'][11:16]} · {TITOLI_MOMENTI.get(v.get('momento'), 'Sveglia')}</h3>"]
+    d = v.get("decisione") or {}
+    if v.get("errore"):
+        parti.append('<p class="vuoto">Questa sveglia si è interrotta per un errore del programma: nessuna decisione.</p>')
+    elif v.get("cervello_assente"):
+        parti.append('<p class="vuoto">Claude non ha risposto: il programma ha applicato solo gli stop, senza ordini nuovi.</p>')
+    if d.get("analisi"):
+        parti.append(f"<p>{html.escape(d['analisi'])}</p>")
+    if v.get("pagella"):
+        p = v["pagella"]
+        parti.append(f"<p><b>Voto {p.get('voto')}/10.</b> {html.escape(p.get('giudizio', ''))}</p>")
+    if v.get("eseguiti"):
+        parti.append('<p class="et-d">Ordini eseguiti</p><ul>' + "".join(_ordine(o, nomi) for o in v["eseguiti"]) + "</ul>")
+    if v.get("scartati"):
+        parti.append('<p class="et-d">Ordini respinti dal programma</p><ul>' + "".join(
+            f"<li>{html.escape(str(o.get('azione')))} {_nome(o.get('simbolo'), nomi)} — {html.escape(o.get('perche', ''))}</li>"
+            for o in v["scartati"]) + "</ul>")
+    if d.get("ordini_condizionati"):
+        parti.append('<p class="et-d">Lasciati alla sentinella</p><ul>' + "".join(
+            f"<li>{'Compra' if o['azione'] == 'compra' else 'Vende'} {o['quantita']} {_nome(o['simbolo'], nomi)} "
+            f"se {'scende a' if o['se'] == 'sotto' else 'sale a'} {str(o['soglia']).replace('.', ',')}"
+            + (f" — {html.escape(o['motivo'])}" if o.get("motivo") else "") + "</li>"
+            for o in d["ordini_condizionati"]) + "</ul>")
+    elif d and not v.get("eseguiti"):
+        parti.append('<p class="vuoto">Nessun ordine.</p>')
+    testimone = d.get("testimone") or (v.get("pagella") or {}).get("testimone")
+    if testimone:
+        parti.append(f'<details><summary>Appunti per la sveglia dopo</summary><p class="testimone">{html.escape(testimone)}</p></details>')
+    return '<div class="voce-d">' + "".join(parti) + "</div>"
+
+
+def _diario(nomi):
+    giorni = {}
+    for v in _registro():
+        giorni.setdefault(v["quando"][:10], []).append(v)
+    if not giorni:
+        return ""
+    blocchi = "".join(
+        f'<details class="riquadro giorno"{" open" if i == 0 else ""}><summary>{g[8:10]}/{g[5:7]}/{g[:4]} · '
+        f'{len(vv)} {"voce" if len(vv) == 1 else "voci"}</summary>' + "".join(_voce_diario(v, nomi) for v in reversed(vv)) + "</details>"
+        for i, (g, vv) in enumerate(sorted(giorni.items(), reverse=True)))
+    return "<h2>Diario dei ragionamenti</h2>" + blocchi
+
+
 def genera(conto, nomi):
     prezzi = conto.get("prezzi", {})
     pos = conto["posizioni"]
@@ -93,10 +185,16 @@ svg{{width:100%;height:auto}} .zero{{stroke:var(--bordo)}} .et{{fill:var(--tenue
 .legenda{{color:var(--tenue);font-size:13px;margin:4px 0 0}} .l-p,.l-i{{display:inline-block;width:18px;height:3px;margin:0 5px 3px 12px;background:var(--acc)}} .l-i{{background:var(--ind)}}
 table{{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}} th,td{{text-align:left;padding:7px 8px;border-bottom:1px solid var(--bordo);vertical-align:top}}
 th{{color:var(--tenue);font-weight:500;font-size:13px}} td small{{display:block;color:var(--tenue);font-size:11px}}
+details summary{{cursor:pointer;font-weight:600}} .spiega{{margin-bottom:20px}} .spiega p{{margin:10px 0 0}}
+.giorno{{margin-bottom:10px}} .voce-d{{border-top:1px solid var(--bordo);margin-top:12px;padding-top:4px}}
+.voce-d h3{{font-size:15px;margin:8px 0 4px}} .voce-d p{{margin:6px 0}} .voce-d ul{{margin:4px 0 8px;padding-left:20px}}
+.voce-d details{{margin:6px 0}} .voce-d summary{{font-weight:500;color:var(--tenue);font-size:14px}}
+.et-d{{color:var(--tenue);font-size:13px;margin-bottom:0}} .testimone{{white-space:pre-line;color:var(--tenue)}}
 .su{{color:var(--su)}} .giu{{color:var(--giu)}} .motivo{{color:var(--tenue);min-width:260px}} .vuoto{{color:var(--tenue)}}
 </style></head><body><main>
 <h1>Trader Claude <span class="modo">{'SOLDI FINTI' if config.MODALITA == 'paper' else 'SOLDI VERI'}</span></h1>
 <p class="sotto">Azioni del FTSE MIB · decide Claude con le previsioni di Timestral · aggiornato {html.escape(analisi.get('quando', '—')[:16].replace('T', ' '))}</p>
+{_spiegazione()}
 <div class="tessere">
 <div class="tessera"><span>Patrimonio</span><b>{_euro(tot)}</b></div>
 <div class="tessera"><span>Dall'inizio</span><b class="{'su' if rend >= 0 else 'giu'}">{_perc(rend)}</b></div>
@@ -107,8 +205,8 @@ th{{color:var(--tenue);font-weight:500;font-size:13px}} td small{{display:block;
 <h2>Andamento</h2><div class="riquadro">{_grafico(conto['andamento'])}</div>
 <h2>Ultimo ragionamento di Claude</h2><div class="riquadro">{html.escape(analisi.get('testo', 'Nessun giro ancora.'))}
 {'' if analisi.get('con_previsioni', True) else '<p class="giu">Questo giro è stato fatto senza le previsioni di Timestral.</p>'}</div>
-<h2>Testimone per la prossima sveglia</h2><div class="riquadro">{html.escape(conto.get('testimone', '—'))}</div>
 {_pagelle(conto.get('pagelle', []))}
+{_diario(nomi)}
 <h2>Posizioni aperte</h2><div class="riquadro">{f'<table><tr><th>Titolo</th><th>Quantità</th><th>Prezzo medio</th><th>Prezzo</th><th>Valore</th><th>Risultato</th></tr>{righe_pos}</table>' if pos else '<p class="vuoto">Nessuna posizione.</p>'}</div>
 <h2>Ordini</h2><div class="riquadro">{f'<table><tr><th>Quando</th><th></th><th>Titolo</th><th>Q.tà</th><th>Prezzo</th><th>Utile</th><th>Motivo</th></tr>{righe_ord}</table>' if conto['ordini'] else '<p class="vuoto">Nessun ordine.</p>'}</div>
 </main></body></html>"""
