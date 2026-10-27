@@ -57,3 +57,26 @@ Piano per l'apertura delle 09:17:
 Primo controllo alla prossima sveglia: i prezzi di apertura di FBK e PRY rispetto alle soglie, e le notizie su BCE, MPS e Stellantis.
 
 Regole: massimo 6 ordini; comprare sui ritracciamenti, non sui massimi. Obiettivo: 60-70% investito entro 1-2 settimane (oggi circa 36%).
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:06<00:00,  3.33s/it]Fetching 2 files: 100%|██████████| 2/2 [00:06<00:00,  3.33s/it]
+27/10 09:17 [apertura] patrimonio 99,895.41 € — 2 ordini eseguiti, 0 respinti
+Analisi: L'apertura conferma il piano. FBK è a 20,86, sotto la soglia di 21,0, e il prezzo è fermo rispetto a ieri (20,89). PRY è a 102,8, sotto la soglia di 103 e lontana da 105, quindi niente euforia. Il mercato viene dal rimbalzo di ieri (+1,29%). Non ci sono notizie nuove che cambiano i fondamentali delle posizioni. Su Poste c'è una notizia positiva: BofA alza l'obiettivo di prezzo e conferma il giudizio Buy. Restano in attesa la BCE del 29/10 e i conti di MPS: fino ad allora niente nuove banche commerciali.
+  compra 190 FBK.MI a 20.86 — Prezzo sotto la soglia di 21,0. Prezzo corretto circa 25: ROE 29%, p/e atteso 16, dividendo 3,8%. Gli analisti indicano 27,5 (16 analisti, forbice stretta da 24 a 29). Avrei torto sotto 18,8.
+  compra 29 PRY.MI a 102.8 — Prezzo sotto la soglia di 103, -16% in 20 giorni e -34% in 120 giorni. Prezzo corretto circa 135: p/e atteso 16,6, ricavi +22%, ROE 22%. Gli analisti indicano 154 (19 analisti). Avrei torto sotto 92.
+Testimone: Sveglia di apertura, martedì 27/10 alle 09:19.
+
+Ordini inviati:
+- FBK: comprare 190 a circa 20,86. Avrei torto sotto 18,8; lo stop scatta a circa 18,8.
+- PRY: comprare 29 a circa 102,8. Avrei torto sotto 92; lo stop scatta a circa 92,5.
+
+Primo controllo alla prossima sveglia: che entrambi gli ordini siano stati eseguiti.
+
+Dopo questi acquisti l'investito è circa il 43% (contanti circa 57.000 €).
+
+Posizioni già in portafoglio: ISP, ENEL, PST, MONC, LDO, UCG, tutte vicine al prezzo di carico. Lo stop più vicino è UCG, a circa 66,2.
+
+Cosa resta da fare:
+- Dopo la BCE del 29/10 valutare G e UNI, poi TRN e SRG come parte difensiva.
+- Niente nuove banche commerciali prima della BCE e dei conti di MPS.
+
+A metà seduta intervenire solo se cambia qualcosa davvero. Obiettivo: 60-70% investito entro 1-2 settimane, comprando sui ritracciamenti.
