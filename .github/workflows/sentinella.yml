@@ -3,7 +3,7 @@ name: Sentinella del trader
 on:
   schedule:
     # Ogni 15 minuti fra le 8 e le 18 di Roma con tutti e due i fusi: sentinella.py lavora
-    # solo a borsa aperta (9:00–17:30). Minuti lontani dalle sveglie (:12, :17, :43, :52).
+    # solo a borsa aperta (9:00–17:30). Minuti lontani dalle sveglie (:12, :17, :43, :07).
     - cron: "5,20,35,50 7-16 * * 1-5"
   workflow_dispatch:
 

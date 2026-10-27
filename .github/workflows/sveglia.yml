@@ -11,8 +11,8 @@ on:
     - cron: "17 8 * * 1-5"     # apertura 09:17 (inverno)
     - cron: "43 10 * * 1-5"    # metà seduta 12:43 (estate)
     - cron: "43 11 * * 1-5"    # metà seduta 12:43 (inverno)
-    - cron: "52 14 * * 1-5"    # chiusura 16:52 (estate)
-    - cron: "52 15 * * 1-5"    # chiusura 16:52 (inverno)
+    - cron: "7 15 * * 1-5"     # chiusura 17:07 (estate)
+    - cron: "7 16 * * 1-5"     # chiusura 17:07 (inverno)
     - cron: "3 16 * * 5"       # pagella venerdì 18:03 (estate)
     - cron: "3 17 * * 5"       # pagella venerdì 18:03 (inverno)
   workflow_dispatch:             # lancio a mano, o dall'iPhone (Comandi Rapidi)
@@ -50,7 +50,7 @@ jobs:
             read -r minuto ora _ <<< "$RIGA"
             spostamento=$((10#$(date +%z | tr -d +) / 100))
             voluta=$(printf "%02d%02d" $(((ora + spostamento) % 24)) "$minuto")
-            case "$voluta" in 0812|0917|1243|1652|1803) ;; *) vai=0 ;; esac
+            case "$voluta" in 0812|0917|1243|1707|1803) ;; *) vai=0 ;; esac
             echo "Riga «$RIGA» = $voluta a Roma"
             # GitHub a volte lancia gli orari con ore di ritardo: il 27/10 la riga delle 9:17 è partita
             # alle 15:28 e ha fatto la chiusura al posto di quella vera. Oltre 20 minuti di ritardo si salta.

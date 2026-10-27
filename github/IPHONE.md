@@ -42,7 +42,7 @@ Comandi Rapidi → scheda **Automazione** → **+** → **Ora del giorno**:
 | 08:12 | lun–ven          | piano        |
 | 09:17 | lun–ven          | apertura     |
 | 12:43 | lun–ven          | metà seduta  |
-| 16:52 | lun–ven          | chiusura     |
+| 17:07 | lun–ven          | chiusura     |
 | 18:03 | solo venerdì     | pagella      |
 
 Il trader capisce da solo quale sveglia fare guardando l'ora di Roma.

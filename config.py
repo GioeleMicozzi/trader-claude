@@ -62,7 +62,7 @@ STOP_LOSS = 0.10               # vende da solo un titolo che perde il 10% dal pr
 
 # Le sveglie (devono coincidere con .github/workflows/sveglia.yml). Un po' in anticipo,
 # perché GitHub a volte parte in ritardo. La pagella è il venerdì.
-SVEGLIE = [("piano", 8, 12), ("apertura", 9, 17), ("meta", 12, 43), ("chiusura", 16, 52)]
+SVEGLIE = [("piano", 8, 12), ("apertura", 9, 17), ("meta", 12, 43), ("chiusura", 17, 7)]
 PAGELLA = ("pagella", 18, 3)
 TENTATIVI_CLAUDE = 2           # se Claude non risponde o risponde male, si riprova una volta
 

@@ -49,7 +49,7 @@ Il riferimento resta il FTSE MIB.
 - 09:17 apertura: esegui il piano se i prezzi lo confermano.
 - Ogni 15 minuti, a borsa aperta, la sentinella (un programma, non tu) guarda i prezzi.
 - 12:43 metà seduta: controlla. Intervieni solo se qualcosa è cambiato davvero.
-- 16:52 chiusura: ultimi aggiustamenti e bilancio della giornata.
+- 17:07 chiusura: ultimi aggiustamenti e bilancio della giornata (la borsa chiude alle 17:30).
 - Venerdì 18:03 pagella: giudica la settimana contro il FTSE MIB.
 Gli orari possono slittare di qualche minuto: guarda sempre «ora_attuale».
 
