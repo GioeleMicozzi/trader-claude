@@ -12,6 +12,7 @@ import certifi
 import config
 
 FILE = config.STATO / "fondamentali.json"
+VERSIONE = 2  # cambia quando si aggiungono campi: i dati salvati oggi si riscaricano
 CAMPI = [  # (modulo Yahoo, campo, nome per Claude, moltiplicatore)
     ("summaryDetail", "trailingPE", "p/e_ultimi_12_mesi", 1),
     ("summaryDetail", "forwardPE", "p/e_atteso", 1),
@@ -70,7 +71,7 @@ def tutti(titoli):
     oggi = date.today().isoformat()
     if FILE.exists():
         salvati = json.loads(FILE.read_text())
-        if salvati.get("data") == oggi:
+        if salvati.get("data") == oggi and salvati.get("versione") == VERSIONE:
             return salvati["titoli"]
     op, crumb = _sessione()
     out = {}
@@ -80,5 +81,5 @@ def tutti(titoli):
                 out[s] = futuro.result()
             except Exception:
                 pass
-    FILE.write_text(json.dumps({"data": oggi, "titoli": out}, ensure_ascii=False))
+    FILE.write_text(json.dumps({"data": oggi, "versione": VERSIONE, "titoli": out}, ensure_ascii=False))
     return out
