@@ -1,0 +1,12 @@
+name: Prova orario (da togliere)
+
+# Solo per capire se GitHub fa partire i lavori a orario su questo repository.
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+
+jobs:
+  prova:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Partito da solo alle $(TZ=Europe/Rome date +%H:%M)"
