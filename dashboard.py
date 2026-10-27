@@ -209,7 +209,7 @@ details summary{{cursor:pointer;font-weight:600}} .spiega{{margin-bottom:20px}} 
 .su{{color:var(--su)}} .giu{{color:var(--giu)}} .motivo{{color:var(--tenue);min-width:260px}} .vuoto{{color:var(--tenue)}}
 </style></head><body><main>
 <h1>Trader Claude <span class="modo">{'SOLDI FINTI' if config.MODALITA == 'paper' else 'SOLDI VERI'}</span></h1>
-<p class="sotto">Azioni del FTSE MIB · decide Claude con le previsioni di Timestral · aggiornato {html.escape(analisi.get('quando', '—')[:16].replace('T', ' '))}</p>
+<p class="sotto">Azioni di Piazza Affari · decide Claude, il programma fa rispettare le regole · aggiornato {html.escape(analisi.get('quando', '—')[:16].replace('T', ' '))}</p>
 {_spiegazione()}
 <div class="tessere">
 <div class="tessera"><span>Patrimonio</span><b>{_euro(tot)}</b></div>
