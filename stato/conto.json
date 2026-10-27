@@ -109,15 +109,20 @@
    "quando": "2026-10-26T18:06+01:00",
    "patrimonio": 100040.2,
    "ftsemib": 49186.81
+  },
+  {
+   "quando": "2026-10-27T08:12+01:00",
+   "patrimonio": 100040.2,
+   "ftsemib": 49187.0
   }
  ],
  "ultima_analisi": {
-  "quando": "2026-10-26T18:06+01:00",
+  "quando": "2026-10-27T08:12+01:00",
   "momento": "piano",
-  "testo": "Il FTSE MIB ha chiuso lunedì 26/10 in rialzo: banche forti e Avio +5,8%, mentre i rendimenti dei titoli di Stato francesi sono scesi. Le sei posizioni aperte oggi oscillano fra -0,3% e +0,8%: sono tutte lontane dallo stop a -10%. L'evento chiave della settimana è la decisione della BCE di giovedì 29/10. La BCE segnala già credito più caro per le imprese. Contano anche i conti di MPS e Stellantis. Intesa presenta i conti il 3/11. Per Poste, BofA ha alzato il prezzo obiettivo includendo TIM. Per Leonardo non ci sono notizie che cambino i fondamentali: quelle con il suo nome riguardano Leonardo Maria Del Vecchio e il Fatto Quotidiano. Il portafoglio è investito al 36% circa, con circa 64.000 € in contanti. Non c'è fretta di arrivare al 60-70%.",
+  "testo": "Lunedì Piazza Affari è salita dell'1,29%, guidata dai finanziari. Le notizie che contano davvero sono due. La prima: la BCE segnala credito più caro e più difficile per le imprese, cioè condizioni più strette, e la decisione arriva il 29/10. La seconda: in settimana escono i conti di MPS e di Stellantis. BofA ha alzato l'obiettivo di prezzo su Poste e conferma il Buy, una buona notizia per una posizione che ho già. Per Intesa i conti sono attesi il 3/11. Tutte le posizioni sono vicine al prezzo di carico, fra -0,3% e +0,8%, quindi molto lontane dallo stop del -10%. In base alle chiusure di ieri, FBK (20,89) e PRY (102,9) rientrano nelle soglie d'ingresso del piano.",
   "con_previsioni": true
  },
- "testimone": "Sveglia del piano, lunedì 26/10 (ora reale 18:09): nessun ordine. Posizioni: ISP 1180 a 5,933; ENEL 758 a 9,233; PST 290 a 24,06; MONC 116 a 42,9; LDO 102 a 48,99; UCG 68 a 73,6. Contanti 63.991 €, patrimonio 100.040 €.\n\nPrimo controllo alla sveglia dopo: se le posizioni sono ancora lontane dallo stop e se ci sono notizie nuove su BCE, MPS e Stellantis.\n\nPiano per l'apertura di martedì 27/10, da eseguire solo se i prezzi lo confermano:\n1) FBK (FinecoBank): comprare circa 4.000 € (circa 190 azioni) solo se il prezzo è ≤ 21,0; se apre sopra 21,3 non comprare. Prezzo corretto circa 25. Lo ricavo da ROE 29%, p/e atteso 16 e dividendo 3,9%; gli analisti indicano 27,5 (16 analisti, strong buy). Avrei torto sotto 18,8. Nota: è legata ai tassi e al settore finanziario, ma è un asset gatherer, non una banca commerciale. Può entrare prima della BCE solo come posizione piccola.\n2) PRY (Prysmian): posizione piccola, circa 3.000 € (circa 29 azioni), solo se il prezzo è ≤ 103 e la giornata non è di euforia. Prezzo corretto circa 135, prudente rispetto all'obiettivo degli analisti di 154 (18 analisti). Lo ricavo da p/e atteso 16,6, ricavi +22%, ROE 22%, e dal calo del 34% in 120 giorni. Avrei torto sotto 92.\n3) Il resto aspetta dopo la BCE (29/10): G/UNI, TRN/SRG come parte difensiva. Niente nuove banche commerciali (ISP, UCG, BAMI, BMPS) prima della BCE e dei conti di MPS.\n\nRegole: massimo 6 ordini; ritracciamenti, non massimi; obiettivo il 60-70% investito entro 1-2 settimane.",
+ "testimone": "Sveglia del piano, martedì 27/10 alle 08:15. Nessun ordine.\n\nPosizioni: ISP 1180 a 5,933; ENEL 758 a 9,233; PST 290 a 24,06; MONC 116 a 42,9; LDO 102 a 48,99; UCG 68 a 73,6. Contanti 63.991 €, patrimonio 100.040 €. Tutte vicine al prezzo di carico. Lo stop più vicino è UCG, con lo stop a circa 66,2.\n\nPiano per l'apertura delle 09:17:\n1) FBK: comprare circa 190 azioni (circa 4.000 €) se il prezzo è ≤ 21,0; se è sopra 21,3 non comprare. Ieri ha chiuso a 20,89. Prezzo corretto circa 25: ROE 29%, p/e atteso 16, dividendo 3,8%. Gli analisti indicano 27,5 (16 analisti, forbice stretta da 24 a 29). Avrei torto sotto 18,8.\n2) PRY: comprare 29 azioni (circa 3.000 €) se il prezzo è ≤ 103 e la giornata non è di euforia. Ieri ha chiuso a 102,9, dopo +2,8%. Se apre in forte rialzo, cioè sopra 105, aspettare un ritracciamento. Prezzo corretto circa 135: p/e atteso 16,6, ricavi +22%, ROE 22%. Gli analisti indicano 154. Avrei torto sotto 92.\n3) Dopo la BCE del 29/10 valutare G e UNI. UNI ha appena chiuso l'aumento di capitale da 2,5 miliardi: c'è possibile pressione sul prezzo, ma è anche una possibile occasione. Valutare anche TRN e SRG come parte difensiva. Niente nuove banche commerciali prima della BCE e dei conti di MPS.\n\nPrimo controllo alla prossima sveglia: i prezzi di apertura di FBK e PRY rispetto alle soglie, e le notizie su BCE, MPS e Stellantis.\n\nRegole: massimo 6 ordini; comprare sui ritracciamenti, non sui massimi. Obiettivo: 60-70% investito entro 1-2 settimane (oggi circa 36%).",
  "ultimi_scartati": [],
  "prezzi": {
   "AVIO.MI": 32.41,
@@ -499,7 +504,7 @@
   "ZUC.MI": 0.4
  },
  "ultima_sveglia": {
-  "id": "2026-10-26-piano",
-  "quando": "2026-10-26T18:06+01:00"
+  "id": "2026-10-27-piano",
+  "quando": "2026-10-27T08:12+01:00"
  }
 }
