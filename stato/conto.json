@@ -169,15 +169,20 @@
    "quando": "2026-10-27T23:27+01:00",
    "patrimonio": 100421.17,
    "ftsemib": 49627.95
+  },
+  {
+   "quando": "2026-10-28T08:12+01:00",
+   "patrimonio": 100421.17,
+   "ftsemib": 49628.0
   }
  ],
  "ultima_analisi": {
-  "quando": "2026-10-27T23:27+01:00",
-  "momento": "bilancio",
-  "testo": "Il FTSE MIB ha chiuso a +0,9%, spinto dal ritorno di fiducia sulla tecnologia (STM +7,1%) e dalle banche. Il portafoglio vale 100.421 € (+0,42%), con il 57% in contanti. In serata la BCE ha dato il via libera all'offerta (Opas) di Intesa su MPS, che ora dipende dal voto dei soci in assemblea. Per la riunione BCE del 29/10 ci si aspetta una pausa, ma Lagarde ha aperto a futuri rialzi.\n\nPosizioni, una per una:\n- **ISP** (6,022, +1,5%): confermo. P/e 10,75, dividendo 6,4%, obiettivo degli analisti 7,29, mia stima circa 6,8. Correzione importante: la tabella indica i conti il 30/10, non il 3/11 come avevo scritto. Il via libera BCE è un rischio di esecuzione più che una sorpresa, perché il mercato se lo aspettava. Tengo.\n- **ENEL** (9,306, +0,8%): confermo. È la posizione difensiva: dividendo 5,6%, forbice delle previsioni stretta (da -2,8% a +3%). Conti il 12/11.\n- **PST** (24,46, +1,7%): confermo. BofA ha alzato l'obiettivo e ribadito Buy, e oggi è arrivato un altro giudizio positivo; obiettivo 29,45 con 15 analisti. Conti il 12/11.\n- **MONC** (42,12, -1,8%, chiusura sul minimo a 52 settimane): confermo, ma la tengo d'occhio. La trimestrale del 22/10 (ricavi -1%) ha tenuto, e il calo di oggi segue il settore lusso e consumi, senza notizie proprie. P/e atteso 16,7, nessun debito netto rilevante, obiettivo 57 con 25 analisti; mia stima circa 52. Avrei torto sotto 38,6, dove scatta lo stop. Non aumento finché non smette di fare nuovi minimi.\n- **LDO** (49,955, +2%): confermo. Conti il 6/11, ricavi +17%, obiettivo 68 con 19 analisti.\n- **UCG** (74,34, +1%): confermo. Scope conferma il rating A e Commerzbank non ha impatti immediati. Conti il 9/11.\n- **FBK** (21,12, +1,3%): confermo. ROE 29%, obiettivo 27,5 con una forbice stretta. Conti il 5/11.\n- **PRY** (106,3, +3,4%): confermo, ma la trimestrale esce dopodomani (29/10). La forbice delle previsioni è larga (da -8% a +9%). La posizione è piccola (circa 3.100 €), quindi non la ritocco prima dei conti.\n\nLe banche (ISP, UCG, FBK) pesano circa il 14% del patrimonio, un livello accettabile; niente nuove banche prima della BCE.",
+  "quando": "2026-10-28T08:12+01:00",
+  "momento": "piano",
+  "testo": "Ieri Piazza Affari ha chiuso a +0,9%, spinta dalla tecnologia (STM +10%) e dalle banche. La BCE ha dato il via libera all'Opas di Intesa su MPS: ISP ha già guadagnato il 2,8% ieri. Per la riunione BCE del 29/10 ci si aspetta una pausa sui tassi, con Lagarde che lascia aperta la porta a rialzi futuri: oggi conviene aspettare. Oggi pubblicano i conti Campari e Stellantis: contano per il settore consumi e per l'umore del mercato, non per i miei titoli. Domani escono i conti di PRY, STM, Amplifon e Italgas, venerdì quelli di ISP. MONC (42,12) è vicino al minimo dell'anno (42,38): la trimestrale ha tenuto (ricavi -1%), resta lo stop automatico a 38,6. Il portafoglio è in pari o leggermente sopra (+0,42%), con il 57% in contanti. Nessun motivo per cambiare le posizioni.",
   "con_previsioni": true
  },
- "testimone": "Sveglia fuori programma, martedì 27/10 alle 23:29, a borsa chiusa. Nessun ordine. Confermo tutte le posizioni: ISP 1180, ENEL 758, PST 290, MONC 116, LDO 102, UCG 68, FBK 190 (prezzo medio 20,86, avrei torto sotto 18,8), PRY 29 (prezzo medio 102,8, avrei torto sotto 92). Patrimonio 100.421 €, contanti 57.036 € (57%).\n\nDomani mattina, mercoledì 28/10, per primo:\n1) Come reagiscono ISP e BMPS al via libera BCE all'Opas. Attenzione: secondo la tabella i conti di ISP escono venerdì 30/10, non il 3/11.\n2) Se MONC rompe sotto 42 (stop a circa 38,6) e le notizie di settore: Campari e Stellantis pubblicano i conti il 28/10.\n3) PRY pubblica i conti il 29/10, nello stesso giorno della BCE (anche STM e Amplifon). Non aggiungere PRY prima dei conti.\n4) La BCE decide il 29/10: niente acquisti nuovi prima della decisione.\n\nOrdini condizionati da rimettere alla sveglia di apertura: compra SRG sotto circa 5,9 (ora 6,156) e TRN sotto circa 9,35 (ora 9,616), circa 4-5.000 € ciascuno.\n\nDopo la BCE: rivalutare UNI (25,1, obiettivo 31 ma solo 5 analisti). G è già sull'obiettivo, quindi no. Obiettivo: arrivare al 60-70% investito in 1-2 settimane, senza fretta.",
+ "testimone": "Piano di mercoledì 28/10, ore 08:14, a borsa chiusa. Nessun ordine.\n\nPosizioni: ISP 1180, ENEL 758, PST 290, MONC 116, LDO 102, UCG 68, FBK 190 (avrei torto sotto 18,8), PRY 29 (prezzo medio 102,8, avrei torto sotto 92). Patrimonio 100.421 €, contanti 57.036 € (57%).\n\nOrdini condizionati attivi per oggi:\n- compra 760 SRG sotto 5,9 (ora 6,156);\n- compra 480 TRN sotto 9,35 (ora 9,616).\nSono difensivi e lontani dai prezzi attuali, quindi è difficile che scattino. Rimetterli a ogni sveglia di oggi.\n\nAll'apertura: nessun acquisto nuovo prima della BCE del 29/10.\n\nDa controllare per primo:\n1) La reazione di ISP e BMPS al via libera BCE all'Opas. I conti di ISP escono venerdì 30/10.\n2) MONC: se rompe sotto 42 (stop automatico a 38,6), e le notizie su Campari e Stellantis, che pubblicano i conti oggi, 28/10.\n3) PRY pubblica i conti il 29/10: non aggiungere prima.\n\nDopo la BCE: rivalutare UNI (25,1, obiettivo 31 ma solo 5 analisti). Obiettivo: arrivare al 60-70% investito in 1-2 settimane, senza fretta.",
  "ultimi_scartati": [],
  "prezzi": {
   "AVIO.MI": 32.06,
@@ -559,8 +564,29 @@
   "ZUC.MI": 0.41
  },
  "ultima_sveglia": {
-  "id": "2026-10-27-2327-bilancio",
-  "quando": "2026-10-27T23:27+01:00"
+  "id": "2026-10-28-piano",
+  "quando": "2026-10-28T08:12+01:00"
  },
- "condizionati": []
+ "condizionati": [
+  {
+   "azione": "compra",
+   "simbolo": "SRG.MI",
+   "quantita": 760,
+   "se": "sotto",
+   "soglia": 5.9,
+   "motivo": "Ritracciamento su un titolo difensivo: dividendo 5%, obiettivo degli analisti 6,44 (20 analisti). Prezzo corretto circa 6,4, avrei torto sotto 5,35.",
+   "data": "2026-10-28",
+   "da": "2026-10-28-piano"
+  },
+  {
+   "azione": "compra",
+   "simbolo": "TRN.MI",
+   "quantita": 480,
+   "se": "sotto",
+   "soglia": 9.35,
+   "motivo": "Ritracciamento su un titolo difensivo regolato: dividendo 4,2%, ricavi in crescita del 12%, obiettivo 9,85 (20 analisti). Prezzo corretto circa 10, avrei torto sotto 8,6.",
+   "data": "2026-10-28",
+   "da": "2026-10-28-piano"
+  }
+ ]
 }
