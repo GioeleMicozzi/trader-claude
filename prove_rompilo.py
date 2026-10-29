@@ -230,6 +230,16 @@ class Rompilo(unittest.TestCase):
         self.assertEqual(c["ultima_sveglia"]["id"], "2026-10-26-2200-bilancio")
         self.assertIn("Bilancio della giornata", self.messaggi())
 
+    # Una sveglia senza nome fuori orario non diventa la chiusura (il 28/10 alle 16:03 l'ha rubata).
+    def test_sveglia_fuori_orario(self):
+        senza_nome = lambda ora: subprocess.run([sys.executable, str(FINTO)], env=self.env(FINTO_ORA=ora),
+                                                capture_output=True, text=True, timeout=60)
+        r = senza_nome("2026-10-26T16:03")
+        self.assertIn("nessuna sveglia prevista", r.stdout, r.stdout + r.stderr)
+        self.assertEqual(self.chiamate(), 0)
+        senza_nome("2026-10-26T17:08")
+        self.assertEqual(self.conto()["ultima_sveglia"]["id"], "2026-10-26-chiusura")
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

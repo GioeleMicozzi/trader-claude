@@ -222,17 +222,15 @@ def fai_pagella(ora, conto, voce):
 
 
 def _momento_da_orario(ora):
-    """launchd lancia sempre lo stesso comando: il momento si ricava dall'ora."""
-    hm = (ora.hour, ora.minute)
-    if hm < (9, 0):
-        return "piano"
-    if hm < (12, 0):
-        return "apertura"
-    if hm < (15, 0):
-        return "meta"
-    if hm <= (17, 30):
-        return "chiusura"
-    return "pagella" if ora.weekday() == 4 else "giro"
+    """Le sveglie senza nome (cron-job.org, iPhone) si riconoscono dall'ora: vale solo vicino a un orario
+    previsto, da 5 minuti prima a 40 dopo. Il 27 e il 28/10 una sveglia partita alle 16:03 è diventata
+    la chiusura, e quella vera delle 17:07 l'ha trovata già fatta. Fuori orario: None, non parte."""
+    sveglie = config.SVEGLIE + ([config.PAGELLA] if ora.weekday() == 4 else [])
+    minuti = ora.hour * 60 + ora.minute
+    for nome, h, m in sveglie:
+        if -5 <= minuti - (h * 60 + m) <= 40:
+            return nome
+    return None
 
 
 def stato():
@@ -255,6 +253,9 @@ def main():
         return
     ora = adesso()
     momento = sys.argv[1] if len(sys.argv) > 1 else _momento_da_orario(ora)
+    if momento is None:
+        print(f"{ora:%d/%m %H:%M} nessuna sveglia prevista a quest'ora: non parte")
+        return
     if momento == "stato":
         return stato()
     if momento == "piano" or momento == "pagella":
