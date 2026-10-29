@@ -12,7 +12,14 @@ import certifi
 import config
 
 FILE = config.STATO / "fondamentali.json"
-VERSIONE = 2  # cambia quando si aggiungono campi: i dati salvati oggi si riscaricano
+VERSIONE = 3  # cambia quando si aggiungono campi: i dati salvati oggi si riscaricano
+SETTORI = {  # i settori di Yahoo, in italiano
+    "Financial Services": "Finanza (banche, assicurazioni, risparmio)", "Utilities": "Utility (luce, gas, acqua, reti)",
+    "Industrials": "Industria", "Consumer Cyclical": "Consumi non essenziali (lusso, auto, moda)",
+    "Consumer Defensive": "Consumi essenziali (alimentari, bevande)", "Energy": "Energia (petrolio, gas)",
+    "Technology": "Tecnologia", "Healthcare": "Salute", "Communication Services": "Telecomunicazioni e media",
+    "Real Estate": "Immobiliare", "Basic Materials": "Materie prime",
+}
 CAMPI = [  # (modulo Yahoo, campo, nome per Claude, moltiplicatore)
     ("summaryDetail", "trailingPE", "p/e_ultimi_12_mesi", 1),
     ("summaryDetail", "forwardPE", "p/e_atteso", 1),
@@ -44,7 +51,7 @@ def _sessione():
 
 def _scarica(op, crumb, simbolo):
     url = (f"https://query2.finance.yahoo.com/v10/finance/quoteSummary/{simbolo}"
-           f"?modules=summaryDetail,defaultKeyStatistics,financialData,calendarEvents,earnings&crumb={crumb}")
+           f"?modules=summaryDetail,defaultKeyStatistics,financialData,calendarEvents,earnings,assetProfile&crumb={crumb}")
     d = json.load(op.open(url, timeout=20))["quoteSummary"]["result"][0]
     out = {}
     for modulo, campo, nome, molt in CAMPI:
@@ -61,6 +68,11 @@ def _scarica(op, crumb, simbolo):
         periodo = f"{anni[0]['date']}-{str(anni[-1]['date'])[-2:]}: "
         out["ricavi_annui_mln"] = periodo + ">".join(f"{a['revenue']['raw'] / 1e6:.0f}" for a in anni)
         out["utile_annuo_mln"] = periodo + ">".join(f"{(a.get('earnings') or {}).get('raw', 0) / 1e6:.0f}" for a in anni)
+    profilo = d.get("assetProfile", {})
+    if profilo.get("sector"):
+        out["settore"] = SETTORI.get(profilo["sector"], profilo["sector"])
+    if profilo.get("industry"):
+        out["attivita"] = profilo["industry"]
     date_conti = d.get("calendarEvents", {}).get("earnings", {}).get("earningsDate") or []
     if date_conti:
         out["prossimi_conti"] = date_conti[0]["fmt"]

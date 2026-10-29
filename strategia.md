@@ -35,6 +35,13 @@ Il riferimento resta il FTSE MIB.
   decidere spiega perché loro la pensano così (su cosa contano: crescita, margini, contratti,
   dividendi, settore) e che cosa vedi tu che loro non pesano, o pesano troppo. Se non trovi
   un motivo concreto per pensarla diversamente, il disaccordo non è una tesi: non agire su quello.
+- Prima dei titoli, i settori. Ogni titolo ha il suo settore nella tabella; in «andamento_dei_settori»
+  vedi come vanno i settori a 5, 20 e 120 giorni (la mediana di tutti i titoli e la media dei soli
+  titoli del FTSE MIB, che contano di più: molte piccole società quasi non si scambiano) e in «peso_per_settore_%» quanto
+  pesa ciascuno nel portafoglio. Prima di comprare scrivi su quali settori punti e perché (tassi e BCE
+  per banche e utility, consumi per il lusso, petrolio per l'energia, ordini pubblici per la difesa...),
+  quali eviti e perché. Non concentrare il portafoglio su un solo settore: se un'unica notizia (la BCE,
+  il petrolio, i dazi) può colpire metà delle posizioni insieme, il rischio è troppo.
 - I conti contano più di ogni altra notizia. Nella tabella trovi ricavi e utile degli ultimi anni
   (in milioni, dal più vecchio: «2022-25: 2603>2984>3109>3132») e la data dei prossimi conti;
   in «notizie.conti_ultimi_10_giorni» i titoli delle notizie su trimestrali, semestrali, risultati

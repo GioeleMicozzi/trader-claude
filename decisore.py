@@ -3,6 +3,7 @@ nessuna chiave API, nessun costo a consumo."""
 import json
 import os
 import shutil
+import statistics
 import subprocess
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -132,7 +133,7 @@ def _chiama_claude(sistema, prompt, schema):
     return risposta.get("structured_output") or json.loads(risposta["result"])
 
 
-COLONNE = ("simbolo;nome;ftsemib;prezzo;var1g%;var5g%;var20g%;var120g%;min52s;max52s;"
+COLONNE = ("simbolo;nome;settore;attivita;ftsemib;prezzo;var1g%;var5g%;var20g%;var120g%;min52s;max52s;"
            "prev5g_mediana%;prev5g_basso10%;prev5g_alto90%;scambi_medi_giorno_k€;"
            "pe;pe_atteso;dividendo%;p/bv;roe%;crescita_ricavi%;margine%;debito/patrimonio%;"
            "obiettivo_analisti;obiettivo_min;obiettivo_max;n_analisti;giudizio;"
@@ -149,17 +150,51 @@ def _riga_titolo(s, nome, d, prev, fond):
     var = lambda n: round((d["ultimo"] / c[-n - 1] - 1) * 100, 1) if len(c) > n else ""
     p = (prev or {}).get(s, {})
     f = (fond or {}).get(s, {})
-    valori = [s, nome, "sì" if s in config.FTSE_MIB else "", d["ultimo"], var(1), var(5), var(20), var(120),
+    valori = [s, nome, f.get("settore", ""), f.get("attivita", ""), "sì" if s in config.FTSE_MIB else "", d["ultimo"], var(1), var(5), var(20), var(120),
               round(min(c[-250:]), 3), round(max(c[-250:]), 3),
               p.get("mediana_%", [""])[-1], p.get("basso10_%", [""])[-1], p.get("alto90_%", [""])[-1],
               round(d.get("scambi_medi", 0) / 1000)] + [f.get(k, "") for k in _CAMPI_FOND]
     return ";".join(str(v) for v in valori)
 
 
-def _situazione(conto, prezzi):
+def _variazione(d, n):
+    c = d["chiusure"]
+    return (d["ultimo"] / c[-n - 1] - 1) * 100 if len(c) > n else None
+
+
+def _settori(prezzi, fond):
+    """Come vanno i settori, a 5, 20 e 120 giorni: variazione mediana di tutti i loro titoli (la mediana
+    non si fa trascinare da una piccola società impazzita) e media dei soli titoli del FTSE MIB, che
+    pesano di più: molte piccole non si scambiano per giorni e tengono la mediana vicina a zero."""
+    gruppi = {}
+    for s, d in prezzi.items():
+        settore = (fond or {}).get(s, {}).get("settore")
+        if settore:
+            gruppi.setdefault(settore, []).append((s, d))
+    out = {}
+    for settore, dd in sorted(gruppi.items()):
+        grandi = [d for s, d in dd if s in config.FTSE_MIB]
+        riga = {"titoli": len(dd), "nel_ftsemib": len(grandi)}
+        for n in (5, 20, 120):
+            v = [x for x in (_variazione(d, n) for s, d in dd) if x is not None]
+            g = [x for x in (_variazione(d, n) for d in grandi) if x is not None]
+            riga[f"var{n}g%_mediana"] = round(statistics.median(v), 1) if v else None
+            riga[f"var{n}g%_ftsemib"] = round(statistics.mean(g), 1) if g else None
+        out[settore] = riga
+    return out
+
+
+def _situazione(conto, prezzi, fond=None):
     import conto as c
     tot = c.patrimonio(conto, prezzi)
+    peso = {}
+    for s, p in conto["posizioni"].items() if fond else []:
+        if s in prezzi:
+            settore = (fond or {}).get(s, {}).get("settore", "sconosciuto")
+            peso[settore] = peso.get(settore, 0) + p["quantita"] * prezzi[s]["ultimo"] / tot * 100
     return {
+        **({"peso_per_settore_%": {k: round(v, 1) for k, v in sorted(peso.items(), key=lambda kv: -kv[1])}}
+           if fond else {}),
         "patrimonio": round(tot, 2),
         "contanti": round(conto["contanti"], 2),
         "rendimento_dall_inizio_%": round((tot / config.CAPITALE_INIZIALE - 1) * 100, 2),
@@ -180,7 +215,8 @@ def decidi(momento, conto, prezzi, prev, fond, notizie, nomi):
         "ordini_respinti_l_ultima_volta": conto.get("ultimi_scartati", []),
         "ordini_condizionati_di_oggi": [o for o in conto.get("condizionati", [])
                                         if o.get("data") == datetime.now(ZoneInfo("Europe/Rome")).date().isoformat()],
-        **_situazione(conto, prezzi),
+        **_situazione(conto, prezzi, fond),
+        "andamento_dei_settori": _settori(prezzi, fond),
         "notizie": notizie,
     }
     tabella = "\n".join([COLONNE] + [_riga_titolo(s, nomi.get(s, s), d, prev, fond) for s, d in prezzi.items()])
