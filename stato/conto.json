@@ -1,5 +1,5 @@
 {
- "contanti": 55025.459199000004,
+ "contanti": 52026.72783900001,
  "posizioni": {
   "ISP.MI": {
    "quantita": 1180,
@@ -45,6 +45,11 @@
    "quantita": 80,
    "prezzo_medio": 25.09,
    "dal": "2026-10-30T17:09"
+  },
+  "CPR.MI": {
+   "quantita": 480,
+   "prezzo_medio": 6.238,
+   "dal": "2026-11-02T09:01"
   }
  },
  "ordini": [
@@ -137,6 +142,16 @@
    "prezzo": 25.09,
    "costi": 3.26,
    "motivo": "Prima tranche su un'assicurazione per diversificare la finanza rispetto alle banche. P/e 11, dividendo del 4,3%, utili in crescita. Stimo un prezzo corretto di circa 29 (obiettivo degli analisti 31,2), avrei torto sotto 22. La posizione pesa circa il 2%."
+  },
+  {
+   "id": "2026-11-02-0901-sentinella-CPR.MI-compra",
+   "quando": "2026-11-02T09:01",
+   "azione": "compra",
+   "simbolo": "CPR.MI",
+   "quantita": 480,
+   "prezzo": 6.238,
+   "costi": 4.49,
+   "motivo": "Prima tranche della regola del contante. Campari è -7% in 5 giorni dopo conti con vendite in crescita. Prezzo corretto 7,0 (analisti 7,16, 21 analisti), avrei torto sotto 5,5. Porta un settore nuovo: consumi essenziali"
   }
  ],
  "andamento": [
@@ -651,7 +666,8 @@
    "soglia": 6.25,
    "motivo": "Prima tranche della regola del contante. Campari è -7% in 5 giorni dopo conti con vendite in crescita. Prezzo corretto 7,0 (analisti 7,16, 21 analisti), avrei torto sotto 5,5. Porta un settore nuovo: consumi essenziali",
    "data": "2026-11-02",
-   "da": "2026-11-02-piano"
+   "da": "2026-11-02-piano",
+   "esito": "09:01 a 6.238: eseguito"
   },
   {
    "azione": "compra",
