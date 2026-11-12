@@ -1,5 +1,5 @@
 {
- "contanti": 39655.165739000004,
+ "contanti": 36111.357989000004,
  "posizioni": {
   "ISP.MI": {
    "quantita": 1180,
@@ -55,6 +55,11 @@
    "quantita": 300,
    "prezzo_medio": 25.206666666666667,
    "dal": "2026-11-05T17:14"
+  },
+  "AMP.MI": {
+   "quantita": 300,
+   "prezzo_medio": 11.795,
+   "dal": "2026-11-12T14:01"
   }
  },
  "ordini": [
@@ -207,6 +212,16 @@
    "prezzo": 25.13,
    "costi": 3.77,
    "motivo": "Tranche della regola del contante su un titolo già in portafoglio e già analizzato. Quota a 25,13, il 9% sotto il massimo dell'anno e sotto il massimo a 20 giorni. P/e atteso 8,9, dividendo 4,4%, riacquisto di azioni proprie in corso, cedola il 23/11. Prezzo corretto 27,5 (22 analisti indicano 27,85), avrei torto sotto 22,5. La posizione sale a circa il 7,3% e l'energia a circa il 7,4%."
+  },
+  {
+   "id": "2026-11-12-1401-sentinella-AMP.MI-compra",
+   "quando": "2026-11-12T14:01",
+   "azione": "compra",
+   "simbolo": "AMP.MI",
+   "quantita": 300,
+   "prezzo": 11.795,
+   "costi": 5.31,
+   "motivo": "Ingresso nella salute, un settore nuovo per il portafoglio. La guidance 2026 è confermata. Prezzo corretto 13,8 (17 analisti indicano 14,15), avrei torto sotto 10,8. La posizione peserebbe circa il 3,5%."
   }
  ],
  "andamento": [
@@ -506,30 +521,30 @@
   "SPM.MI": 4.317,
   "STMMI.MI": 41.79,
   "TPRO.MI": 22.78,
-  "ENI.MI": 25.525,
-  "ENEL.MI": 9.827,
-  "ISP.MI": 6.293,
-  "UCG.MI": 84.475,
+  "ENI.MI": 25.49,
+  "ENEL.MI": 9.836,
+  "ISP.MI": 6.296,
+  "UCG.MI": 84.28,
   "STLAM.MI": 3.6865,
   "RACE.MI": 373.7,
   "G.MI": 44.97,
   "TIT.MI": 5.945,
-  "PST.MI": 25.73,
+  "PST.MI": 25.64,
   "MB.MI": 27.43,
   "BAMI.MI": 14.78,
   "BPE.MI": 13.458,
-  "LDO.MI": 50.73,
-  "PRY.MI": 111.6,
-  "MONC.MI": 44.47,
+  "LDO.MI": 50.57,
+  "PRY.MI": 110.65,
+  "MONC.MI": 44.39,
   "TEN.MI": 27.73,
   "SRG.MI": 6.158,
   "TRN.MI": 9.846,
   "A2A.MI": 2.311,
   "HER.MI": 3.744,
-  "CPR.MI": 6.85,
-  "AMP.MI": 12.16,
+  "CPR.MI": 6.832,
+  "AMP.MI": 11.795,
   "REC.MI": 52.6,
-  "FBK.MI": 23.02,
+  "FBK.MI": 22.95,
   "BMED.MI": 23.43,
   "INW.MI": 7.45,
   "NEXI.MI": 4.461,
@@ -538,7 +553,7 @@
   "BMPS.MI": 11.468,
   "BC.MI": 87.14,
   "IG.MI": 9.25,
-  "UNI.MI": 26.54,
+  "UNI.MI": 26.47,
   "LTMC.MI": 28.3,
   "ABP.MI": 5.35,
   "AAT.MI": 1.17,
@@ -783,7 +798,7 @@
   "PIA.MI": 2.239,
   "PINF.MI": 1.195,
   "PQ.MI": 2.29,
-  "PIRC.MI": 6.875,
+  "PIRC.MI": 6.87,
   "PMED.MI": 5.45,
   "PLN.MI": 3.82,
   "PLC.MI": 3.07,
@@ -891,7 +906,8 @@
    "soglia": 12.06,
    "motivo": "Ingresso nella salute, un settore nuovo per il portafoglio. La guidance 2026 è confermata. Prezzo corretto 13,8 (17 analisti indicano 14,15), avrei torto sotto 10,8. La posizione peserebbe circa il 3,5%.",
    "data": "2026-11-12",
-   "da": "2026-11-12-meta"
+   "da": "2026-11-12-meta",
+   "esito": "14:01 a 11.795: eseguito"
   },
   {
    "azione": "compra",
