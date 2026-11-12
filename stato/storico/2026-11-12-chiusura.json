@@ -1,0 +1,953 @@
+{
+ "contanti": 36111.357989000004,
+ "posizioni": {
+  "ISP.MI": {
+   "quantita": 1180,
+   "prezzo_medio": 5.933,
+   "dal": "2026-10-26T11:36"
+  },
+  "ENEL.MI": {
+   "quantita": 758,
+   "prezzo_medio": 9.233,
+   "dal": "2026-10-26T11:36"
+  },
+  "PST.MI": {
+   "quantita": 290,
+   "prezzo_medio": 24.06,
+   "dal": "2026-10-26T11:36"
+  },
+  "MONC.MI": {
+   "quantita": 166,
+   "prezzo_medio": 43.45120481927711,
+   "dal": "2026-10-26T11:36"
+  },
+  "LDO.MI": {
+   "quantita": 102,
+   "prezzo_medio": 48.99,
+   "dal": "2026-10-26T11:36"
+  },
+  "UCG.MI": {
+   "quantita": 68,
+   "prezzo_medio": 73.6,
+   "dal": "2026-10-26T11:36"
+  },
+  "FBK.MI": {
+   "quantita": 190,
+   "prezzo_medio": 20.86,
+   "dal": "2026-10-27T09:19"
+  },
+  "PRY.MI": {
+   "quantita": 29,
+   "prezzo_medio": 102.8,
+   "dal": "2026-10-27T09:19"
+  },
+  "UNI.MI": {
+   "quantita": 80,
+   "prezzo_medio": 25.09,
+   "dal": "2026-10-30T17:09"
+  },
+  "CPR.MI": {
+   "quantita": 880,
+   "prezzo_medio": 6.305272727272728,
+   "dal": "2026-11-02T09:01"
+  },
+  "ENI.MI": {
+   "quantita": 300,
+   "prezzo_medio": 25.206666666666667,
+   "dal": "2026-11-05T17:14"
+  },
+  "AMP.MI": {
+   "quantita": 300,
+   "prezzo_medio": 11.795,
+   "dal": "2026-11-12T14:01"
+  }
+ },
+ "ordini": [
+  {
+   "id": "2026-10-26-apertura-ISP.MI-compra",
+   "quando": "2026-10-26T11:36",
+   "azione": "compra",
+   "simbolo": "ISP.MI",
+   "quantita": 1180,
+   "prezzo": 5.933,
+   "costi": 10.5,
+   "motivo": "Ritracciamento del 12% in 20 giorni, p/e 10, dividendo 6,5%. Prezzo corretto circa 6,8, torto sotto 5,3"
+  },
+  {
+   "id": "2026-10-26-apertura-ENEL.MI-compra",
+   "quando": "2026-10-26T11:36",
+   "azione": "compra",
+   "simbolo": "ENEL.MI",
+   "quantita": 758,
+   "prezzo": 9.233,
+   "costi": 10.5,
+   "motivo": "Titolo difensivo che dà stabilità, dividendo 5,6%, poche oscillazioni. Prezzo corretto circa 10, torto sotto 8,4"
+  },
+  {
+   "id": "2026-10-26-apertura-PST.MI-compra",
+   "quando": "2026-10-26T11:36",
+   "azione": "compra",
+   "simbolo": "PST.MI",
+   "quantita": 290,
+   "prezzo": 24.06,
+   "costi": 10.47,
+   "motivo": "Calo del 7% in 20 giorni, ROE 18%, dividendo 5,2%, giudizio strong buy con 14 analisti. Prezzo corretto circa 28, torto sotto 21,6"
+  },
+  {
+   "id": "2026-10-26-apertura-MONC.MI-compra",
+   "quando": "2026-10-26T11:36",
+   "azione": "compra",
+   "simbolo": "MONC.MI",
+   "quantita": 116,
+   "prezzo": 42.9,
+   "costi": 7.46,
+   "motivo": "Vicino al minimo dell'anno, p/e atteso 17, bilancio solido. Prezzo corretto circa 52, torto sotto 38,6"
+  },
+  {
+   "id": "2026-10-26-apertura-LDO.MI-compra",
+   "quando": "2026-10-26T11:36",
+   "azione": "compra",
+   "simbolo": "LDO.MI",
+   "quantita": 102,
+   "prezzo": 48.99,
+   "costi": 7.5,
+   "motivo": "Lontano dal massimo dell'anno (64), ricavi in crescita del 17%, obiettivo 68 con 19 analisti. Prezzo corretto circa 62, torto sotto 44"
+  },
+  {
+   "id": "2026-10-26-apertura-UCG.MI-compra",
+   "quando": "2026-10-26T11:36",
+   "azione": "compra",
+   "simbolo": "UCG.MI",
+   "quantita": 68,
+   "prezzo": 73.6,
+   "costi": 7.51,
+   "motivo": "Calo del 13% in 20 giorni, p/e atteso 8,7, obiettivo 96 con 18 analisti. Posizione piccola per non pesare troppo sulle banche. Prezzo corretto circa 88, torto sotto 66"
+  },
+  {
+   "id": "2026-10-27-apertura-FBK.MI-compra",
+   "quando": "2026-10-27T09:19",
+   "azione": "compra",
+   "simbolo": "FBK.MI",
+   "quantita": 190,
+   "prezzo": 20.86,
+   "costi": 5.95,
+   "motivo": "Prezzo sotto la soglia di 21,0. Prezzo corretto circa 25: ROE 29%, p/e atteso 16, dividendo 3,8%. Gli analisti indicano 27,5 (16 analisti, forbice stretta da 24 a 29). Avrei torto sotto 18,8."
+  },
+  {
+   "id": "2026-10-27-apertura-PRY.MI-compra",
+   "quando": "2026-10-27T09:19",
+   "azione": "compra",
+   "simbolo": "PRY.MI",
+   "quantita": 29,
+   "prezzo": 102.8,
+   "costi": 4.47,
+   "motivo": "Prezzo sotto la soglia di 103, -16% in 20 giorni e -34% in 120 giorni. Prezzo corretto circa 135: p/e atteso 16,6, ricavi +22%, ROE 22%. Gli analisti indicano 154 (19 analisti). Avrei torto sotto 92."
+  },
+  {
+   "id": "2026-10-30-chiusura-UNI.MI-compra",
+   "quando": "2026-10-30T17:09",
+   "azione": "compra",
+   "simbolo": "UNI.MI",
+   "quantita": 80,
+   "prezzo": 25.09,
+   "costi": 3.26,
+   "motivo": "Prima tranche su un'assicurazione per diversificare la finanza rispetto alle banche. P/e 11, dividendo del 4,3%, utili in crescita. Stimo un prezzo corretto di circa 29 (obiettivo degli analisti 31,2), avrei torto sotto 22. La posizione pesa circa il 2%."
+  },
+  {
+   "id": "2026-11-02-0901-sentinella-CPR.MI-compra",
+   "quando": "2026-11-02T09:01",
+   "azione": "compra",
+   "simbolo": "CPR.MI",
+   "quantita": 480,
+   "prezzo": 6.238,
+   "costi": 4.49,
+   "motivo": "Prima tranche della regola del contante. Campari è -7% in 5 giorni dopo conti con vendite in crescita. Prezzo corretto 7,0 (analisti 7,16, 21 analisti), avrei torto sotto 5,5. Porta un settore nuovo: consumi essenziali"
+  },
+  {
+   "id": "2026-11-03-chiusura-CPR.MI-compra",
+   "quando": "2026-11-03T17:10",
+   "azione": "compra",
+   "simbolo": "CPR.MI",
+   "quantita": 400,
+   "prezzo": 6.386,
+   "costi": 3.83,
+   "motivo": "Seconda tranche della regola del contante (contanti al 51%). Campari a 6,39, circa il 5% sotto il massimo a 52 settimane e -3,3% in 5 giorni, dopo conti con vendite in crescita. Prezzo corretto 7,0 (21 analisti indicano 7,16). Avrei torto sotto 5,5. Dopo l'acquisto la posizione pesa circa il 5,6% e porta i consumi essenziali al 5,6%."
+  },
+  {
+   "id": "2026-11-05-chiusura-ENI.MI-compra",
+   "quando": "2026-11-05T17:14",
+   "azione": "compra",
+   "simbolo": "ENI.MI",
+   "quantita": 100,
+   "prezzo": 25.51,
+   "costi": 3.83,
+   "motivo": "Porta nel portafoglio un settore nuovo, l'energia, con i contanti al 48%. Il titolo ritraccia del 5,1% in 5 giorni. P/e atteso 9,4, dividendo 4,2%, conti già usciti il 23/10. Prezzo corretto 27,5 (22 analisti indicano 27,4). Avrei torto sotto 22,5. La posizione pesa circa il 2,5%."
+  },
+  {
+   "id": "2026-11-09-chiusura-ENI.MI-compra",
+   "quando": "2026-11-09T17:10",
+   "azione": "compra",
+   "simbolo": "ENI.MI",
+   "quantita": 100,
+   "prezzo": 24.98,
+   "costi": 3.75,
+   "motivo": "Prima tranche della regola del contante. Rinforzo su un ritracciamento: -5,8% in 5 giorni. P/e atteso 9,2, dividendo 4,3%, 22 analisti indicano 27,66. Prezzo corretto 27,5, avrei torto sotto 22,5. La posizione sale a circa il 4,9% e l'energia resta sotto il 5%."
+  },
+  {
+   "id": "2026-11-09-chiusura-MONC.MI-compra",
+   "quando": "2026-11-09T17:10",
+   "azione": "compra",
+   "simbolo": "MONC.MI",
+   "quantita": 50,
+   "prezzo": 44.73,
+   "costi": 3.49,
+   "motivo": "Prima tranche della regola del contante. Moncler è vicina al minimo dell'anno. P/e atteso 18, bilancio solido, 25 analisti indicano 57. Prezzo corretto 52, avrei torto sotto 38,6. La posizione sale a circa il 7,2% e il lusso a circa il 7%."
+  },
+  {
+   "id": "2026-11-11-chiusura-ENI.MI-compra",
+   "quando": "2026-11-11T17:10",
+   "azione": "compra",
+   "simbolo": "ENI.MI",
+   "quantita": 100,
+   "prezzo": 25.13,
+   "costi": 3.77,
+   "motivo": "Tranche della regola del contante su un titolo già in portafoglio e già analizzato. Quota a 25,13, il 9% sotto il massimo dell'anno e sotto il massimo a 20 giorni. P/e atteso 8,9, dividendo 4,4%, riacquisto di azioni proprie in corso, cedola il 23/11. Prezzo corretto 27,5 (22 analisti indicano 27,85), avrei torto sotto 22,5. La posizione sale a circa il 7,3% e l'energia a circa il 7,4%."
+  },
+  {
+   "id": "2026-11-12-1401-sentinella-AMP.MI-compra",
+   "quando": "2026-11-12T14:01",
+   "azione": "compra",
+   "simbolo": "AMP.MI",
+   "quantita": 300,
+   "prezzo": 11.795,
+   "costi": 5.31,
+   "motivo": "Ingresso nella salute, un settore nuovo per il portafoglio. La guidance 2026 è confermata. Prezzo corretto 13,8 (17 analisti indicano 14,15), avrei torto sotto 10,8. La posizione peserebbe circa il 3,5%."
+  }
+ ],
+ "andamento": [
+  {
+   "quando": "2026-10-26T11:35+01:00",
+   "patrimonio": 99946.07,
+   "ftsemib": 48959.2
+  },
+  {
+   "quando": "2026-10-26T13:17+01:00",
+   "patrimonio": 99972.32,
+   "ftsemib": 49060.68
+  },
+  {
+   "quando": "2026-10-26T18:06+01:00",
+   "patrimonio": 100040.2,
+   "ftsemib": 49186.81
+  },
+  {
+   "quando": "2026-10-27T08:12+01:00",
+   "patrimonio": 100040.2,
+   "ftsemib": 49187.0
+  },
+  {
+   "quando": "2026-10-27T09:17+01:00",
+   "patrimonio": 99895.41,
+   "ftsemib": 49052.19
+  },
+  {
+   "quando": "2026-10-27T12:43+01:00",
+   "patrimonio": 100138.34,
+   "ftsemib": 49284.09
+  },
+  {
+   "quando": "2026-10-27T15:28+01:00",
+   "patrimonio": 100241.37,
+   "ftsemib": 49378.73
+  },
+  {
+   "quando": "2026-10-27T23:10+01:00",
+   "patrimonio": 100421.17,
+   "ftsemib": 49627.95
+  },
+  {
+   "quando": "2026-10-27T23:27+01:00",
+   "patrimonio": 100421.17,
+   "ftsemib": 49627.95
+  },
+  {
+   "quando": "2026-10-28T08:12+01:00",
+   "patrimonio": 100421.17,
+   "ftsemib": 49628.0
+  },
+  {
+   "quando": "2026-10-28T09:17+01:00",
+   "patrimonio": 100335.27,
+   "ftsemib": 49626.6
+  },
+  {
+   "quando": "2026-10-28T12:43+01:00",
+   "patrimonio": 100320.84,
+   "ftsemib": 49564.83
+  },
+  {
+   "quando": "2026-10-28T16:03+01:00",
+   "patrimonio": 100409.54,
+   "ftsemib": 49679.78
+  },
+  {
+   "quando": "2026-10-29T08:12+01:00",
+   "patrimonio": 100416.42,
+   "ftsemib": 49824.3
+  },
+  {
+   "quando": "2026-10-29T09:17+01:00",
+   "patrimonio": 100589.64,
+   "ftsemib": 49870.84
+  },
+  {
+   "quando": "2026-10-29T12:43+01:00",
+   "patrimonio": 100580.09,
+   "ftsemib": 49814.32
+  },
+  {
+   "quando": "2026-10-29T17:03+01:00",
+   "patrimonio": 100767.47,
+   "ftsemib": 50090.89
+  },
+  {
+   "quando": "2026-10-30T08:12+01:00",
+   "patrimonio": 100654.03,
+   "ftsemib": 50002.0
+  },
+  {
+   "quando": "2026-10-30T09:17+01:00",
+   "patrimonio": 100369.01,
+   "ftsemib": 49613.86
+  },
+  {
+   "quando": "2026-10-30T12:43+01:00",
+   "patrimonio": 100381.36,
+   "ftsemib": 49594.29
+  },
+  {
+   "quando": "2026-10-30T17:07+01:00",
+   "patrimonio": 100379.23,
+   "ftsemib": 49511.58
+  },
+  {
+   "quando": "2026-11-02T08:12+01:00",
+   "patrimonio": 100415.98,
+   "ftsemib": 49500.97
+  },
+  {
+   "quando": "2026-11-02T09:17+01:00",
+   "patrimonio": 100454.62,
+   "ftsemib": 49582.05
+  },
+  {
+   "quando": "2026-11-02T12:43+01:00",
+   "patrimonio": 100841.57,
+   "ftsemib": 49741.16
+  },
+  {
+   "quando": "2026-11-02T17:07+01:00",
+   "patrimonio": 101225.97,
+   "ftsemib": 50016.2
+  },
+  {
+   "quando": "2026-11-03T08:12+01:00",
+   "patrimonio": 101165.71,
+   "ftsemib": 49947.94
+  },
+  {
+   "quando": "2026-11-03T09:17+01:00",
+   "patrimonio": 100639.56,
+   "ftsemib": 49337.04
+  },
+  {
+   "quando": "2026-11-03T12:43+01:00",
+   "patrimonio": 101069.71,
+   "ftsemib": 49799.72
+  },
+  {
+   "quando": "2026-11-03T17:07+01:00",
+   "patrimonio": 101293.14,
+   "ftsemib": 50090.81
+  },
+  {
+   "quando": "2026-11-04T08:12+01:00",
+   "patrimonio": 101098.12,
+   "ftsemib": 49941.83
+  },
+  {
+   "quando": "2026-11-04T09:17+01:00",
+   "patrimonio": 101217.21,
+   "ftsemib": 50160.09
+  },
+  {
+   "quando": "2026-11-04T12:43+01:00",
+   "patrimonio": 102339.8,
+   "ftsemib": 51100.08
+  },
+  {
+   "quando": "2026-11-04T17:07+01:00",
+   "patrimonio": 102729.38,
+   "ftsemib": 51144.29
+  },
+  {
+   "quando": "2026-11-05T08:13+01:00",
+   "patrimonio": 102585.38,
+   "ftsemib": 51031.02
+  },
+  {
+   "quando": "2026-11-05T09:17+01:00",
+   "patrimonio": 102927.64,
+   "ftsemib": 51127.36
+  },
+  {
+   "quando": "2026-11-05T12:44+01:00",
+   "patrimonio": 102720.33,
+   "ftsemib": 51195.96
+  },
+  {
+   "quando": "2026-11-05T17:12+01:00",
+   "patrimonio": 102096.62,
+   "ftsemib": 50342.69
+  },
+  {
+   "quando": "2026-11-06T08:13+01:00",
+   "patrimonio": 102283.74,
+   "ftsemib": 50505.87
+  },
+  {
+   "quando": "2026-11-06T09:18+01:00",
+   "patrimonio": 101337.21,
+   "ftsemib": 49878.0
+  },
+  {
+   "quando": "2026-11-06T12:43+01:00",
+   "patrimonio": 101447.45,
+   "ftsemib": 49908.92
+  },
+  {
+   "quando": "2026-11-06T17:08+01:00",
+   "patrimonio": 101584.75,
+   "ftsemib": 50008.57
+  },
+  {
+   "quando": "2026-11-09T08:12+01:00",
+   "patrimonio": 101600.08,
+   "ftsemib": 50052.96
+  },
+  {
+   "quando": "2026-11-09T09:18+01:00",
+   "patrimonio": 101649.72,
+   "ftsemib": 50203.64
+  },
+  {
+   "quando": "2026-11-09T12:44+01:00",
+   "patrimonio": 102488.96,
+   "ftsemib": 51038.85
+  },
+  {
+   "quando": "2026-11-09T17:08+01:00",
+   "patrimonio": 102857.62,
+   "ftsemib": 51344.21
+  },
+  {
+   "quando": "2026-11-10T08:13+01:00",
+   "patrimonio": 102970.31,
+   "ftsemib": 51399.88
+  },
+  {
+   "quando": "2026-11-10T09:18+01:00",
+   "patrimonio": 103669.98,
+   "ftsemib": 52074.32
+  },
+  {
+   "quando": "2026-11-10T12:44+01:00",
+   "patrimonio": 103905.44,
+   "ftsemib": 52223.2
+  },
+  {
+   "quando": "2026-11-10T17:08+01:00",
+   "patrimonio": 103511.25,
+   "ftsemib": 51850.77
+  },
+  {
+   "quando": "2026-11-11T08:12+01:00",
+   "patrimonio": 103382.83,
+   "ftsemib": 51755.08
+  },
+  {
+   "quando": "2026-11-11T09:17+01:00",
+   "patrimonio": 103828.15,
+   "ftsemib": 52192.45
+  },
+  {
+   "quando": "2026-11-11T12:43+01:00",
+   "patrimonio": 103287.99,
+   "ftsemib": 51740.08
+  },
+  {
+   "quando": "2026-11-11T17:08+01:00",
+   "patrimonio": 103327.55,
+   "ftsemib": 51811.34
+  },
+  {
+   "quando": "2026-11-12T08:12+01:00",
+   "patrimonio": 103488.6,
+   "ftsemib": 51946.54
+  },
+  {
+   "quando": "2026-11-12T09:17+01:00",
+   "patrimonio": 103673.73,
+   "ftsemib": 52036.73
+  },
+  {
+   "quando": "2026-11-12T12:44+01:00",
+   "patrimonio": 103711.15,
+   "ftsemib": 52023.21
+  },
+  {
+   "quando": "2026-11-12T17:07+01:00",
+   "patrimonio": 103317.14,
+   "ftsemib": 51844.45
+  }
+ ],
+ "ultima_analisi": {
+  "quando": "2026-11-12T17:07+01:00",
+  "momento": "chiusura",
+  "testo": "Seduta tranquilla, l'indice si è mosso poco. La BCE ha lasciato i tassi fermi al 2,5% ma si aspetta un rialzo a dicembre: per banche e assicurazioni va bene, per le utility no. Alle 14:01 la sentinella ha comprato 300 Amplifon a 11,795. Il titolo ha chiuso a 11,575, giù del 5% in giornata. Fra le notizie non trovo niente che cambi i fondamentali: la guidance 2026 è confermata e il concorrente Sonova ha alzato le sue stime. Per questo tengo la posizione. Il prezzo corretto resta 13,8 e avrei torto sotto 10,8. Enel sale dello 0,5% a 9,90. Fra le notizie non vedo ancora i suoi conti, e il prezzo non indica una sorpresa negativa. Poste regge dopo i conti record. Il portafoglio guadagna il 3,3% dall'inizio. I contanti sono al 35%, dentro la fascia 20–40%, quindi la regola non mi obbliga a comprare. La finanza pesa il 18,9%, sotto il limite del 20%. Non trovo un motivo per girare il portafoglio a fine seduta. Lascio le soglie della sentinella ancora valide per gli ultimi minuti.",
+  "con_previsioni": true
+ },
+ "testimone": "Giovedì 12/11, sveglia delle 17:09. Oggi la sentinella ha comprato 300 AMP a 11,795. Il titolo ha chiuso a 11,575 (-5% in giornata) senza notizie negative. Prezzo corretto 13,8, torto sotto 10,8, lo stop automatico scatta intorno a 10,6. A fine seduta non ho dato ordini. Gli ordini della sentinella su PIRC, UCG ed ENEL scadono stasera. Domani, venerdì 13: 1) Controllo per primi i conti ENEL: se sono usciti e il titolo scende sotto 9,4 valuto un taglio parziale (prezzo corretto 10, torto sotto 8,4). 2) UNI, G, IP, ACE ed ERG presentano i conti il 13: guardo come reagisce UNI, che ho in portafoglio (prezzo corretto 29, torto sotto 22). 3) Ricontrollo AMP: se scende ancora, cerco il motivo prima di decidere. 4) Se PIRC torna sotto 6,7 rimetto la soglia di acquisto (prezzo corretto 7,2). 5) Venerdì alle 18:03 c'è la pagella contro il FTSE MIB. Contanti al 35%, finanza al 18,9% (deve restare sotto il 20%). Rischi da controllare: ENI (torto a 22,5, cedola il 23/11), LDO (torto a 44), MONC (torto a 38,6, non aggiungo).",
+ "ultimi_scartati": [],
+ "prezzi": {
+  "AVIO.MI": 32.75,
+  "BZU.MI": 44.65,
+  "FCT.MI": 12.04,
+  "SPM.MI": 4.273,
+  "STMMI.MI": 42.17,
+  "TPRO.MI": 22.46,
+  "ENI.MI": 25.575,
+  "ENEL.MI": 9.902,
+  "ISP.MI": 6.265,
+  "UCG.MI": 83.91,
+  "STLAM.MI": 3.5165,
+  "RACE.MI": 371.4,
+  "G.MI": 44.98,
+  "TIT.MI": 5.949,
+  "PST.MI": 25.75,
+  "MB.MI": 27.32,
+  "BAMI.MI": 14.7,
+  "BPE.MI": 13.386,
+  "LDO.MI": 50.03,
+  "PRY.MI": 110.35,
+  "MONC.MI": 43.57,
+  "TEN.MI": 27.59,
+  "SRG.MI": 6.228,
+  "TRN.MI": 9.92,
+  "A2A.MI": 2.292,
+  "HER.MI": 3.728,
+  "CPR.MI": 6.802,
+  "AMP.MI": 11.575,
+  "REC.MI": 52.6,
+  "FBK.MI": 22.94,
+  "BMED.MI": 23.31,
+  "INW.MI": 7.435,
+  "NEXI.MI": 4.437,
+  "IVG.MI": 14.405,
+  "AZM.MI": 37.13,
+  "BMPS.MI": 11.402,
+  "BC.MI": 85.0,
+  "IG.MI": 9.318,
+  "UNI.MI": 26.36,
+  "LTMC.MI": 28.11,
+  "ABP.MI": 5.35,
+  "AAT.MI": 1.17,
+  "ABC.MI": 3.9,
+  "ABT.MI": 3.04,
+  "ACE.MI": 21.42,
+  "AC5.MI": 2.08,
+  "ADV.MI": 5.4,
+  "AEDES.MI": 0.828,
+  "AEF.MI": 0.105,
+  "ADB.MI": 9.1,
+  "ARN.MI": 17.62,
+  "ABTG.MI": 0.665,
+  "ALFO.MI": 0.19,
+  "ALMS.MI": 4.927,
+  "CORE.MI": 1.26,
+  "AGP.MI": 5.12,
+  "AMB.MI": 0.406,
+  "ANIM.MI": 7.15,
+  "ECNL.MI": 1.38,
+  "ARIS.MI": 3.082,
+  "ARBS.MI": 3.02,
+  "ASC.MI": 2.89,
+  "ATON.MI": 0.582,
+  "AUTME.MI": 2.64,
+  "BEC.MI": 10.8,
+  "BFG.MI": 7.6,
+  "BGN.MI": 58.4,
+  "IF.MI": 10.08,
+  "BST.MI": 1.546,
+  "BAN.MI": 4.81,
+  "B.MI": 1.12,
+  "PRO.MI": 1.694,
+  "BDB.MI": 16.52,
+  "BWZ.MI": 0.22,
+  "BELL.MI": 4.84,
+  "BFF.MI": 1.338,
+  "BSS.MI": 4.35,
+  "BO.MI": 0.76,
+  "BRE.MI": 10.15,
+  "BRI.MI": 0.06,
+  "CAI.MI": 2.237,
+  "CLF.MI": 0.748,
+  "CALT.MI": 9.55,
+  "CED.MI": 2.54,
+  "CRL.MI": 27.95,
+  "CDG.MI": 3.73,
+  "CELL.MI": 2.6,
+  "CMB.MI": 75.7,
+  "CEM.MI": 15.76,
+  "CLI.MI": 3.85,
+  "CIR.MI": 0.763,
+  "CIRC.MI": 17.45,
+  "CLE.MI": 0.12,
+  "CBB.MI": 0.648,
+  "CFL.MI": 1.705,
+  "CGF.MI": 1.25,
+  "CMTL.MI": 2.0,
+  "COM.MI": 44.9,
+  "CFV.MI": 2.04,
+  "CVG.MI": 1.68,
+  "COP.MI": 7.7,
+  "CE.MI": 20.66,
+  "CSP.MI": 0.27,
+  "CUBE.MI": 2.34,
+  "CY4.MI": 10.48,
+  "CYB.MI": 1.29,
+  "DIS.MI": 8.44,
+  "DAN.MI": 53.875,
+  "DANR.MI": 37.9,
+  "DATA.MI": 1.28,
+  "DBA.MI": 4.11,
+  "DLG.MI": 47.24,
+  "DDM.MI": 1.67,
+  "ART.MI": 0.26,
+  "DIT.MI": 0.229,
+  "DEX.MI": 2.11,
+  "DHH.MI": 23.0,
+  "DIA.MI": 84.92,
+  "DIB.MI": 10.26,
+  "DGT.MI": 1.815,
+  "DPG.MI": 1.5,
+  "D.MI": 7.2,
+  "DEA.MI": 7.85,
+  "DOT.MI": 4.0,
+  "DOV.MI": 1.914,
+  "DOX.MI": 3.33,
+  "EGB.MI": 0.292,
+  "ETS.MI": 6.7,
+  "ECMB.MI": 6.5,
+  "ECK.MI": 3.18,
+  "ELB.MI": 3.72,
+  "ESF.MI": 3.93,
+  "EDAC.MI": 1.13,
+  "EDNR.MI": 1.82,
+  "EHI.MI": 10.2,
+  "ELN.MI": 16.71,
+  "ELC.MI": 1.085,
+  "ELSA.MI": 2.44,
+  "EM.MI": 0.778,
+  "EAV.MI": 1.12,
+  "ENA.MI": 0.488,
+  "ENAV.MI": 5.55,
+  "ENY.MI": 0.215,
+  "ET.MI": 6.7,
+  "ENV.MI": 4.47,
+  "ENT.MI": 1.04,
+  "EPH.MI": 1.465,
+  "EPRB.MI": 1.15,
+  "EQUI.MI": 6.25,
+  "ERG.MI": 23.11,
+  "RDUE.MI": 10.65,
+  "ESAU.MI": 2.82,
+  "ESIGM.MI": 1.66,
+  "ESPE.MI": 4.78,
+  "PRT.MI": 6.74,
+  "ESTM.MI": 0.083,
+  "ETI.MI": 4.7,
+  "EUK.MI": 0.535,
+  "EGLA.MI": 0.851,
+  "ETH.MI": 1.29,
+  "EVISO.MI": 8.12,
+  "EXEC.MI": 0.79,
+  "EXAI.MI": 1.586,
+  "FAE.MI": 3.37,
+  "COSMO.MI": 0.397,
+  "YACHT.MI": 2.568,
+  "FDA.MI": 0.0164,
+  "FM.MI": 7.91,
+  "FILA.MI": 9.01,
+  "FTC.MI": 0.3,
+  "FF.MI": 5.86,
+  "FIC.MI": 16.9,
+  "FPT.MI": 1.035,
+  "FNM.MI": 0.427,
+  "FPE.MI": 70.0,
+  "FCH.MI": 5.75,
+  "FUM.MI": 3.0,
+  "FRE.MI": 0.167,
+  "AMI.MI": 1.41,
+  "GML.MI": 0.316,
+  "GAB.MI": 0.38,
+  "GAMB.MI": 0.27,
+  "GHC.MI": 5.32,
+  "GSP.MI": 6.8,
+  "GE.MI": 11.45,
+  "GEL.MI": 2.2,
+  "GF.MI": 18.85,
+  "OROX.MI": 11.28,
+  "GM.MI": 2.62,
+  "GEO.MI": 0.269,
+  "GCOM.MI": 0.53,
+  "GMS.MI": 1.34,
+  "GIS.MI": 1.49,
+  "GPSY.MI": 5.1,
+  "GPI.MI": 14.94,
+  "GRN.MI": 0.394,
+  "GRAL.MI": 0.468,
+  "GROW.MI": 1.765,
+  "GDT.MI": 2.18,
+  "GVS.MI": 6.33,
+  "FARM.MI": 0.202,
+  "HIK.MI": 1.112,
+  "HLX.MI": 0.64,
+  "HQF.MI": 0.49,
+  "HZY.MI": 2.0,
+  "IGV.MI": 1.88,
+  "IMD.MI": 1.19,
+  "ICOP.MI": 25.7,
+  "IDNTT.MI": 2.9,
+  "IGD.MI": 4.0,
+  "ILP.MI": 7.45,
+  "IMS.MI": 0.562,
+  "MPT.MI": 0.912,
+  "INDB.MI": 20.0,
+  "ICF.MI": 6.25,
+  "DNR.MI": 5.895,
+  "IB.MI": 8.0,
+  "INC.MI": 0.24,
+  "ICOS.MI": 13.7,
+  "ICC.MI": 1.0,
+  "IP.MI": 39.41,
+  "ITD.MI": 8.98,
+  "IRC.MI": 2.1,
+  "IRE.MI": 2.456,
+  "ISC.MI": 1.04,
+  "ITW.MI": 0.78,
+  "IEG.MI": 16.45,
+  "IWB.MI": 15.38,
+  "ITM.MI": 26.35,
+  "IVN.MI": 1.315,
+  "JUVE.MI": 1.525,
+  "KME.MI": 0.875,
+  "KMER.MI": 1.47,
+  "KK.MI": 0.0238,
+  "ERFO.MI": 1.08,
+  "LNDR.MI": 0.646,
+  "LS.MI": 1.31,
+  "LFG.MI": 1.46,
+  "LDB.MI": 13.65,
+  "LTX.MI": 0.665,
+  "LON.MI": 1.31,
+  "LMG.MI": 1.04,
+  "LUVE.MI": 61.4,
+  "MGS.MI": 8.5,
+  "MAIRE.MI": 13.64,
+  "MAPS.MI": 2.2,
+  "MARE.MI": 5.32,
+  "MARK.MI": 1.49,
+  "MARR.MI": 5.18,
+  "MARP.MI": 2.2,
+  "MASI.MI": 4.42,
+  "MFT.MI": 2.06,
+  "MET.MI": 2.28,
+  "MTK.MI": 3.96,
+  "MEV.MI": 0.0965,
+  "MFEA.MI": 2.17,
+  "MFEB.MI": 3.046,
+  "MS.MI": 0.63,
+  "MTS.MI": 1.8,
+  "MOL.MI": 36.35,
+  "MN.MI": 2.005,
+  "MTV.MI": 0.0251,
+  "NDT.MI": 5.28,
+  "NRST.MI": 0.535,
+  "NWL.MI": 24.3,
+  "NXT.MI": 16.05,
+  "NPI.MI": 0.925,
+  "NOVA.MI": 8.35,
+  "NUS.MI": 0.41,
+  "OS.MI": 51.0,
+  "OLI.MI": 1.496,
+  "OMER.MI": 3.59,
+  "OPTS.MI": 0.805,
+  "ORS.MI": 14.22,
+  "OTO.MI": 2.14,
+  "OVS.MI": 6.23,
+  "PSQ.MI": 0.96,
+  "PTR.MI": 2.1,
+  "PHN.MI": 84.4,
+  "PHIL.MI": 20.85,
+  "PIA.MI": 2.196,
+  "PINF.MI": 1.195,
+  "PQ.MI": 2.32,
+  "PIRC.MI": 6.835,
+  "PMED.MI": 5.45,
+  "PLN.MI": 3.82,
+  "PLC.MI": 3.07,
+  "POPR.MI": 0.5,
+  "PAG.MI": 8.5,
+  "POR.MI": 0.64,
+  "PWS.MI": 14.45,
+  "POZ.MI": 0.442,
+  "PRE.MI": 0.915,
+  "PMT.MI": 2.76,
+  "RFG.MI": 5.24,
+  "RAD.MI": 0.85,
+  "RWAY.MI": 4.175,
+  "RAT.MI": 0.96,
+  "RCS.MI": 0.836,
+  "RDF.MI": 11.46,
+  "RFLTC.MI": 1.2,
+  "RNV.MI": 0.63,
+  "REY.MI": 139.4,
+  "RES.MI": 7.82,
+  "RETI.MI": 1.56,
+  "REVO.MI": 22.35,
+  "RWY.MI": 10.3,
+  "RPTN.MI": 1.4,
+  "RN.MI": 0.0244,
+  "RKT.MI": 0.348,
+  "YRM.MI": 240.0,
+  "RTL.MI": 3.84,
+  "SSL.MI": 1.83,
+  "SAB.MI": 10.9,
+  "SAC.MI": 1.18,
+  "SFL.MI": 2.35,
+  "SFER.MI": 6.4,
+  "SL.MI": 38.84,
+  "VARV.MI": 6.9,
+  "IOT.MI": 4.895,
+  "SERI.MI": 1.922,
+  "SES.MI": 93.4,
+  "SGC.MI": 0.41,
+  "SIAV.MI": 2.3,
+  "SBC.MI": 3.72,
+  "SMN.MI": 1.21,
+  "SIT.MI": 1.95,
+  "SMCAP.MI": 1.43,
+  "SEIF.MI": 0.316,
+  "SFT.MI": 1.43,
+  "SGF.MI": 2.235,
+  "SOGES.MI": 1.5,
+  "SOL.MI": 63.9,
+  "S3D.MI": 0.385,
+  "SOM.MI": 24.2,
+  "SOS.MI": 0.201,
+  "SVS.MI": 8.0,
+  "SYS.MI": 8.0,
+  "TIP.MI": 9.16,
+  "TGYM.MI": 15.17,
+  "TCM.MI": 0.876,
+  "TCG.MI": 4.9,
+  "TLS.MI": 3.36,
+  "TLM.MI": 1.505,
+  "TNX.MI": 0.515,
+  "TES.MI": 0.4,
+  "TSL.MI": 0.0681,
+  "TISG.MI": 0.605,
+  "TMP.MI": 3.52,
+  "TYA.MI": 17.8,
+  "TPS.MI": 7.8,
+  "TRAI.MI": 2.1,
+  "TWL.MI": 23.0,
+  "TFIN.MI": 5.16,
+  "TB.MI": 0.294,
+  "TXT.MI": 47.7,
+  "UBA.MI": 5.34,
+  "U24.MI": 0.174,
+  "UD.MI": 2.88,
+  "VLC.MI": 1.99,
+  "VLS.MI": 10.9,
+  "VLT.MI": 12.0,
+  "VNT.MI": 0.63,
+  "VIM.MI": 1.34,
+  "VNXT.MI": 1.63,
+  "VVG.MI": 0.322,
+  "VNE.MI": 4.72,
+  "WBS.MI": 1.59,
+  "WBD.MI": 2.254,
+  "WBDR.MI": 8.4,
+  "WIIT.MI": 24.4,
+  "XHS.MI": 2.22,
+  "YKY.MI": 4.48,
+  "YOLO.MI": 0.288,
+  "ZEST.MI": 0.116,
+  "ZV.MI": 6.5,
+  "ZUC.MI": 0.38
+ },
+ "ultima_sveglia": {
+  "id": "2026-11-12-chiusura",
+  "quando": "2026-11-12T17:07+01:00"
+ },
+ "condizionati": [
+  {
+   "azione": "compra",
+   "simbolo": "PIRC.MI",
+   "quantita": 300,
+   "se": "sotto",
+   "soglia": 6.67,
+   "motivo": "Conti dei nove mesi solidi e p/e atteso 11,9; rientra nel FTSE MIB. Prezzo corretto 7,2 (15 analisti indicano 7,23), avrei torto sotto 5,9. La posizione peserebbe circa il 2%.",
+   "data": "2026-11-12",
+   "da": "2026-11-12-chiusura"
+  },
+  {
+   "azione": "vendi",
+   "simbolo": "UCG.MI",
+   "quantita": 34,
+   "se": "sopra",
+   "soglia": 88,
+   "motivo": "88 è il mio prezzo corretto: vendo metà della posizione per incassare il guadagno e tenere la finanza sotto il 20%.",
+   "data": "2026-11-12",
+   "da": "2026-11-12-chiusura"
+  },
+  {
+   "azione": "vendi",
+   "simbolo": "ENEL.MI",
+   "quantita": 250,
+   "se": "sopra",
+   "soglia": 10.25,
+   "motivo": "Il prezzo sarebbe sopra il mio prezzo corretto (10) e sopra l'obiettivo degli analisti (10,23): incasso circa un terzo della posizione.",
+   "data": "2026-11-12",
+   "da": "2026-11-12-chiusura"
+  }
+ ],
+ "pagelle": [
+  {
+   "quando": "2026-10-30T18:03+01:00",
+   "voto": 6,
+   "giudizio": "Settimana dal 26/10 al 30/10: il portafoglio passa da 99.946 a 100.379 € (+0,43%), il FTSE MIB da 48.959 a 49.512 (+1,13%). Abbiamo fatto circa 0,7 punti peggio dell'indice. Il motivo è quasi tutto nei contanti: a fine settimana erano il 55% del patrimonio. La parte investita (circa 45%) ha reso intorno all'1%, cioè quanto l'indice, oscillando meno. Le scelte hanno funzionato abbastanza: PRY +7,4% (comprata sulla soglia di 103), LDO +5,7%, ENEL e MONC leggermente positive. Le banche (ISP, UCG e FBK) sono tutte appena sotto il prezzo di carico, fra -0,7% e -0,8%. Le commissioni sono state contenute (circa 68 € su 9 ordini) e nessuno stop è scattato. Il portafoglio è diviso fra 6 settori. La finanza pesa circa il 17,8%, sotto il limite del 20%. Il rischio è basso e i titoli scelti sono stati ragionati, ma l'obiettivo è battere l'indice, e con metà del capitale fermo non ci si riesce quando il mercato sale.",
+   "errore_della_settimana": "Ho lasciato troppi contanti fermi senza un piano per investirli. Dopo i primi due giorni ho messo soltanto 2.000 € in UNI, aspettando ritracciamenti precisi (soglie su TRN, SRG, CPR e PRY) che non sono arrivati, mentre l'indice saliva dell'1,1%. Non comprare sui massimi è giusto, ma tenere il 55% in contanti è una scommessa implicita contro il mercato, e nessuna tesi la sosteneva. Le soglie erano troppo vicine al prezzo perfetto e non c'era un'alternativa a scaglioni.",
+   "nuova_regola": "Contanti fra il 20% e il 40% del patrimonio. Se superano il 40%, ogni settimana investo almeno il 5–8% del patrimonio in 2 o 3 tranche, anche senza segnali forti, scegliendo titoli già analizzati (prezzo corretto e livello di torto già scritti) che quotano almeno il 3% sotto il massimo a 20 giorni. Restano valide le regole su settori (finanza sotto il 20%) e conti imminenti: niente acquisti nei 2 giorni prima dei conti del titolo."
+  },
+  {
+   "quando": "2026-11-06T18:03+01:00",
+   "voto": 7,
+   "giudizio": "Il portafoglio ha battuto di poco il FTSE MIB: +1,16% (da 100.416 a 101.585 €) contro +1,03% dell'indice (da 49.501 a 50.009). Il risultato vale di più perché i contanti erano al 46-51%. Contando solo la parte investita, circa il 54% del patrimonio, il rendimento è stato intorno al +2,1%, il doppio dell'indice. Le oscillazioni sono state minori. Ho rispettato la regola del contante: ho investito circa l'8% del patrimonio in tre tranche (CPR due volte, ENI una), tutte su ritracciamenti, con prezzo corretto e livello di torto scritti. Ho anche aggiunto due settori nuovi, consumi essenziali ed energia. CPR è a +5,3%. ENI (-1,8%), LDO (-1,9%) e PRY (-1,75%) sono lontani dai loro livelli di torto. La finanza (ISP, UCG, FBK, UNI) resta sotto il 20%. In tutto ho fatto 3 ordini e pagato circa 12 € di costi: nessun giro inutile del portafoglio.",
+   "errore_della_settimana": "I contanti sono ancora al 46%, sopra il tetto del 40%. Ho investito l'8%, il massimo della forbice, ma i contanti sono scesi solo dal 51% al 46%, anche perché il patrimonio è cresciuto. Con questo ritmo mi servono ancora un paio di settimane per tornare sotto il 40%, e intanto la metà del patrimonio non lavora in un mercato che sale. Un errore minore è stato comprare ENI a fine seduta dopo un -5% in 5 giorni, senza aspettare una soglia più bassa per la sentinella. È solo il 2,5% del patrimonio, ma l'ingresso è stato frettoloso.",
+   "nuova_regola": "Finché i contanti superano il 40%, la tranche settimanale va dall'8% al 10% del patrimonio, non più dal 5% all'8%. La prima tranche si fa entro martedì, usando ordini condizionati sui titoli già analizzati. Gli ingressi su un titolo nuovo si fanno con una soglia della sentinella almeno l'1% sotto il prezzo della sveglia, non con un acquisto immediato a fine seduta. Restano valide le regole su finanza (sotto il 20%), conti imminenti (niente acquisti nei 2 giorni prima) e limite del 10% per titolo."
+  }
+ ]
+}
