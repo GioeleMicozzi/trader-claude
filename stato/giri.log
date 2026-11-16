@@ -717,3 +717,16 @@ Niente Eni (cedola il 23/11) e niente acquisti nella finanza (18,8%). Prossimi c
 Livelli di torto: UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05.
 [16/11 12:44: sveglia senza Claude, nessun ordine nuovo]
 16/11 12:47 [meta] sveglia 2026-11-16-meta già fatta: non riparte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:06<00:00,  3.08s/it]Fetching 2 files: 100%|██████████| 2/2 [00:06<00:00,  3.08s/it]
+16/11 17:08 [chiusura] patrimonio 103,415.83 € — 0 ordini eseguiti, 0 respinti
+Analisi: Seduta leggermente negativa a Milano: banche e tecnologia deboli, Leonardo +2,6%. Le notizie sulla BCE sono la cosa più importante: dicono che a dicembre potrebbe alzare i tassi, con l'inflazione italiana al 5,4% e la crescita ferma. Un rialzo dei tassi pesa sulle utility (A2A, Enel) e aiuta i margini delle banche, ma la finanza è già al 18,9% e non posso aggiungere. Notizie buone sui miei titoli: UniCredit ha avuto il via libera di Ue e Fed per l'offerta su Commerzbank, Enel ha fatto conti sopra le attese e ha confermato la guidance. Si parla di raddoppiare la Tobin tax: è un motivo in più per non girare il portafoglio. Oggi non è scattato nessun ordine condizionato. A2A ha chiuso a 2,278, Pirelli a 6,755. I contanti sono al 34,9%: la regola chiede due tranche entro martedì. Per gli ultimi minuti di seduta lascio soglie almeno l'1% sotto i prezzi di ora.
+Testimone: Lunedì 16/11, chiusura delle 17:09. Oggi non è scattato nessun ordine e non ho dato ordini. Per gli ultimi minuti di seduta ho lasciato alla sentinella: compra 1100 A2A sotto 2,255, compra 440 Pirelli sotto 6,68, compra 24 Prysmian sotto 102, vendi 20 UniCredit sopra 89.
+
+Domani, martedì, è l'ultimo giorno per la tranche della regola: contanti al 34,9%, quindi 4-6% del patrimonio in 2 tranche su settori diversi. Per prima cosa controllare in «posizioni» se A2A o Pirelli sono scattate negli ultimi minuti. Se non sono scattate, all'apertura mettere soglie circa l'1% sotto il prezzo della sveglia: A2A (prezzo corretto 2,65, ho torto sotto 2,05) e Pirelli (prezzo corretto 7,3, ho torto sotto 6,0; soglia non sopra 6,77). Se nessuna delle due scatta, a metà seduta valutare un'alternativa già analizzata.
+
+Rischio BCE: si parla di un rialzo dei tassi a dicembre, che peserebbe sulle utility. Con A2A le utility arriverebbero al 9,6%, che è accettabile. Si parla anche di raddoppiare la Tobin tax: limitare le operazioni.
+
+Niente Eni (cedola il 23/11) e niente acquisti nella finanza (18,9%). Prossimi conti: Saipem il 18/11, MFE il 19/11. Mercoledì 18 incontro fra Intesa e Mps sull'offerta pubblica.
+
+Livelli di torto: UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05.
