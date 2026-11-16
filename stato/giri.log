@@ -638,3 +638,37 @@ Pagella 5/10 — Settimana positiva in valore assoluto ma sotto l'indice. Il pat
 Errore: Ho tenuto troppi contanti in un mercato che saliva. Appena i contanti sono scesi sotto il 40% (35-36%), la regola della tranche obbligatoria ha smesso di valere e ho smesso di investire, anche se la fascia 20-40% lasciava spazio. Quel 35% fermo spiega circa tre quarti del ritardo sull'indice. C'è anche un errore secondario: ho comprato ENI due volte nella stessa settimana (tre volte in sette giorni) invece di distribuire gli acquisti su più settori.
 Nuova regola: (13/11/2026) Se i contanti superano il 30% del patrimonio, ogni settimana investo almeno il 4-6% del patrimonio in 2 tranche, con soglie della sentinella entro martedì, su titoli già analizzati che quotano almeno il 3% sotto il massimo a 20 giorni. Non compro lo stesso titolo più di una volta nella stessa settimana: le tranche vanno su settori diversi. Restano valide le regole su finanza (sotto il 20%), conti imminenti (niente acquisti nei 2 giorni prima) e limite del 10% per titolo. Questa regola si aggiunge alla tranche dell'8-10% già prevista quando i contanti superano il 40%.
 13/11 18:52 nessuna sveglia prevista a quest'ora: non parte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:05<00:00,  3.00s/it]Fetching 2 files: 100%|██████████| 2/2 [00:05<00:00,  3.00s/it]
+16/11 08:13 [piano] patrimonio 103,588.74 € — 0 ordini eseguiti, 0 respinti
+Analisi: Piano di lunedì, prima dell'apertura. Le notizie danno l'Europa in calo per una settimana dominata da Nvidia e dalla quotazione di Anthropic. La BCE ha lasciato i tassi fermi, ma cresce l'attesa di una stretta a dicembre. Per banche e assicurazioni è una spinta, per le utility è un vento contrario moderato. La finanza resta al 18,9% e non la aumento. I due ordini di venerdì (comprare Pirelli a 6,70, vendere UniCredit a 89) non sono scattati: Pirelli non è in portafoglio e UniCredit è ancora a 68 azioni.
+
+I contanti sono al 35%, quindi la regola chiede di investire questa settimana il 4-6% del patrimonio in 2 tranche su settori diversi.
+
+**Tranche 1: Pirelli (consumi non essenziali, auto), soglia 6,70.**
+- Numeri: p/e atteso 12, dividendo 3,5%, utili in crescita costante (436, 479, 501, 531 milioni). I conti del 5/11 sono già usciti.
+- Prezzo corretto 7,3: 15 analisti indicano 7,23, con una forbice stretta da 6,5 a 7,8.
+- Ho torto sotto 6,0.
+- 6,70 è circa il 4% sotto il massimo recente di 6,98.
+
+**Tranche 2: A2A (utility), soglia 2,27.**
+- Numeri: -5,4% in 5 giorni, vicina al minimo dell'anno (2,20), p/e atteso 11, dividendo 4,5%. I conti del 10/11 sono già usciti, con guidance confermata.
+- Prezzo corretto 2,65: 7 analisti indicano 2,85, con una forbice stretta da 2,6 a 3,14. Sto un po' più basso di loro perché l'utile frena per il calo dell'idroelettrico.
+- Ho torto sotto 2,05.
+
+**Ordine di riserva: Prysmian (industria), soglia 102.** Scatta solo se il titolo ritraccia più a fondo. Prezzo corretto 135, ho torto sotto 92.
+
+Evito l'energia: Eni stacca la cedola il 23/11 e il settore è già al 7,5%. Evito anche la finanza, per il limite del 20%.
+Testimone: Lunedì 16/11, piano delle 08:15. Non ho dato ordini.
+
+Ordini lasciati alla sentinella:
+- compra 440 Pirelli se scende a 6,70 (tranche 1, consumi non essenziali; prezzo corretto 7,3, torto sotto 6,0);
+- compra 1100 A2A se scende a 2,27 (tranche 2, utility; prezzo corretto 2,65, torto sotto 2,05);
+- compra 24 Prysmian se scende a 102 (riserva);
+- vendi 20 UniCredit se sale a 89.
+
+Alle 09:17, per prima cosa: controllare se è scattato qualcosa e rimettere nella lista gli ordini ancora validi. La regola chiede le tranche entro martedì: se Pirelli e A2A restano lontane dalle soglie, valutare martedì soglie leggermente più alte, ma sempre almeno l'1% sotto il prezzo della sveglia. Non comprare lo stesso titolo due volte nella settimana.
+
+Niente Eni (cedola il 23/11) e niente acquisti nella finanza (18,9%). Prossimi conti: Saipem il 18/11 e MFE il 19/11, nessuna delle due in portafoglio.
+
+Livelli di torto: UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05.
