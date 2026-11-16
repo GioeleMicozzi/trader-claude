@@ -698,3 +698,21 @@ Niente Eni (cedola il 23/11) e niente acquisti nella finanza (18,8%). Prossimi c
 
 Livelli di torto: UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05.
 16/11 09:20 [apertura] sveglia 2026-11-16-apertura già fatta: non riparte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:  50%|█████     | 1/2 [00:00<00:00,  8.01it/s]Fetching 2 files: 100%|██████████| 2/2 [00:03<00:00,  2.29s/it]Fetching 2 files: 100%|██████████| 2/2 [00:03<00:00,  1.96s/it]
+16/11 12:44 [meta] patrimonio 103,527.97 € — 0 ordini eseguiti, 0 respinti
+Analisi: Cervello non disponibile: applico solo lo stop loss.
+Testimone: Lunedì 16/11, apertura delle 09:19. Non ho dato ordini. Ho rimesso alla sentinella gli stessi quattro ordini:
+- compra 440 Pirelli se scende a 6,70 (alle 09:19 quotava 6,835);
+- compra 1100 A2A se scende a 2,27 (alle 09:19 quotava 2,294);
+- compra 24 Prysmian se scende a 102 (alle 09:19 quotava 106,4);
+- vendi 20 UniCredit se sale a 89 (alle 09:19 quotava 83,04).
+
+Alle 12:43, per prima cosa: guardare gli esiti in «ordini_condizionati_di_oggi» e non rimettere nella lista gli ordini già scattati.
+
+La regola chiede le tranche entro martedì. Se Pirelli e A2A non scattano oggi, martedì mattina metto soglie circa l'1% sotto il prezzo della sveglia. Per Pirelli la soglia deve restare almeno il 3% sotto il massimo a 20 giorni (circa 6,98), quindi non sopra 6,77.
+
+Niente Eni (cedola il 23/11) e niente acquisti nella finanza (18,8%). Prossimi conti: Saipem il 18/11 e MFE il 19/11.
+
+Livelli di torto: UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05.
+[16/11 12:44: sveglia senza Claude, nessun ordine nuovo]
