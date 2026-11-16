@@ -673,3 +673,27 @@ Niente Eni (cedola il 23/11) e niente acquisti nella finanza (18,9%). Prossimi c
 
 Livelli di torto: UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05.
 16/11 08:16 [piano] sveglia 2026-11-16-piano già fatta: non riparte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:05<00:00,  2.78s/it]Fetching 2 files: 100%|██████████| 2/2 [00:05<00:00,  2.78s/it]
+16/11 09:18 [apertura] patrimonio 103,471.48 € — 0 ordini eseguiti, 0 respinti
+Analisi: All'apertura il mercato è calmo e non ci sono notizie che cambino i fondamentali dei titoli in portafoglio. Il portafoglio è in guadagno del 3,47% dall'inizio. I contanti sono al 34,9%: la regola chiede di investire dal 4% al 6% del patrimonio in due tranche entro martedì.
+
+- **Pirelli** quota 6,835, sopra la soglia di 6,70. È solo il 2% sotto il massimo dell'anno (6,98), quindi comprarla ora violerebbe la regola, che chiede almeno il 3% sotto il massimo a 20 giorni.
+- **A2A** quota 2,294, l'1% sopra la soglia di 2,27, dopo un calo del 6% in 5 giorni.
+
+Resto con il piano: un titolo nuovo si compra solo con una soglia della sentinella, non con un acquisto immediato.
+
+Settori. Uso Pirelli per i consumi non essenziali perché è difensiva, con il 3,5% di dividendo. Uso A2A per le utility perché il titolo è vicino al minimo dell'anno con la guidance confermata. Evito altra finanza, che è al 18,8% contro un limite del 20%. Niente altra Eni per ora: la cedola è il 23/11 e l'energia pesa già il 7,6%.
+Testimone: Lunedì 16/11, apertura delle 09:19. Non ho dato ordini. Ho rimesso alla sentinella gli stessi quattro ordini:
+- compra 440 Pirelli se scende a 6,70 (alle 09:19 quotava 6,835);
+- compra 1100 A2A se scende a 2,27 (alle 09:19 quotava 2,294);
+- compra 24 Prysmian se scende a 102 (alle 09:19 quotava 106,4);
+- vendi 20 UniCredit se sale a 89 (alle 09:19 quotava 83,04).
+
+Alle 12:43, per prima cosa: guardare gli esiti in «ordini_condizionati_di_oggi» e non rimettere nella lista gli ordini già scattati.
+
+La regola chiede le tranche entro martedì. Se Pirelli e A2A non scattano oggi, martedì mattina metto soglie circa l'1% sotto il prezzo della sveglia. Per Pirelli la soglia deve restare almeno il 3% sotto il massimo a 20 giorni (circa 6,98), quindi non sopra 6,77.
+
+Niente Eni (cedola il 23/11) e niente acquisti nella finanza (18,8%). Prossimi conti: Saipem il 18/11 e MFE il 19/11.
+
+Livelli di torto: UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05.
