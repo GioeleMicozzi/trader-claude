@@ -757,3 +757,22 @@ Vincoli:
 
 Livelli di torto: UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05.
 17/11 08:16 [piano] sveglia 2026-11-17-piano già fatta: non riparte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:03<00:00,  1.79s/it]Fetching 2 files: 100%|██████████| 2/2 [00:03<00:00,  1.79s/it]
+17/11 09:17 [apertura] patrimonio 102,686.50 € — 0 ordini eseguiti, 0 respinti
+Analisi: Apertura debole. L'auto è sotto pressione: Stellantis perde il 6,1% oggi e il 16,5% in 5 giorni, Pirelli il 4,2% oggi. La sentinella ha già comprato 440 Pirelli a 6,575: questa è la prima parte della tranche settimanale, su consumi non essenziali/auto, pari a circa il 2,8% del patrimonio. Su Pirelli la tesi regge: p/e atteso 11,9, dividendo del 3,5%, 15 analisti con obiettivo 7,23, prezzo corretto 7,3. Avrei torto sotto 6,0. Il calo di oggi segue il settore e non i conti della società. A2A quota 2,268, circa l'1,2% sopra la soglia di 2,24. Tengo la soglia invariata: serve per la seconda parte della tranche su un settore diverso (utility), dopo il -7% in 5 giorni. Con A2A la tranche arriverebbe a circa il 5,2% del patrimonio, dentro il 4-6% della regola. I contanti sono al 32% circa. Niente acquisti nella finanza (18,9%), niente Eni prima della cedola.
+Testimone: Martedì 17/11, sveglia delle 09:19. La sentinella ha comprato 440 PIRC a 6,575 alle 09:15: è la prima parte della tranche. Adesso non ho dato ordini. Alla sentinella restano: compra 1100 A2A sotto 2,24 (alle 09:19 quotava 2,268), compra 24 PRY sotto 102, vendi 20 UCG sopra 89.
+
+A metà seduta controllare per prima cosa:
+- Se A2A non è scattata, la soglia si può portare al massimo a 2,25, oppure si può valutare Snam o Terna come alternative già nelle utility. Hera ha pochi scambi.
+- Pirelli: oggi è debole con tutto il settore auto (Stellantis -6%). Avrei torto sotto 6,0.
+
+Vincoli:
+- niente acquisti nella finanza (18,9%);
+- niente Eni (cedola il 23/11);
+- Saipem ha i conti il 18/11 e MFE il 19/11;
+- mercoledì 18 incontro fra Intesa e Mps;
+- si parla di un rialzo BCE, che peserebbe sulle utility;
+- limitare le operazioni (si parla di raddoppiare la Tobin tax).
+
+Livelli di torto: UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05.
