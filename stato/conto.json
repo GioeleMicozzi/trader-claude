@@ -1,5 +1,5 @@
 {
- "contanti": 33214.018489,
+ "contanti": 30736.394589000003,
  "posizioni": {
   "ISP.MI": {
    "quantita": 1180,
@@ -65,6 +65,11 @@
    "quantita": 440,
    "prezzo_medio": 6.575,
    "dal": "2026-11-17T09:15"
+  },
+  "A2A.MI": {
+   "quantita": 1100,
+   "prezzo_medio": 2.249,
+   "dal": "2026-11-17T16:31"
   }
  },
  "ordini": [
@@ -237,6 +242,16 @@
    "prezzo": 6.575,
    "costi": 4.34,
    "motivo": "Tranche della regola del contante su un settore diverso (auto/consumi). Soglia circa l'1% sotto il prezzo di ieri, più del 4% sotto il massimo. P/e atteso 11,9, dividendo del 3,5%. Prezzo corretto 7,3 (15 analisti indicano 7,23). Avrei torto sotto 6,0. Peso circa il 2,9%."
+  },
+  {
+   "id": "2026-11-17-1631-sentinella-A2A.MI-compra",
+   "quando": "2026-11-17T16:31",
+   "azione": "compra",
+   "simbolo": "A2A.MI",
+   "quantita": 1100,
+   "prezzo": 2.249,
+   "costi": 3.72,
+   "motivo": "Seconda tranche della regola del contante (contanti al 32%), sulle utility, un settore diverso da Pirelli. Il titolo è -4,9% in 5 giorni e -5,8% in 20 giorni. P/e 10,3, dividendo del 4,5%, conti dei nove mesi con ricavi +35%. Prezzo corretto 2,65 (7 analisti indicano 2,85). Avrei torto sotto 2,05. La posizione peserebbe circa il 2,4%."
   }
  ],
  "andamento": [
@@ -596,30 +611,30 @@
   "SPM.MI": 4.239,
   "STMMI.MI": 40.395,
   "TPRO.MI": 20.54,
-  "ENI.MI": 25.82,
-  "ENEL.MI": 9.718,
-  "ISP.MI": 6.264,
-  "UCG.MI": 82.98,
+  "ENI.MI": 25.735,
+  "ENEL.MI": 9.654,
+  "ISP.MI": 6.227,
+  "UCG.MI": 82.66,
   "STLAM.MI": 3.336,
   "RACE.MI": 367.1,
   "G.MI": 44.53,
   "TIT.MI": 5.692,
-  "PST.MI": 25.19,
+  "PST.MI": 24.93,
   "MB.MI": 27.33,
   "BAMI.MI": 14.91,
   "BPE.MI": 13.436,
-  "LDO.MI": 50.07,
-  "PRY.MI": 108.25,
-  "MONC.MI": 41.54,
+  "LDO.MI": 50.37,
+  "PRY.MI": 107.3,
+  "MONC.MI": 41.79,
   "TEN.MI": 27.24,
   "SRG.MI": 6.17,
   "TRN.MI": 9.688,
-  "A2A.MI": 2.262,
+  "A2A.MI": 2.249,
   "HER.MI": 3.646,
-  "CPR.MI": 6.73,
-  "AMP.MI": 11.56,
+  "CPR.MI": 6.718,
+  "AMP.MI": 11.525,
   "REC.MI": 52.9,
-  "FBK.MI": 22.86,
+  "FBK.MI": 22.83,
   "BMED.MI": 23.08,
   "INW.MI": 7.36,
   "NEXI.MI": 4.456,
@@ -628,7 +643,7 @@
   "BMPS.MI": 11.432,
   "BC.MI": 89.18,
   "IG.MI": 9.254,
-  "UNI.MI": 25.67,
+  "UNI.MI": 25.6,
   "LTMC.MI": 26.89,
   "ABP.MI": 5.15,
   "AAT.MI": 1.15,
@@ -873,7 +888,7 @@
   "PIA.MI": 2.17,
   "PINF.MI": 1.195,
   "PQ.MI": 2.27,
-  "PIRC.MI": 6.545,
+  "PIRC.MI": 6.55,
   "PMED.MI": 5.7,
   "PLN.MI": 3.8,
   "PLC.MI": 3.07,
@@ -981,7 +996,8 @@
    "soglia": 2.25,
    "motivo": "Seconda tranche della regola del contante (contanti al 32%), sulle utility, un settore diverso da Pirelli. Il titolo è -4,9% in 5 giorni e -5,8% in 20 giorni. P/e 10,3, dividendo del 4,5%, conti dei nove mesi con ricavi +35%. Prezzo corretto 2,65 (7 analisti indicano 2,85). Avrei torto sotto 2,05. La posizione peserebbe circa il 2,4%.",
    "data": "2026-11-17",
-   "da": "2026-11-17-meta"
+   "da": "2026-11-17-meta",
+   "esito": "16:31 a 2.249: eseguito"
   },
   {
    "azione": "compra",
