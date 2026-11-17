@@ -803,3 +803,25 @@ Vincoli:
 
 Livelli di torto: UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05.
 17/11 12:47 [meta] sveglia 2026-11-17-meta già fatta: non riparte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:02<00:00,  1.40s/it]Fetching 2 files: 100%|██████████| 2/2 [00:02<00:00,  1.40s/it]
+17/11 17:08 [chiusura] patrimonio 101,893.48 € — 0 ordini eseguiti, 0 respinti
+Analisi: Seduta debole: Milano perde circa lo 0,6%, insieme alle Borse europee. Pesano le tensioni fra Stati Uniti e Cina sui chip e l'attesa per i conti di Nvidia. Avio sale del 14% dopo l'offerta pubblica di acquisto (opa) di Iceye. Moncler scende del 4,5%, al minimo dell'anno, dopo il declassamento di Morgan Stanley. Pirelli perde il 3,6% perché Sinochem ha venduto un altro pacchetto di azioni: è un calo tecnico, non cambiano i conti. Oggi la sentinella ha eseguito le due tranche della regola del contante, su due settori diversi: Pirelli (auto) alle 09:15 e A2A (utility) alle 16:31 a 2,249. Insieme valgono circa il 5,3% del patrimonio, quindi la regola settimanale è rispettata entro martedì. I contanti sono al 30,2%, dentro la fascia 20–40%. La finanza pesa il 18,8%, sotto il limite del 20%. Non ci sono motivi per altre operazioni prima della chiusura.
+Testimone: Martedì 17/11, chiusura. Non ho dato ordini. Oggi la sentinella ha comprato 440 PIRC a 6,575 e 1100 A2A a 2,249. Così la tranche della settimana è fatta (circa il 5,3% del patrimonio, su due settori diversi). Contanti al 30,2%, poco sopra la soglia del 30%. Questa settimana non servono altri acquisti per regola. Niente secondo acquisto di Pirelli o A2A in questa settimana.
+
+Mercoledì controllare per prima cosa:
+- Moncler (41,57, minimo dell'anno dopo il declassamento): non rinforzare. Lo stop scatta intorno a 39,1, avrei torto sotto 38,6.
+- Pirelli: calo tecnico per la vendita di Sinochem. Avrei torto sotto 6,0.
+- I conti di Saipem del 18/11, solo come segnale per il settore energia.
+- L'incontro fra Intesa e Mps del 18/11.
+- Le voci su un rialzo della BCE (peserebbe su Enel e A2A). Morgan Stanley invece prevede tagli.
+
+Vincoli:
+- niente acquisti nella finanza (18,8%);
+- niente Eni prima della cedola del 23/11;
+- MFE ha i conti il 19/11;
+- limitare le operazioni.
+
+Domani si possono rimettere le soglie della sentinella: PRY sotto 102 e UCG in vendita sopra 89.
+
+Livelli di torto: UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
