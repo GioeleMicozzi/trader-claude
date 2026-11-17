@@ -732,3 +732,27 @@ Niente Eni (cedola il 23/11) e niente acquisti nella finanza (18,9%). Prossimi c
 Livelli di torto: UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05.
 16/11 17:11 [chiusura] sveglia 2026-11-16-chiusura già fatta: non riparte
 16/11 18:53 nessuna sveglia prevista a quest'ora: non parte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:04<00:00,  2.25s/it]Fetching 2 files: 100%|██████████| 2/2 [00:04<00:00,  2.25s/it]
+17/11 08:12 [piano] patrimonio 103,153.88 € — 0 ordini eseguiti, 0 respinti
+Analisi: Borsa chiusa, prezzi di ieri. Ieri Milano ha chiuso in calo, frenata dalla tecnologia (chip) e dalle banche; la difesa è andata bene. Le posizioni sono quasi tutte in utile: UniCredit +13%, FinecoBank +10%. Unica in leggero calo è Amplifon (-0,25%). Nessuna notizia cambia i fondamentali dei titoli che ho. Unipol ha l'obiettivo confermato a 34 con giudizio Outperform. Le adesioni all'offerta di Intesa su Mps partono il 24/11. I contanti sono al 35%, quindi oggi, martedì, devo mettere le soglie per la tranche settimanale del 4-6% su due settori diversi.
+- Utility, con A2A a 2,265: è -6,9% in 5 giorni, ha p/e 10,3 e dividendo del 4,5%. Gli analisti indicano 2,85.
+- Auto/consumi, con Pirelli a 6,755: p/e atteso 11,9 e dividendo del 3,5%. 15 analisti indicano 7,23.
+Il rischio di un rialzo dei tassi BCE pesa sulle utility, ma dopo l'acquisto il settore resterebbe sotto il 10%. La finanza è al 18,9%: niente acquisti lì.
+Testimone: Martedì 17/11, sveglia delle 08:15 (piano, borsa chiusa). Non ho dato ordini. Alla sentinella ho lasciato:
+- compra 1100 A2A sotto 2,24
+- compra 440 Pirelli sotto 6,69
+- compra 24 Prysmian sotto 102
+- vendi 20 UniCredit sopra 89
+
+All'apertura delle 09:17 controllare per prima cosa i prezzi di A2A e Pirelli. Se hanno aperto molto sopra, tenere le soglie circa l'1% sotto il prezzo del momento, rispettando questi tetti: A2A non sopra 2,25, Pirelli non sopra 6,77. Oggi è l'ultimo giorno per la tranche della regola (4-6% del patrimonio, contanti al 35%). Se a metà seduta nessuna delle due è scattata, valutare un'alternativa già analizzata e fuori dalla finanza, oppure abbassare leggermente le soglie.
+
+Vincoli:
+- niente acquisti nella finanza (18,9%);
+- niente Eni (cedola il 23/11);
+- Saipem ha i conti il 18/11 e MFE il 19/11;
+- mercoledì 18 incontro fra Intesa e Mps;
+- si parla di un rialzo BCE a dicembre, che peserebbe sulle utility;
+- si parla di raddoppiare la Tobin tax: limitare le operazioni.
+
+Livelli di torto: UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05.
