@@ -1,5 +1,5 @@
 {
- "contanti": 36111.357989000004,
+ "contanti": 33214.018489,
  "posizioni": {
   "ISP.MI": {
    "quantita": 1180,
@@ -60,6 +60,11 @@
    "quantita": 300,
    "prezzo_medio": 11.795,
    "dal": "2026-11-12T14:01"
+  },
+  "PIRC.MI": {
+   "quantita": 440,
+   "prezzo_medio": 6.575,
+   "dal": "2026-11-17T09:15"
   }
  },
  "ordini": [
@@ -222,6 +227,16 @@
    "prezzo": 11.795,
    "costi": 5.31,
    "motivo": "Ingresso nella salute, un settore nuovo per il portafoglio. La guidance 2026 è confermata. Prezzo corretto 13,8 (17 analisti indicano 14,15), avrei torto sotto 10,8. La posizione peserebbe circa il 3,5%."
+  },
+  {
+   "id": "2026-11-17-0915-sentinella-PIRC.MI-compra",
+   "quando": "2026-11-17T09:15",
+   "azione": "compra",
+   "simbolo": "PIRC.MI",
+   "quantita": 440,
+   "prezzo": 6.575,
+   "costi": 4.34,
+   "motivo": "Tranche della regola del contante su un settore diverso (auto/consumi). Soglia circa l'1% sotto il prezzo di ieri, più del 4% sotto il massimo. P/e atteso 11,9, dividendo del 3,5%. Prezzo corretto 7,3 (15 analisti indicano 7,23). Avrei torto sotto 6,0. Peso circa il 2,9%."
   }
  ],
  "andamento": [
@@ -571,30 +586,30 @@
   "SPM.MI": 4.15,
   "STMMI.MI": 41.065,
   "TPRO.MI": 21.06,
-  "ENI.MI": 25.845,
-  "ENEL.MI": 9.755,
-  "ISP.MI": 6.278,
-  "UCG.MI": 83.33,
+  "ENI.MI": 25.72,
+  "ENEL.MI": 9.71,
+  "ISP.MI": 6.225,
+  "UCG.MI": 82.7,
   "STLAM.MI": 3.38,
   "RACE.MI": 368.4,
   "G.MI": 44.6,
   "TIT.MI": 5.748,
-  "PST.MI": 25.47,
+  "PST.MI": 25.35,
   "MB.MI": 27.33,
   "BAMI.MI": 14.89,
   "BPE.MI": 13.306,
-  "LDO.MI": 50.53,
-  "PRY.MI": 107.65,
-  "MONC.MI": 43.51,
+  "LDO.MI": 50.18,
+  "PRY.MI": 106.7,
+  "MONC.MI": 42.17,
   "TEN.MI": 27.31,
   "SRG.MI": 6.242,
   "TRN.MI": 9.896,
   "A2A.MI": 2.265,
   "HER.MI": 3.694,
-  "CPR.MI": 6.816,
-  "AMP.MI": 11.765,
+  "CPR.MI": 6.82,
+  "AMP.MI": 11.775,
   "REC.MI": 52.85,
-  "FBK.MI": 22.9,
+  "FBK.MI": 22.74,
   "BMED.MI": 23.24,
   "INW.MI": 7.37,
   "NEXI.MI": 4.495,
@@ -848,7 +863,7 @@
   "PIA.MI": 2.182,
   "PINF.MI": 1.195,
   "PQ.MI": 2.3,
-  "PIRC.MI": 6.755,
+  "PIRC.MI": 6.575,
   "PMED.MI": 5.5,
   "PLN.MI": 3.8,
   "PLC.MI": 3.07,
@@ -966,7 +981,8 @@
    "soglia": 6.69,
    "motivo": "Tranche della regola del contante su un settore diverso (auto/consumi). Soglia circa l'1% sotto il prezzo di ieri, più del 4% sotto il massimo. P/e atteso 11,9, dividendo del 3,5%. Prezzo corretto 7,3 (15 analisti indicano 7,23). Avrei torto sotto 6,0. Peso circa il 2,9%.",
    "data": "2026-11-17",
-   "da": "2026-11-17-piano"
+   "da": "2026-11-17-piano",
+   "esito": "09:15 a 6.575: eseguito"
   },
   {
    "azione": "compra",
