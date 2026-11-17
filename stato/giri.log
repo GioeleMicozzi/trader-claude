@@ -777,3 +777,28 @@ Vincoli:
 
 Livelli di torto: UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05.
 17/11 09:20 [apertura] sveglia 2026-11-17-apertura già fatta: non riparte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:03<00:00,  1.55s/it]Fetching 2 files: 100%|██████████| 2/2 [00:03<00:00,  1.55s/it]
+17/11 12:43 [meta] patrimonio 102,474.75 € — 0 ordini eseguiti, 0 respinti
+Analisi: A metà seduta il mercato resta debole per le tensioni fra Stati Uniti e Cina sui semiconduttori. Le due notizie che toccano il portafoglio non cambiano i fondamentali, per questo non intervengo.
+
+- **Moncler** perde il 4,5% e tocca il minimo dell'anno (41,54) dopo il declassamento di Morgan Stanley. È un cambio di giudizio, non sono conti nuovi. Il livello di torto resta 38,6 e lo stop automatico scatta intorno a 39,1. La posizione pesa già circa il 6,7%: non rinforzo su un declassamento.
+- **Pirelli** scende perché Sinochem ha venduto in blocco parte delle sue azioni e scende al 13,5%. È una pressione tecnica: anzi, con meno azioni di Sinochem da vendere in futuro, il governo societario diventa più semplice. Tengo, avrei torto sotto 6,0.
+
+A2A, a 2,262, non ha toccato la soglia. Come previsto la porto a 2,25 per chiudere la seconda tranche sulle utility. Lascio invariati gli altri ordini condizionati.
+Testimone: Martedì 17/11, sveglia delle 12:46. Non ho dato ordini. Alle 09:15 la sentinella ha comprato 440 PIRC a 6,575 (prima tranche). Ho portato la soglia per comprare 1100 A2A da 2,24 a 2,25 (alle 12:46 quotava 2,262). Alla sentinella restano anche: compra 24 PRY sotto 102, vendi 20 UCG sopra 89.
+
+Alla chiusura controllare per prima cosa:
+- Se A2A non è scattata, decidere se lasciare la tranche a mercoledì con una soglia (la regola chiedeva di farla entro martedì). In alternativa usare Snam (6,17, obiettivo degli analisti 6,41) o Terna.
+- Moncler (41,54, minimo dell'anno, declassata da Morgan Stanley): non rinforzare. Avrei torto sotto 38,6; lo stop scatta intorno a 39,1.
+- Pirelli: il calo viene dalla vendita in blocco di Sinochem, è tecnico. Avrei torto sotto 6,0.
+
+Vincoli:
+- niente acquisti nella finanza (19%);
+- niente Eni (cedola il 23/11);
+- Saipem ha i conti il 18/11 e MFE il 19/11;
+- mercoledì 18 incontro fra Intesa e Mps; le adesioni all'offerta di Intesa su Mps partono il 24/11;
+- si parla di un rialzo BCE, che peserebbe sulle utility;
+- limitare le operazioni.
+
+Livelli di torto: UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05.
