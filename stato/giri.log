@@ -889,3 +889,32 @@ Livelli di torto: UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18
 
 Se non succede nulla di nuovo, non fare niente.
 18/11 12:47 [meta] sveglia 2026-11-18-meta già fatta: non riparte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:  50%|█████     | 1/2 [00:00<00:00,  9.18it/s]Fetching 2 files: 100%|██████████| 2/2 [00:07<00:00,  4.35s/it]Fetching 2 files: 100%|██████████| 2/2 [00:07<00:00,  3.71s/it]
+18/11 17:08 [chiusura] patrimonio 100,993.31 € — 0 ordini eseguiti, 0 respinti
+Analisi: **Il mercato:** la seduta è debole e si aspettano i verbali della Fed. La finanza perde il 3,1% in 5 giorni e il lusso il 4,8%. L'industria del FTSE MIB tiene (+0,5%).
+
+**Moncler:** chiude a 40,79, il minimo dell'anno. In due giorni ha perso circa l'8% dopo il declassamento di Morgan Stanley. Il motivo è il giudizio di una banca, non conti nuovi: 25 analisti indicano ancora 56,7 come obiettivo e la mia stima di prezzo corretto resta 52. Non rinforzo, perché il lusso è debole e la posizione perde già il 6%. Lascio lavorare lo stop, che scatta intorno a 39,1.
+
+**Eni:** cala dopo l'aggiornamento della guidance (sono saliti i flussi di cassa previsti) e continua il riacquisto di azioni proprie. La tesi resta valida.
+
+**Saipem:** non ci sono ancora notizie sui conti di oggi.
+
+**Le altre posizioni:** nessuna ha notizie che cambino i fondamentali.
+
+**Portafoglio:** contanti al 30,4% e finanza al 18,7%, quindi le regole sono rispettate. La tranche della settimana è già fatta. Non c'è un motivo per comprare o vendere altro.
+Testimone: **Fatto oggi (mercoledì 18/11, chiusura delle 17:10):** nessun ordine. Le soglie su PRY (comprare 20 sotto 102) e UCG (vendere 34 sopra 89) restano attive fino alla chiusura e da domani decadono. Contanti al 30,4%, finanza al 18,7%. La tranche della settimana è fatta (PIRC e A2A, il 17/11).
+
+**Domani, controllare per primo:**
+- Moncler (40,79): lo stop scatta intorno a 39,1. Non rinforzare.
+- I conti di Saipem, usciti il 18/11, come segnale per il settore energia.
+- I verbali della Fed.
+
+**Vincoli:**
+- niente acquisti nella finanza;
+- niente Eni prima della cedola del 23/11;
+- MFE ha i conti il 19/11 (non è in portafoglio).
+
+**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
+
+Domani si possono rimettere le soglie su PRY (102) e UCG (89) se restano valide. Se non succede nulla di nuovo, non fare niente.
