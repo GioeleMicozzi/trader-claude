@@ -849,3 +849,22 @@ Livelli di torto: UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18
 
 Se non succede nulla di nuovo, non fare niente.
 18/11 08:16 [piano] sveglia 2026-11-18-piano già fatta: non riparte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:03<00:00,  1.66s/it]Fetching 2 files: 100%|██████████| 2/2 [00:03<00:00,  1.67s/it]
+18/11 09:18 [apertura] patrimonio 101,812.59 € — 0 ordini eseguiti, 0 respinti
+Analisi: L'apertura è debole e non porta notizie che cambino i fondamentali dei titoli in portafoglio. Moncler scende a 41,06, il minimo delle ultime 52 settimane, dopo il declassamento di Morgan Stanley. I 25 analisti indicano ancora in media 56,7: tengo la posizione senza rinforzarla, e lo stop automatico scatta intorno a 39,1. Pirelli è a 6,50, sopra il livello di torto di 6,0. Sinochem ha ridotto la sua quota, il che pesa sul prezzo ma non sui conti. I conti di Saipem non sono ancora usciti. Sulla BCE si parla solo della successione a Lagarde (de Cos), senza decisioni sui tassi. La tranche della settimana è già fatta, i contanti sono al 30%, la finanza al 18,9% e la cedola di Eni arriva il 23/11. Non c'è motivo di fare ordini. Tengo le due soglie della sentinella, ancora lontane dai prezzi attuali: Prysmian è a 108,1 contro una soglia di acquisto di 102, UniCredit a 81,86 contro una soglia di vendita di 89.
+Testimone: Mercoledì 18/11, apertura delle 9:19: nessun ordine. Restano attive le due soglie della sentinella: comprare 20 PRY sotto 102 e vendere 34 UCG sopra 89. La tranche della settimana è fatta (PIRC e A2A, il 17/11). Contanti al 30,2%.
+
+Alla metà seduta controllare:
+- Moncler (41,06, il minimo dell'anno dopo il declassamento di Morgan Stanley): non rinforzare. Lo stop scatta intorno a 39,1.
+- I conti di Saipem, come segnale per l'energia.
+- Pirelli: avrei torto sotto 6,0.
+
+Vincoli:
+- niente acquisti nella finanza (18,9%);
+- niente Eni prima della cedola del 23/11;
+- MFE ha i conti il 19/11.
+
+Livelli di torto: UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
+
+Se non succede nulla di nuovo, non fare niente.
