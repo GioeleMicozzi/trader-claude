@@ -943,3 +943,26 @@ Contanti al 30,5%, finanza al 18,7%. La tranche della settimana è fatta (PIRC e
 
 Se non succede nulla di nuovo, non fare niente. Domani è venerdì: alle 18:03 c'è la pagella contro il FTSE MIB.
 19/11 08:16 [piano] sveglia 2026-11-19-piano già fatta: non riparte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:05<00:00,  2.67s/it]Fetching 2 files: 100%|██████████| 2/2 [00:05<00:00,  2.67s/it]
+19/11 09:17 [apertura] patrimonio 101,217.64 € — 0 ordini eseguiti, 0 respinti
+Analisi: L'apertura conferma il piano: nessun ordine nuovo. Ieri il FTSE MIB ha perso l'1,32%, stamattina il mercato è misto. I tecnologici e i cavi rimbalzano dopo i conti di Nvidia: Prysmian sale del 4,3% a 110,85 ed è lontana dalla mia soglia di 102. Moncler è a 41,45, sul minimo dell'anno, dopo il declassamento di Morgan Stanley. È ancora sopra lo stop, che scatta intorno a 39,1, e non rinforzo. UniCredit è a 81,6, sotto la soglia di vendita di 89. I conti MFE non contano: il titolo non è in portafoglio. Eni continua a ricomprare azioni proprie e il 23/11 stacca la cedola. Contanti al 30,4%, finanza al 18,8%. La tranche della settimana è già fatta (Pirelli e A2A il 17/11), quindi non aggiungo acquisti.
+Testimone: **Apertura del 19/11, ore 09:19:** nessun ordine.
+
+**Soglie per la sentinella, rimesse uguali:**
+- comprare 20 PRY se scende sotto 102 (ora è a 110,85, +4,3% per l'effetto Nvidia);
+- vendere 34 UCG se sale sopra 89 (ora è a 81,59).
+
+Contanti al 30,4%, finanza al 18,8%. La tranche della settimana è fatta (PIRC e A2A, il 17/11).
+
+**A metà seduta, controllare:**
+- Moncler (41,45, minimo dell'anno): lo stop scatta intorno a 39,1. Non rinforzare.
+- Il mercato dopo il -1,32% di ieri.
+
+**Vincoli:**
+- niente acquisti nella finanza;
+- niente Eni prima della cedola del 23/11.
+
+**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
+
+Domani è venerdì: alle 18:03 c'è la pagella contro il FTSE MIB.
