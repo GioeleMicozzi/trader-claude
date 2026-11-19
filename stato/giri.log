@@ -967,3 +967,27 @@ Contanti al 30,4%, finanza al 18,8%. La tranche della settimana è fatta (PIRC e
 
 Domani è venerdì: alle 18:03 c'è la pagella contro il FTSE MIB.
 19/11 09:20 [apertura] sveglia 2026-11-19-apertura già fatta: non riparte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:05<00:00,  2.83s/it]Fetching 2 files: 100%|██████████| 2/2 [00:05<00:00,  2.84s/it]
+19/11 12:43 [meta] patrimonio 101,055.30 € — 0 ordini eseguiti, 0 respinti
+Analisi: Cervello non disponibile: applico solo lo stop loss.
+Testimone: **Apertura del 19/11, ore 09:19:** nessun ordine.
+
+**Soglie per la sentinella, rimesse uguali:**
+- comprare 20 PRY se scende sotto 102 (ora è a 110,85, +4,3% per l'effetto Nvidia);
+- vendere 34 UCG se sale sopra 89 (ora è a 81,59).
+
+Contanti al 30,4%, finanza al 18,8%. La tranche della settimana è fatta (PIRC e A2A, il 17/11).
+
+**A metà seduta, controllare:**
+- Moncler (41,45, minimo dell'anno): lo stop scatta intorno a 39,1. Non rinforzare.
+- Il mercato dopo il -1,32% di ieri.
+
+**Vincoli:**
+- niente acquisti nella finanza;
+- niente Eni prima della cedola del 23/11.
+
+**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
+
+Domani è venerdì: alle 18:03 c'è la pagella contro il FTSE MIB.
+[19/11 12:43: sveglia senza Claude, nessun ordine nuovo]
