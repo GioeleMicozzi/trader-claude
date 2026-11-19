@@ -992,3 +992,20 @@ Contanti al 30,4%, finanza al 18,8%. La tranche della settimana è fatta (PIRC e
 Domani è venerdì: alle 18:03 c'è la pagella contro il FTSE MIB.
 [19/11 12:43: sveglia senza Claude, nessun ordine nuovo]
 19/11 12:46 [meta] sveglia 2026-11-19-meta già fatta: non riparte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:02<00:00,  1.44s/it]Fetching 2 files: 100%|██████████| 2/2 [00:02<00:00,  1.44s/it]
+19/11 17:08 [chiusura] patrimonio 100,525.11 € — 0 ordini eseguiti, 0 respinti
+Analisi: Seduta di recupero dopo il -1,32% di ieri, spinta da Saipem (conti migliori delle attese) e dai titoli tecnologici. La BCE lascia i tassi fermi ma è preoccupata dall'inflazione, tenuta alta da petrolio e gas: per le banche è un sostegno. Fra i titoli in portafoglio: UniCredit sale dopo l'accordo sulla Commerzbank, Enel batte le attese e alza il dividendo, Eni continua a ricomprare azioni proprie. Moncler resta debole vicino al minimo dell'anno (41,58) dopo il declassamento di Morgan Stanley; non ci sono notizie sui conti che cambino la tesi. Contanti al 30,6%, poco sopra la soglia del 30%. La tranche della settimana è già fatta (Pirelli e A2A il 17/11) e la finanza è al 18,8%, vicina al limite. Non c'è un motivo per nuovi ordini: oggi non faccio niente.
+Testimone: **Chiusura del 19/11, ore 17:10:** nessun ordine. Il patrimonio è 100.525 € (+0,53% dall'inizio), con i contanti al 30,6% e la finanza al 18,8%.
+
+**Soglie lasciate fino alla chiusura** (domani vanno riscritte da capo):
+- comprare 20 PRY se scende sotto 102;
+- vendere 34 UCG se sale sopra 89.
+
+**Domani, venerdì 20/11:**
+- Moncler: controllarla per prima, è vicina allo stop (circa 39,1). Non rinforzare.
+- Pagella alle 18:03: confrontare la settimana con il FTSE MIB. La tranche della settimana è fatta (PIRC e A2A il 17/11).
+- Settimana prossima: se i contanti restano sopra il 30%, fare le 2 tranche entro martedì su settori diversi. Candidati già analizzati: PRY, LDO, AMP, CPR.
+- Eni: niente acquisti prima della cedola del 23/11.
+
+**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
