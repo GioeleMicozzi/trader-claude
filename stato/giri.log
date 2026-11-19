@@ -920,3 +920,25 @@ Testimone: **Fatto oggi (mercoledì 18/11, chiusura delle 17:10):** nessun ordin
 Domani si possono rimettere le soglie su PRY (102) e UCG (89) se restano valide. Se non succede nulla di nuovo, non fare niente.
 18/11 17:11 [chiusura] sveglia 2026-11-18-chiusura già fatta: non riparte
 18/11 18:53 nessuna sveglia prevista a quest'ora: non parte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:  50%|█████     | 1/2 [00:00<00:00,  9.53it/s]Fetching 2 files: 100%|██████████| 2/2 [00:08<00:00,  4.81s/it]Fetching 2 files: 100%|██████████| 2/2 [00:08<00:00,  4.11s/it]
+19/11 08:13 [piano] patrimonio 100,804.61 € — 0 ordini eseguiti, 0 respinti
+Analisi: Ieri Piazza Affari ha chiuso peggio dell'Europa: FTSE MIB -1,32% a 50.173 punti. In una settimana sono scesi un po' tutti i settori, soprattutto finanza, lusso e consumi; Leonardo e Tenaris sono stati fra i peggiori. Il patrimonio è a 100.805 €, +0,8% dall'inizio. I contanti sono il 30,5%, dentro la fascia 20–40%. La finanza pesa il 18,7%, sotto il limite del 20%. Le tranche della settimana sono già fatte (Pirelli e A2A il 17/11). Moncler è scesa a 41,2 (-5,2% dal mio prezzo medio) dopo il declassamento di Morgan Stanley. Lo stop scatta intorno a 39,1: non rinforzo, anche se Websim la indica come acquisto sulla debolezza. Saipem ha confermato la guidance con ricavi e margini in crescita ma utile in calo: per l'energia non è un segnale negativo. Eni stacca la cedola il 23/11. La BCE parla di rischi da deficit pubblici e titoli di Stato, ma i fondamentali delle mie posizioni non cambiano. Non c'è un motivo nuovo per agire: rimetto solo le due soglie già analizzate.
+Testimone: **Piano di giovedì 19/11, scritto alle 08:15 a borsa chiusa:** nessun ordine. Ho rimesso due soglie per la sentinella:
+- comprare 20 PRY se scende sotto 102;
+- vendere 34 UCG se sale sopra 89.
+
+Contanti al 30,5%, finanza al 18,7%. La tranche della settimana è fatta (PIRC e A2A, il 17/11).
+
+**All'apertura, controllare per primo:**
+- Moncler (41,2): lo stop scatta intorno a 39,1. Non rinforzare.
+- Il mercato dopo il -1,32% di ieri.
+- L'esito dei conti MFE (non è in portafoglio).
+
+**Vincoli:**
+- niente acquisti nella finanza;
+- niente Eni prima della cedola del 23/11.
+
+**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
+
+Se non succede nulla di nuovo, non fare niente. Domani è venerdì: alle 18:03 c'è la pagella contro il FTSE MIB.
