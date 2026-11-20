@@ -1080,3 +1080,25 @@ Testimone: **Apertura del 20/11, ore 09:19:** nessun ordine. Il patrimonio è 99
 **Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
 [20/11 12:43: sveglia senza Claude, nessun ordine nuovo]
 20/11 12:46 [meta] sveglia 2026-11-20-meta già fatta: non riparte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:04<00:00,  2.43s/it]Fetching 2 files: 100%|██████████| 2/2 [00:04<00:00,  2.43s/it]
+20/11 17:07 [chiusura] patrimonio 98,795.87 € — 0 ordini eseguiti, 0 respinti
+Analisi: Cervello non disponibile: applico solo lo stop loss.
+Testimone: **Apertura del 20/11, ore 09:19:** nessun ordine. Il patrimonio è 99.655 € (-0,35% dall'inizio), con i contanti al 30,8% e la finanza al 18,7%.
+
+**Soglie lasciate alla sentinella:**
+- comprare 20 PRY se scende sotto 102 (era a 102,75);
+- vendere 34 UCG se sale sopra 89.
+
+**Da controllare per primo:**
+- Moncler (40,58, al minimo dell'anno): lo stop scatta a circa 39,1. Non rinforzare; se lo stop scatta, non ricomprarla oggi.
+- Eni: cedola il 23/11, niente acquisti prima.
+- Prysmian: vedere se la soglia è scattata.
+
+**Pagella alle 18:03:** confrontare la settimana con il FTSE MIB. La tranche è fatta (PIRC e A2A il 17/11); la settimana è stata di mercato in calo e il portafoglio ha tenuto più o meno come l'indice: verificare.
+
+**Settimana prossima:** se i contanti restano sopra il 30%, fare 2 tranche entro martedì su settori diversi. Candidati già analizzati: PRY (se non comprata oggi), LDO, AMP, CPR.
+
+**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
+[20/11 12:43: sveglia senza Claude, nessun ordine nuovo]
+[20/11 17:07: sveglia senza Claude, nessun ordine nuovo]
