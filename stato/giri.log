@@ -1037,3 +1037,23 @@ Testimone: **Piano del 20/11, ore 08:15:** nessun ordine (borsa chiusa). Il patr
 
 **Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
 20/11 08:16 [piano] sveglia 2026-11-20-piano già fatta: non riparte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:03<00:00,  1.79s/it]Fetching 2 files: 100%|██████████| 2/2 [00:03<00:00,  1.79s/it]
+20/11 09:18 [apertura] patrimonio 99,654.79 € — 0 ordini eseguiti, 0 respinti
+Analisi: L'apertura conferma il piano: nessun ordine immediato. Il mercato scende ancora (finanza -4,6% in 5 giorni, tecnologia -9,3%). La BCE tiene i tassi fermi ma l'inflazione preoccupa per il rialzo di petrolio e gas. Prysmian quota 102,75 dopo il -4,8% di ieri, appena sopra la soglia di 102, quindi lascio fare alla sentinella. UniCredit (79,76) è lontana dal livello di presa di beneficio (89); in compenso c'è l'accordo con Berlino su Commerzbank, una buona notizia. Moncler a 40,58, al minimo dell'anno, pesa dopo il declassamento di Morgan Stanley; lo stop scatta a circa 39,1 e non la rinforzo. Enel ha conti sopra le attese e alza il dividendo; Poste ha l'accordo con CDP. Le tranche della settimana sono già fatte (PIRC e A2A) e i contanti sono al 30,8%, dentro la fascia 20–40%.
+Testimone: **Apertura del 20/11, ore 09:19:** nessun ordine. Il patrimonio è 99.655 € (-0,35% dall'inizio), con i contanti al 30,8% e la finanza al 18,7%.
+
+**Soglie lasciate alla sentinella:**
+- comprare 20 PRY se scende sotto 102 (era a 102,75);
+- vendere 34 UCG se sale sopra 89.
+
+**Da controllare per primo:**
+- Moncler (40,58, al minimo dell'anno): lo stop scatta a circa 39,1. Non rinforzare; se lo stop scatta, non ricomprarla oggi.
+- Eni: cedola il 23/11, niente acquisti prima.
+- Prysmian: vedere se la soglia è scattata.
+
+**Pagella alle 18:03:** confrontare la settimana con il FTSE MIB. La tranche è fatta (PIRC e A2A il 17/11); la settimana è stata di mercato in calo e il portafoglio ha tenuto più o meno come l'indice: verificare.
+
+**Settimana prossima:** se i contanti restano sopra il 30%, fare 2 tranche entro martedì su settori diversi. Candidati già analizzati: PRY (se non comprata oggi), LDO, AMP, CPR.
+
+**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
