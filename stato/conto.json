@@ -1,5 +1,5 @@
 {
- "contanti": 30736.394589000003,
+ "contanti": 28695.106589000003,
  "posizioni": {
   "ISP.MI": {
    "quantita": 1180,
@@ -37,8 +37,8 @@
    "dal": "2026-10-27T09:19"
   },
   "PRY.MI": {
-   "quantita": 29,
-   "prezzo_medio": 102.8,
+   "quantita": 49,
+   "prezzo_medio": 102.43265306122449,
    "dal": "2026-10-27T09:19"
   },
   "UNI.MI": {
@@ -252,6 +252,16 @@
    "prezzo": 2.249,
    "costi": 3.72,
    "motivo": "Seconda tranche della regola del contante (contanti al 32%), sulle utility, un settore diverso da Pirelli. Il titolo è -4,9% in 5 giorni e -5,8% in 20 giorni. P/e 10,3, dividendo del 4,5%, conti dei nove mesi con ricavi +35%. Prezzo corretto 2,65 (7 analisti indicano 2,85). Avrei torto sotto 2,05. La posizione peserebbe circa il 2,4%."
+  },
+  {
+   "id": "2026-11-20-1045-sentinella-PRY.MI-compra",
+   "quando": "2026-11-20T10:45",
+   "azione": "compra",
+   "simbolo": "PRY.MI",
+   "quantita": 20,
+   "prezzo": 101.9,
+   "costi": 3.29,
+   "motivo": "Rinforzo sul ritracciamento: -7% in 5 giorni, -35% dal massimo dell'anno. Prezzo corretto 135: p/e atteso 16,4, ROE 17%, domanda di cavi legata all'intelligenza artificiale. Gli analisti indicano 152 (21 analisti). Avrei torto sotto 92. La posizione salirebbe a circa il 5% e l'industria a circa il 17%."
   }
  ],
  "andamento": [
@@ -666,30 +676,30 @@
   "SPM.MI": 4.164,
   "STMMI.MI": 39.33,
   "TPRO.MI": 19.45,
-  "ENI.MI": 24.64,
-  "ENEL.MI": 9.447,
-  "ISP.MI": 5.986,
-  "UCG.MI": 79.76,
+  "ENI.MI": 24.34,
+  "ENEL.MI": 9.307,
+  "ISP.MI": 5.929,
+  "UCG.MI": 79.33,
   "STLAM.MI": 3.228,
   "RACE.MI": 369.9,
   "G.MI": 43.21,
   "TIT.MI": 5.421,
-  "PST.MI": 23.68,
+  "PST.MI": 23.43,
   "MB.MI": 26.12,
   "BAMI.MI": 14.37,
   "BPE.MI": 12.474,
-  "LDO.MI": 47.93,
-  "PRY.MI": 102.75,
-  "MONC.MI": 40.58,
+  "LDO.MI": 47.825,
+  "PRY.MI": 101.9,
+  "MONC.MI": 40.34,
   "TEN.MI": 25.99,
   "SRG.MI": 6.024,
   "TRN.MI": 9.564,
-  "A2A.MI": 2.2,
+  "A2A.MI": 2.178,
   "HER.MI": 3.564,
-  "CPR.MI": 6.494,
-  "AMP.MI": 11.175,
+  "CPR.MI": 6.486,
+  "AMP.MI": 11.145,
   "REC.MI": 52.75,
-  "FBK.MI": 21.81,
+  "FBK.MI": 21.5,
   "BMED.MI": 21.94,
   "INW.MI": 7.345,
   "NEXI.MI": 4.169,
@@ -698,7 +708,7 @@
   "BMPS.MI": 10.92,
   "BC.MI": 88.66,
   "IG.MI": 8.864,
-  "UNI.MI": 24.49,
+  "UNI.MI": 24.25,
   "LTMC.MI": 25.65,
   "ABP.MI": 5.0,
   "AAT.MI": 1.14,
@@ -943,7 +953,7 @@
   "PIA.MI": 2.152,
   "PINF.MI": 1.195,
   "PQ.MI": 2.25,
-  "PIRC.MI": 6.4,
+  "PIRC.MI": 6.35,
   "PMED.MI": 5.5,
   "PLN.MI": 3.9,
   "PLC.MI": 3.07,
@@ -1051,7 +1061,8 @@
    "soglia": 102,
    "motivo": "Rinforzo sul ritracciamento: -7% in 5 giorni, -35% dal massimo dell'anno. Prezzo corretto 135: p/e atteso 16,4, ROE 17%, domanda di cavi legata all'intelligenza artificiale. Gli analisti indicano 152 (21 analisti). Avrei torto sotto 92. La posizione salirebbe a circa il 5% e l'industria a circa il 17%.",
    "data": "2026-11-20",
-   "da": "2026-11-20-apertura"
+   "da": "2026-11-20-apertura",
+   "esito": "10:45 a 101.9: eseguito"
   },
   {
    "azione": "vendi",
