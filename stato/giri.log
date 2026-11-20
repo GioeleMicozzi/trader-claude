@@ -1011,3 +1011,28 @@ Testimone: **Chiusura del 19/11, ore 17:10:** nessun ordine. Il patrimonio è 10
 **Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
 19/11 17:11 [chiusura] sveglia 2026-11-19-chiusura già fatta: non riparte
 19/11 18:52 nessuna sveglia prevista a quest'ora: non parte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:07<00:00,  3.85s/it]Fetching 2 files: 100%|██████████| 2/2 [00:07<00:00,  3.85s/it]
+20/11 08:12 [piano] patrimonio 100,267.28 € — 0 ordini eseguiti, 0 respinti
+Analisi: **Mercato:** la settimana è stata debole. Il FTSE MIB ha perso quota 50.000, quasi tutti i settori sono fra -2% e -5% in 5 giorni e Wall Street ha ceduto più del 2%. La BCE ha lasciato i tassi fermi, ma cresce l'allarme sull'inflazione spinta da petrolio e gas.
+
+**Notizie sui titoli in portafoglio:**
+- **Positive:** Enel ha chiuso conti sopra le attese e alza il dividendo. UniCredit ha trovato l'accordo con Berlino su Commerzbank. Eni continua a ricomprare azioni proprie.
+- **Negative:** Moncler ha perso circa il 6% in 5 giorni dopo il declassamento di Morgan Stanley. Quota a 41,2, sul minimo dell'anno, e lo stop scatta a circa 39,1. I fondamentali però non cambiano: p/e atteso 16 e 25 analisti con obiettivo medio 56,7. Quindi la tengo, ma non la rinforzo.
+
+**Situazione:** il patrimonio è 100.267 € (+0,27% dall'inizio), con i contanti al 30,6% e la finanza al 18,7%. La tranche della settimana è già fatta. Non c'è un motivo per nuovi ordini a mercato.
+Testimone: **Piano del 20/11, ore 08:15:** nessun ordine (borsa chiusa). Il patrimonio è 100.267 € (+0,27% dall'inizio), con i contanti al 30,6% e la finanza al 18,7%.
+
+**Soglie lasciate alla sentinella:**
+- comprare 20 PRY se scende sotto 102;
+- vendere 34 UCG se sale sopra 89.
+
+**Da controllare per primo all'apertura:**
+- Moncler: prezzo medio 43,45, lo stop scatta a circa 39,1 e chiudeva a 41,2. Non rinforzare. Se lo stop scatta, non ricomprarla oggi.
+- Eni: cedola il 23/11, niente acquisti prima.
+
+**Pagella alle 18:03:** confrontare la settimana con il FTSE MIB (la tranche è fatta: PIRC e A2A il 17/11).
+
+**Settimana prossima:** se i contanti restano sopra il 30%, fare le 2 tranche entro martedì su settori diversi. Candidati già analizzati: PRY, LDO, AMP, CPR.
+
+**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
