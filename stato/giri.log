@@ -1103,3 +1103,4 @@ Testimone: **Apertura del 20/11, ore 09:19:** nessun ordine. Il patrimonio è 99
 [20/11 12:43: sveglia senza Claude, nessun ordine nuovo]
 [20/11 17:07: sveglia senza Claude, nessun ordine nuovo]
 Errore: Claude non ha dato una risposta valida: claude -p non è andato: {"duration_api_ms":0,"stop_reason":"stop_sequence","session_id":"1abe234d-6aa9-4128-ac28-aa3b407c7d89","total_cost_usd":0,"usage":{"output_tokens_details":{"thinking_tokens":0},"input_tokens":0,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"output_tokens":0,"server_tool_use":{"web_search_requests":0,"web_fetch_requests":0},"service_tier":"standard","cache_creation":{"ephemeral_1h_input_tokens":0,"ephemeral_5m_input_tokens":0},"inference_geo":"","iterations":[],"speed":"standard","f
+20/11 18:53 nessuna sveglia prevista a quest'ora: non parte
