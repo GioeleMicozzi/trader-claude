@@ -258,8 +258,11 @@ def main():
         return
     if momento == "stato":
         return stato()
-    if momento == "piano" or momento == "pagella":
+    if momento == "piano":
         da_fare = giorno_di_borsa(ora.date())
+    elif momento == "pagella":
+        # Anche nel weekend: serve a recuperare la pagella del venerdì quando è saltata.
+        da_fare = giorno_di_borsa(ora.date()) or ora.weekday() >= 5
     elif momento == "prova":
         da_fare = True
     elif momento == "bilancio":
