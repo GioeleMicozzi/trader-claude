@@ -677,7 +677,7 @@
   "testo": "Cervello non disponibile: applico solo lo stop loss.",
   "con_previsioni": true
  },
- "testimone": "**Apertura del 20/11, ore 09:19:** nessun ordine. Il patrimonio è 99.655 € (-0,35% dall'inizio), con i contanti al 30,8% e la finanza al 18,7%.\n\n**Soglie lasciate alla sentinella:**\n- comprare 20 PRY se scende sotto 102 (era a 102,75);\n- vendere 34 UCG se sale sopra 89.\n\n**Da controllare per primo:**\n- Moncler (40,58, al minimo dell'anno): lo stop scatta a circa 39,1. Non rinforzare; se lo stop scatta, non ricomprarla oggi.\n- Eni: cedola il 23/11, niente acquisti prima.\n- Prysmian: vedere se la soglia è scattata.\n\n**Pagella alle 18:03:** confrontare la settimana con il FTSE MIB. La tranche è fatta (PIRC e A2A il 17/11); la settimana è stata di mercato in calo e il portafoglio ha tenuto più o meno come l'indice: verificare.\n\n**Settimana prossima:** se i contanti restano sopra il 30%, fare 2 tranche entro martedì su settori diversi. Candidati già analizzati: PRY (se non comprata oggi), LDO, AMP, CPR.\n\n**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.\n[20/11 12:43: sveglia senza Claude, nessun ordine nuovo]\n[20/11 17:07: sveglia senza Claude, nessun ordine nuovo]",
+ "testimone": "**Pagella del 20/11.** La settimana chiude a -4,63%, contro il -5,93% del FTSE MIB. Il patrimonio è 98.744 €, i contanti 28.695 € (29,1%, sotto il 30%: la tranche obbligatoria del 4–6% non scatta), la finanza circa al 18,7%. Questa settimana ho comprato PIRC 440, A2A 1100 e PRY 20 (ora 49 azioni, prezzo medio 102,43).\n\n**Da controllare per primo lunedì 23/11:**\n- Moncler a 39,49, stop a circa 39,1: non rinforzare. Se lo stop scatta, non ricomprarla lo stesso giorno.\n- Eni stacca la cedola il 23/11: il calo del prezzo è il dividendo, non un segnale. La posizione è a -4,2%, lontana dallo stop.\n\n**Regola nuova:** le tranche vanno con soglie almeno il 2% sotto il prezzo, su due giorni diversi. Niente rinforzi su titoli che perdono più del 5% dal prezzo medio (oggi MONC e AMP) o a meno del 3% dallo stop.\n\n**Candidati se servono ingressi:** LDO (torto 44) e CPR (torto 5,5). UCG: vendere 34 azioni se sale sopra 89.\n\n**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.",
  "ultimi_scartati": [],
  "prezzi": {
   "AVIO.MI": 39.14,
@@ -1059,8 +1059,8 @@
   "ZUC.MI": 0.29
  },
  "ultima_sveglia": {
-  "id": "2026-11-20-chiusura",
-  "quando": "2026-11-20T17:07+01:00"
+  "id": "2026-11-22-pagella",
+  "quando": "2026-11-22T17:52+01:00"
  },
  "condizionati": [
   {
@@ -1106,6 +1106,13 @@
    "giudizio": "Settimana positiva in valore assoluto ma sotto l'indice. Il patrimonio passa da 101.600 a 103.561 € (+1,93%), mentre il FTSE MIB passa da 50.053 a 51.850 (+3,59%): abbiamo fatto 1,66 punti meno dell'indice. Circa 1,2 punti di questo ritardo vengono dai contanti tenuti al 35% in una settimana di rialzo. La parte investita ha reso circa il 3%, comunque meno dell'indice. Hanno reso bene UCG (+13,7% dal prezzo medio) e FBK, ma la finanza è tenuta sotto il 20% per regola. Gli acquisti della settimana sono andati su titoli difensivi o in ritardo: ENI comprata in due tranche, Moncler (oggi sotto il prezzo di acquisto della tranche, 44,36 contro 44,73) e Amplifon (piatta). Le oscillazioni sono state basse e nessuno stop è scattato. Il rischio è ben distribuito su 12 titoli e almeno 7 settori, e le regole sono state rispettate. Però a parità di rischio il rendimento è stato chiaramente sotto l'indice, e l'obiettivo è batterlo.",
    "errore_della_settimana": "Ho tenuto troppi contanti in un mercato che saliva. Appena i contanti sono scesi sotto il 40% (35-36%), la regola della tranche obbligatoria ha smesso di valere e ho smesso di investire, anche se la fascia 20-40% lasciava spazio. Quel 35% fermo spiega circa tre quarti del ritardo sull'indice. C'è anche un errore secondario: ho comprato ENI due volte nella stessa settimana (tre volte in sette giorni) invece di distribuire gli acquisti su più settori.",
    "nuova_regola": "(13/11/2026) Se i contanti superano il 30% del patrimonio, ogni settimana investo almeno il 4-6% del patrimonio in 2 tranche, con soglie della sentinella entro martedì, su titoli già analizzati che quotano almeno il 3% sotto il massimo a 20 giorni. Non compro lo stesso titolo più di una volta nella stessa settimana: le tranche vanno su settori diversi. Restano valide le regole su finanza (sotto il 20%), conti imminenti (niente acquisti nei 2 giorni prima) e limite del 10% per titolo. Questa regola si aggiunge alla tranche dell'8-10% già prevista quando i contanti superano il 40%."
+  },
+  {
+   "quando": "2026-11-22T17:52+01:00",
+   "voto": 6,
+   "giudizio": "Il portafoglio ha perso il 4,63% (da 103.589 € a 98.796 €), il FTSE MIB il 5,93% (da 51.859 a 48.783). Abbiamo fatto 1,3 punti meglio dell'indice, ma il merito è dei contanti (circa il 30%), non della scelta dei titoli. La parte investita ha perso circa il 6,5%, cioè un po' più dell'indice. Pesano soprattutto Moncler (-9,1% dal prezzo medio, vicina allo stop), AMP (-4,8%), PIRC (-4,7%) ed ENI (-4,2%). In una settimana di calo generale la difesa ha funzionato, la scelta dei titoli no. Dall'inizio siamo a -1,26%.",
+   "errore_della_settimana": "Ho comprato in modo meccanico mentre il mercato scendeva. Le tranche obbligatorie (PIRC e A2A il 17/11) e il rinforzo su PRY il 20/11 sono entrati presto, su un calo che non era finito: ognuna delle tre posizioni ha già perso fra il 2% e il 5%. A questo si aggiunge il rinforzo su Moncler del 9/11, fatto mentre il lusso era debole. Ha alzato il prezzo medio e ora il titolo è a meno dell'1% dallo stop (circa 39,1). Ho trattato la regola del contante come un obbligo di comprare subito, invece di dividere gli ingressi su soglie più basse.",
+   "nuova_regola": "(20/11/2026) Le tranche della regola del contante si fanno con soglie della sentinella almeno il 2% sotto il prezzo della sveglia, su almeno 2 giorni diversi. Se il FTSE MIB perde più del 3% in 5 giorni, la seconda tranche aspetta una seduta in rialzo. Non rinforzo un titolo che perde più del 5% dal mio prezzo medio né un titolo a meno del 3% dallo stop. Restano valide le regole su finanza (sotto il 20%), conti imminenti, limite del 10% per titolo e contanti fra il 20% e il 40%."
   }
  ]
 }
