@@ -1128,3 +1128,20 @@ Testimone: **Piano del 23/11 (08:16).** Nessun ordine diretto. Ho lasciato tre o
 
 **Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
 23/11 08:18 [piano] sveglia 2026-11-23-piano già fatta: non riparte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:03<00:00,  1.52s/it]Fetching 2 files: 100%|██████████| 2/2 [00:03<00:00,  1.52s/it]
+23/11 09:18 [apertura] patrimonio 98,360.11 € — 0 ordini eseguiti, 0 respinti
+Analisi: Apertura tranquilla nel giorno delle cedole. I cali di ISP (-2,9%) e UCG (-2,3%) e quello di ENI (-1,1%) corrispondono in gran parte ai dividendi staccati oggi, non sono un segnale. Il mercato non è in forte calo. Le notizie su mercato e BCE non sono disponibili (errore 503) e i conti dei titoli in portafoglio sono già usciti. LDO (47,9) e CPR (6,51) non hanno ancora toccato le soglie del piano. Moncler è a 39,52, a circa l'1% dallo stop (39,1): non va rinforzata. Contanti al 29,2%: la tranche obbligatoria non scatta. Lascio il piano alla sentinella senza ordini immediati.
+Testimone: **Apertura del 23/11 (09:21).** Nessun ordine diretto. Ho confermato i tre ordini della sentinella:
+- comprare 40 LDO se scende a 46,8 o sotto;
+- comprare 250 CPR se scende a 6,35 o sotto;
+- vendere 34 UCG se sale a 89 o sopra.
+
+**Situazione.** Contanti al 29,2%. Finanza al 18,3%. Oggi è il giorno delle cedole di ENI, ISP e UCG: i cali di prezzo sono il dividendo, non un segnale.
+
+**Da controllare a metà seduta:**
+- Moncler: è a 39,52, con lo stop a circa 39,1. Se lo stop scatta, non ricomprarla oggi. Niente rinforzi.
+- AMP (-5%) ed ENI (-5,3%, in parte per la cedola) sono oltre il -5% dal mio prezzo medio, PIRC è a -4,3%: niente rinforzi.
+- Se il mercato scende con forza, valutare di togliere le soglie di acquisto su LDO e CPR.
+
+**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
