@@ -1165,3 +1165,30 @@ Testimone: **Apertura del 23/11 (09:21).** Nessun ordine diretto. Ho confermato 
 **Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
 [23/11 12:44: sveglia senza Claude, nessun ordine nuovo]
 23/11 12:46 [meta] sveglia 2026-11-23-meta già fatta: non riparte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:  50%|█████     | 1/2 [00:00<00:00,  8.77it/s]Fetching 2 files: 100%|██████████| 2/2 [00:45<00:00, 26.48s/it]Fetching 2 files: 100%|██████████| 2/2 [00:45<00:00, 22.52s/it]
+Telegram non raggiungibile: <urlopen error [Errno 104] Connection reset by peer>
+23/11 17:08 [chiusura] patrimonio 99,285.99 € — 0 ordini eseguiti, 0 respinti
+Analisi: Il FTSE MIB ha chiuso quasi invariato. L'effetto cedole (circa -1,4%) è stato compensato dal rimbalzo dei tecnologici (STM e Technoprobe +9,5%, Prysmian +6,1%). Per i nostri titoli le notizie dicono:
+- ISP, UCG ed ENI: i cali di oggi sono lo stacco del dividendo, non un cambio nei fondamentali.
+- ENI: l'acquisto di asset norvegesi da ConocoPhillips non ha mosso il titolo.
+- Moncler: è rimbalzata del 3,5% a 40,89 e si è allontanata dallo stop (circa 39,1).
+- Prysmian: è tornata sopra il mio prezzo medio.
+
+Sul fronte BCE, Simkus dice che la stretta di dicembre potrebbe non bastare. Tassi più alti sostengono il margine delle banche ma pesano sulle utility.
+
+I contanti sono al 28,9%: dentro la fascia 20–40% e sotto il 30%, quindi la regola non chiede tranche. La finanza è al 18,4%, sotto il limite del 20%. Non ci sono motivi nuovi per comprare o vendere, quindi non faccio nulla. Le soglie della sentinella restano fino alla chiusura.
+Testimone: **Chiusura del 23/11 (17:11).** Nessun ordine. Ho lasciato le soglie fino alla chiusura (LDO 46,8 compra, CPR 6,35 compra, UCG 89 vendi), che scadono stasera.
+
+**Situazione.** Patrimonio 99.286 €, contanti al 28,9%. Sotto il 30% la regola non chiede tranche. Pesi per settore: finanza 18,4%, industria 17%, utility 9,7%, lusso/auto 9,7%, energia 7,1%, consumi essenziali 5,8%, salute 3,4%. Oggi sono state staccate le cedole di ENI, ISP e UCG.
+
+**Domani all'apertura:**
+1. Moncler a 40,89, stop a circa 39,1: niente rinforzi.
+2. ENI a -6,2% dal prezzo medio, stop a circa 22,7: niente rinforzi.
+3. AMP a -4,9%, vicina al -5%: niente rinforzi.
+4. Si può valutare di rimettere le soglie LDO 46,8 e CPR 6,35, se il mercato non scende con forza.
+5. Se il patrimonio sale e i contanti tornano sopra il 30%, preparare tranche su settori diversi, con soglie almeno il 2% sotto il prezzo della sveglia.
+
+Da seguire: l'OPAS di Intesa su MPS, in corso questa settimana.
+
+**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
