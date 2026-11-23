@@ -1108,3 +1108,22 @@ Errore: Claude non ha dato una risposta valida: claude -p non è andato: {"durat
 Pagella 6/10 — Il portafoglio ha perso il 4,63% (da 103.589 € a 98.796 €), il FTSE MIB il 5,93% (da 51.859 a 48.783). Abbiamo fatto 1,3 punti meglio dell'indice, ma il merito è dei contanti (circa il 30%), non della scelta dei titoli. La parte investita ha perso circa il 6,5%, cioè un po' più dell'indice. Pesano soprattutto Moncler (-9,1% dal prezzo medio, vicina allo stop), AMP (-4,8%), PIRC (-4,7%) ed ENI (-4,2%). In una settimana di calo generale la difesa ha funzionato, la scelta dei titoli no. Dall'inizio siamo a -1,26%.
 Errore: Ho comprato in modo meccanico mentre il mercato scendeva. Le tranche obbligatorie (PIRC e A2A il 17/11) e il rinforzo su PRY il 20/11 sono entrati presto, su un calo che non era finito: ognuna delle tre posizioni ha già perso fra il 2% e il 5%. A questo si aggiunge il rinforzo su Moncler del 9/11, fatto mentre il lusso era debole. Ha alzato il prezzo medio e ora il titolo è a meno dell'1% dallo stop (circa 39,1). Ho trattato la regola del contante come un obbligo di comprare subito, invece di dividere gli ingressi su soglie più basse.
 Nuova regola: (20/11/2026) Le tranche della regola del contante si fanno con soglie della sentinella almeno il 2% sotto il prezzo della sveglia, su almeno 2 giorni diversi. Se il FTSE MIB perde più del 3% in 5 giorni, la seconda tranche aspetta una seduta in rialzo. Non rinforzo un titolo che perde più del 5% dal mio prezzo medio né un titolo a meno del 3% dallo stop. Restano valide le regole su finanza (sotto il 20%), conti imminenti, limite del 10% per titolo e contanti fra il 20% e il 40%.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:  50%|█████     | 1/2 [00:00<00:00,  2.66it/s]Fetching 2 files: 100%|██████████| 2/2 [00:06<00:00,  3.91s/it]Fetching 2 files: 100%|██████████| 2/2 [00:06<00:00,  3.38s/it]
+23/11 08:13 [piano] patrimonio 98,743.51 € — 0 ordini eseguiti, 0 respinti
+Analisi: La settimana scorsa il FTSE MIB ha perso il 5,9%, trascinato dal crollo dei titoli tecnologici (STM e Technoprobe) e dalle vendite sulle banche. Il portafoglio ha fatto meglio, a -4,6%. I future di stamattina danno l'Europa in rialzo. Oggi molti titoli staccano la cedola: Eni la seconda quota e diverse banche gli acconti, in tutto quasi 10 miliardi. I cali di prezzo di ISP, UCG ed ENI sono quindi meccanici e non segnalano niente. MPS giudica congrua l'offerta di Intesa: niente di nuovo sui conti di ISP. I contanti sono al 29,1%, dentro la fascia 20–40% e sotto il 30%: nessuna tranche obbligatoria. Il punto delicato è Moncler: a 39,49, appena sopra lo stop a circa 39,1, dopo il declassamento di Morgan Stanley. Non la rinforzo. Se lo stop scatta, accetto l'uscita. Preparo solo due ingressi sui ribassi, a più del 2% sotto i prezzi di ieri. Leonardo è legata agli ordini della difesa, con 60 miliardi di portafoglio. Campari è un titolo difensivo dei consumi essenziali. La finanza resta sotto il 20%.
+Testimone: **Piano del 23/11 (08:16).** Nessun ordine diretto. Ho lasciato tre ordini alla sentinella:
+- comprare 40 LDO se scende a 46,8 o sotto;
+- comprare 250 CPR se scende a 6,35 o sotto;
+- vendere 34 UCG se sale a 89 o sopra.
+
+**Situazione.** Contanti al 29,1% (sotto il 30%): la tranche obbligatoria non scatta. Finanza al 18,5%.
+
+**Oggi è il giorno delle cedole.** ENI stacca la seconda quota, diverse banche (ISP, UCG e altre) gli acconti. I cali di prezzo sono il dividendo, non un segnale.
+
+**Da controllare per primo all'apertura:**
+- Moncler: stop a circa 39,1, prezzo di ieri 39,49. Se lo stop scatta, non ricomprarla oggi. Non rinforzarla.
+- AMP (-4,8%) e PIRC (-4,7%) sono vicine al -5%: niente rinforzi.
+- Se il mercato apre in forte calo, valutare di cancellare i due acquisti: dopo un -5,9% in 5 giorni vale la regola di aspettare una seduta in rialzo, ma solo per la seconda tranche.
+
+**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
