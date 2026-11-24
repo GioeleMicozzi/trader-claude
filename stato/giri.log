@@ -1220,3 +1220,27 @@ Non ho rimesso la soglia di vendita UCG a 89: è troppo lontana dal prezzo, che 
 
 **Pesi per settore circa:** finanza 18%, sotto il limite del 20%: niente nuove banche.
 24/11 08:16 [piano] sveglia 2026-11-24-piano già fatta: non riparte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:09<00:00,  4.51s/it]Fetching 2 files: 100%|██████████| 2/2 [00:09<00:00,  4.51s/it]
+24/11 09:17 [apertura] patrimonio 99,365.91 € — 0 ordini eseguiti, 0 respinti
+Analisi: L'apertura conferma il piano e non chiede interventi. Il mercato non crolla nonostante le notizie sul Nasdaq: ieri STM e Technoprobe sono salite molto e oggi le nostre posizioni industriali tengono (LDO +2,1%, PRY +6% ieri). LDO è a 48,84 e CPR a 6,62, entrambe sopra le soglie d'acquisto di 46,8 e 6,35, che restano valide come ingressi sul ritracciamento. I contanti sono al 28,9%: sotto il 30% la regola non chiede tranche. Le posizioni deboli (MONC -6,6%, AMP -6,7%, ENI -5,9%) sono oltre il -5% dal prezzo medio, quindi niente rinforzi, ma restano sopra gli stop. Non escono conti né notizie che cambino i fondamentali. La finanza resta al 18%: niente nuove banche.
+Testimone: **Apertura del 24/11 (09:19).** Nessun ordine eseguito. Restano attive due soglie d'acquisto per la sentinella:
+- compra 40 LDO se scende a 46,8 (ora è a 48,84);
+- compra 300 CPR se scende a 6,35 (ora è a 6,62).
+
+**Situazione.** Patrimonio 99.366 €, contanti 28.695 € (28,9%). Sotto il 30% non servono tranche.
+
+**A metà seduta controllare per primo:**
+1. Se sono scattate le soglie.
+2. MONC a 40,57: è a -6,6% dal prezzo medio, con lo stop a circa 39,1.
+3. AMP a 11,0: è a -6,7%, con lo stop a circa 10,6.
+4. ENI a 23,7: è a -5,9%, con lo stop a circa 22,7.
+5. PIRC: lo stop è a circa 5,92.
+
+Su questi titoli niente rinforzi. Seguire l'OPAS di Intesa su MPS e le notizie sulla BCE (rialzo dei tassi a dicembre).
+
+**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
+
+**Prezzi corretti:** LDO 62, CPR 7,0, ENI 27,5, MONC 52, PRY 135, FBK 25, UCG 88, UNI 29, AMP 13,8, PIRC 7,3, A2A 2,65.
+
+**Pesi per settore:** finanza 18,4%, sotto il limite del 20%: niente nuove banche.
