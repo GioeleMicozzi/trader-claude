@@ -1300,3 +1300,36 @@ Su MONC, AMP ed ENI niente rinforzi (perdono più del 5% dal prezzo medio).
 **Possibili ingressi già analizzati:** LDO sotto 47, CPR sotto 6,35.
 24/11 17:11 [chiusura] sveglia 2026-11-24-chiusura già fatta: non riparte
 24/11 18:53 nessuna sveglia prevista a quest'ora: non parte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:09<00:00,  4.80s/it]Fetching 2 files: 100%|██████████| 2/2 [00:09<00:00,  4.80s/it]
+25/11 08:13 [piano] patrimonio 98,620.78 € — 0 ordini eseguiti, 0 respinti
+Analisi: Ieri il FTSE MIB ha perso l'1,8%, trascinato dal tech: ST -2,1% (-12,5% in 5 giorni), Technoprobe e Prysmian -2%. In 5 giorni l'indice perde circa il 3%. Banche in calo (-6,6% in 5 giorni la media del FTSE MIB), in parte per lo stacco delle cedole del 23/11. Leonardo regge (+2,9%) grazie alle nuove commesse (Frecce Tricolori, Bulgaria). Sulla BCE resta l'attesa di un rialzo dei tassi a dicembre: aiuta le banche, pesa sulle utility.
+
+Nessuna notizia cambia i fondamentali dei titoli in portafoglio:
+- Eni: la vendita di azioni del CEO Descalzi (2,4 milioni) è un segnale debole.
+- Amplifon: perfeziona una scissione interna.
+- Prysmian: scende con il tech e l'AI, non per i propri conti.
+
+I contanti sono al 29,1%, sotto la soglia del 30%: la tranche obbligatoria non scatta. Visto che il mercato debole va avanti da 5 giorni, non compro adesso. Lascio solo soglie prudenti su titoli già analizzati e fuori dalla finanza (che è al 18,2%).
+Testimone: **Piano del 25/11, ore 08:15.** Nessun ordine (la borsa era chiusa). I contanti sono 28.695 € (29,1%), il patrimonio 98.621 €, il rendimento dall'inizio -1,38%.
+
+**Ordini condizionati di oggi:**
+- Compra 40 LDO se scende sotto 47,0.
+- Compra 300 CPR se scende sotto 6,35.
+
+**Regola del contante.** I contanti sono sotto il 30%, quindi la tranche non è obbligatoria. Se tornano sopra il 30%, la tranche va fatta con soglie almeno il 2% sotto il prezzo della sveglia. Il FTSE MIB perde circa il 3% in 5 giorni: per la seconda tranche aspettare una seduta in rialzo.
+
+**All'apertura controllare per primo:**
+- PRY a 98,44: stop a circa 92,2, livello di torto 92. Niente rinforzi finché il tech non si stabilizza.
+- MONC a 40,57: stop a circa 39,1.
+- AMP a 11,22: stop a circa 10,6.
+- ENI a 23,8: stop a circa 22,7.
+- PIRC a 6,305: stop a circa 5,92.
+
+Su MONC, AMP ed ENI niente rinforzi (perdono più del 5% dal prezzo medio).
+
+**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
+
+**Prezzi corretti:** LDO 62, CPR 7,0, ENI 27,5, MONC 52, PRY 135, FBK 25, UCG 88, UNI 29, AMP 13,8, PIRC 7,3, A2A 2,65.
+
+**Settori:** finanza 18,2% (niente nuove banche), industria 16,8% (non oltre il 19%).
