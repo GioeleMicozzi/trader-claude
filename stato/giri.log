@@ -1384,3 +1384,29 @@ Testimone: **Metà seduta del 25/11, ore 12:55.** Nessun ordine. Il patrimonio �
 **Prezzi corretti:** LDO 62, CPR 7,0, ENI 27,5, MONC 52, PRY 135, FBK 25, UCG 88, UNI 29, AMP 13,8, PIRC 7,3, A2A 2,65.
 
 **Settori:** finanza 17,9% (niente nuove banche), industria 16,8% (non oltre il 19%).
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:03<00:00,  1.99s/it]Fetching 2 files: 100%|██████████| 2/2 [00:03<00:00,  1.99s/it]
+25/11 17:08 [chiusura] patrimonio 97,958.78 € — 0 ordini eseguiti, 0 respinti
+Analisi: Cervello non disponibile: applico solo lo stop loss.
+Testimone: **Metà seduta del 25/11, ore 12:55.** Nessun ordine. Il patrimonio è 98.548 €, i contanti 28.695 € (29%), il rendimento dall'inizio -1,45%. Le notizie non erano disponibili (errore 503).
+
+**Ordini condizionati confermati:**
+- Compra 40 LDO se scende sotto 47.
+- Compra 300 CPR se scende sotto 6,35.
+
+**Da controllare per primo in chiusura:**
+- PRY a 96,18: stop a circa 92,2, livello di torto 92. Niente rinforzi.
+- ISP a 5,608: stop a circa 5,34.
+- ENI a 23,635: stop a circa 22,7. Niente rinforzi.
+- MONC a 41,22: stop a circa 39,1.
+- AMP a 11,385: stop a circa 10,6.
+- PIRC a 6,365: stop a circa 5,92.
+
+**Regola del contante.** I contanti sono sotto il 30%, quindi nessuna tranche obbligatoria. Il FTSE MIB perde circa il 3% in 5 giorni: per una seconda tranche aspettare una seduta in rialzo.
+
+**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
+
+**Prezzi corretti:** LDO 62, CPR 7,0, ENI 27,5, MONC 52, PRY 135, FBK 25, UCG 88, UNI 29, AMP 13,8, PIRC 7,3, A2A 2,65.
+
+**Settori:** finanza 17,9% (niente nuove banche), industria 16,8% (non oltre il 19%).
+[25/11 17:08: sveglia senza Claude, nessun ordine nuovo]
