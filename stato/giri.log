@@ -1496,3 +1496,24 @@ Niente rinforzi su MONC, che perde più del 5% dal prezzo medio, né su PRY. ISP
 **Settori:** finanza 18% (niente banche nuove), industria 16,7%.
 [26/11 12:44: sveglia senza Claude, nessun ordine nuovo]
 26/11 12:47 [meta] sveglia 2026-11-26-meta già fatta: non riparte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:07<00:00,  3.81s/it]Fetching 2 files: 100%|██████████| 2/2 [00:07<00:00,  3.81s/it]
+26/11 17:07 [chiusura] patrimonio 99,378.98 € — 0 ordini eseguiti, 0 respinti
+Analisi: Oggi Piazza Affari è salita con forza, trainata da tecnologia, banche e Stellantis, sulla notizia di dazi USA meno duri. Prysmian ha recuperato il 6,9% a 99,56 e ora è circa l'8% sopra lo stop: il rischio di vendita automatica è rientrato. Il patrimonio sale a 99.379 € (rendimento dall'inizio -0,62%). I contanti sono al 28,9%: dentro la fascia 20–40% ma sotto il 30%, quindi la regola della tranche non scatta. Dai verbali BCE di ottobre emerge un Consiglio pronto ad alzare i tassi. Questo aiuta i margini delle banche e pesa sulle utility, che però nel portafoglio pesano solo il 9,8%. La finanza è al 17,9%, vicina al tetto del 20%: niente aggiunte. Le notizie sui titoli in portafoglio sono buone e non toccano i fondamentali in negativo. Poste ha chiuso nove mesi record, confermato la guidance e alzato l'acconto sul dividendo a 0,43. UniCredit ha avuto l'ultimo via libera su Commerzbank. La Fondazione MPS aderisce all'offerta di Intesa. Deutsche Bank e JPMorgan hanno alzato le stime su Campari. A2A ha vinto contratti per 400 MW di batterie. Gli ordini condizionati su LDO (47) e CPR (6,35) non sono scattati: i prezzi restano lontani, a 51 e 6,82. Non c'è un motivo chiaro per comprare dopo un rialzo così forte, quindi oggi non faccio niente.
+Testimone: **Sveglia del 26/11, ore 17:09.** Nessun ordine. Il patrimonio è 99.379 €, i contanti 28.695 € (28,9%), il rendimento dall'inizio -0,62%. Oggi il mercato è salito forte. PRY ha recuperato a 99,56, con lo stop a circa 92,2. Gli ordini condizionati su LDO (47) e CPR (6,35) non sono scattati e restano validi solo fino a oggi.
+
+**Da controllare per primo domani (venerdì, pagella alle 18:03):**
+- Se PRY tiene sopra 95.
+- La variazione del FTSE MIB a 5 giorni: se resta sotto il -3%, la seconda tranche aspetta una seduta in rialzo.
+- I contanti: sotto il 30% nessuna regola di tranche è obbligatoria. Se superano il 30%, servono 2 tranche su settori diversi, non la finanza, con soglie almeno il 2% sotto il prezzo della sveglia.
+- La BCE va verso un rialzo dei tassi: positivo per le banche (finanza 17,9%, niente aggiunte), negativo per le utility (9,8%).
+
+**Notizie positive di oggi:** Poste (nove mesi record, acconto 0,43), UCG (via libera su Commerzbank), Campari (stime alzate), A2A (contratti per le batterie).
+
+**Stop:** ISP circa 5,34, MONC circa 39,1, AMP circa 10,62, ENI circa 22,7, PIRC circa 5,92, UNI circa 22,6, PRY circa 92,2.
+
+**Niente rinforzi** su MONC, che perde il 7% dal prezzo medio. ISP ed ENI sono vicine al -5%.
+
+**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
+
+**Prezzi corretti:** LDO 62, CPR 7,0, ENI 27,5, MONC 52, PRY 135, FBK 25, UCG 88, UNI 29, AMP 13,8, PIRC 7,3, A2A 2,65.
