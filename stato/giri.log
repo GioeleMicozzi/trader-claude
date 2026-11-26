@@ -1440,3 +1440,33 @@ Niente rinforzi su ISP, MONC, ENI, AMP e PRY: perdono più del 5% dal prezzo med
 **Prezzi corretti:** LDO 62, CPR 7,0, ENI 27,5, MONC 52, PRY 135, FBK 25, UCG 88, UNI 29, AMP 13,8, PIRC 7,3, A2A 2,65.
 
 **Settori:** finanza 17,8% (niente nuove banche), industria 16,7%.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:  50%|█████     | 1/2 [00:00<00:00,  8.84it/s]Fetching 2 files: 100%|██████████| 2/2 [00:05<00:00,  3.43s/it]Fetching 2 files: 100%|██████████| 2/2 [00:05<00:00,  2.93s/it]
+26/11 09:17 [apertura] patrimonio 98,747.39 € — 0 ordini eseguiti, 0 respinti
+Analisi: Ieri il FTSE MIB ha perso l'1,8%, trascinato dalle vendite su STM (-14,5%), Technoprobe e Prysmian (-13%). Sembra una rotazione fuori dai titoli legati all'intelligenza artificiale. Non vedo notizie che cambino i fondamentali di Prysmian: anzi, ha ricevuto il via libera per i collegamenti con le isole greche.
+
+PRY quota 93,12, appena sopra lo stop automatico a circa 92,2. Se scatta, lascio fare la regola senza forzare. Le altre posizioni sono stabili.
+
+I contanti sono al 29,1%, sotto la soglia del 30%, quindi la regola della tranche non scatta. La finanza pesa il 18%, vicino al limite del 20%: niente banche nuove.
+
+Il piano del mattino resta valido. Tengo i due rinforzi condizionati, LDO a 47 e CPR a 6,35, perché entrambi i prezzi sono lontani da quelli attuali.
+Testimone: **Sveglia del 26/11, ore 09:19.** Nessun ordine. Il patrimonio è 98.747 €, i contanti 28.695 € (29,1%), il rendimento dall'inizio -1,25%.
+
+**Ordini condizionati confermati:**
+- Compra 40 LDO se scende sotto 47.
+- Compra 300 CPR se scende sotto 6,35.
+
+**Da controllare per primo:**
+- PRY quota 93,12 e lo stop è a circa 92,2. Ieri ha perso il 13% insieme a STM e Technoprobe: è una rotazione sui titoli legati all'intelligenza artificiale, non sono cambiati i fondamentali.
+- Se PRY viene venduta, non la ricompro oggi. I contanti salirebbero a circa il 34%, sopra il 30%, e scatterebbe la regola della tranche del 4-6%: 2 settori diversi, non la finanza, soglie almeno il 2% sotto il prezzo della sveglia, su 2 giorni diversi.
+- Il FTSE MIB perde più del 3% in 5 giorni, quindi la seconda tranche aspetta una seduta in rialzo.
+
+**Stop delle altre posizioni:** ISP circa 5,34, MONC circa 39,1, AMP circa 10,62, ENI circa 22,7, PIRC circa 5,92, UNI circa 22,6.
+
+Niente rinforzi su MONC, che perde più del 5% dal prezzo medio, né su PRY. ISP ed ENI sono al limite del -5%.
+
+**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
+
+**Prezzi corretti:** LDO 62, CPR 7,0, ENI 27,5, MONC 52, PRY 135, FBK 25, UCG 88, UNI 29, AMP 13,8, PIRC 7,3, A2A 2,65.
+
+**Settori:** finanza 18% (niente banche nuove), industria 16,7%.
