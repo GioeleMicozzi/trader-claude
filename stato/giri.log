@@ -1537,3 +1537,19 @@ Testimone: **Sveglia del 27/11, ore 08:14 (piano).** Nessun ordine. Il patrimoni
 
 **Prezzi corretti:** LDO 62, CPR 7,0, ENI 27,5, MONC 52, PRY 135, FBK 25, UCG 88, UNI 29, AMP 13,8, PIRC 7,3, A2A 2,65.
 27/11 08:16 [piano] sveglia 2026-11-27-piano già fatta: non riparte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:06<00:00,  3.15s/it]Fetching 2 files: 100%|██████████| 2/2 [00:06<00:00,  3.15s/it]
+27/11 09:17 [apertura] patrimonio 100,022.58 € — 0 ordini eseguiti, 0 respinti
+Analisi: Ieri il FTSE MIB ha chiuso a +2,36%, oggi i prezzi sono ancora in rialzo. Il patrimonio è a 100.023 € e i contanti al 28,7%, dentro la fascia 20–40%: le regole non chiedono nessuna tranche. Nessuna posizione è vicina allo stop. La più vicina è Moncler (MONC) a 40,89, con lo stop intorno a 39,1, cioè circa il 4,4% sotto. Le notizie sono favorevoli e non cambiano i fondamentali: Poste ha conti record dei nove mesi e alza l'acconto sul dividendo a 0,43 €; Prysmian ha maxi-commesse in Grecia; Eni prosegue il riacquisto di azioni proprie; UniCredit ha il via libera polacco su Commerzbank; Deutsche Bank alza l'obiettivo su Campari a 7,6 €. La BCE resta orientata a un rialzo dei tassi a dicembre: favorevole ai margini delle banche (la finanza è al 18%, sotto il tetto del 20%), sfavorevole alle utility. Non c'è un motivo per comprare sui massimi né per vendere: non faccio niente e lascio solo la soglia di rinforzo su Leonardo (LDO).
+Testimone: **Sveglia del 27/11, ore 09:19 (apertura).** Nessun ordine. Il patrimonio è 100.023 €, i contanti 28.695 € (28,7%), il rendimento dall'inizio +0,02%. Resta attiva una sola soglia alla sentinella: compra 40 LDO a 47.
+
+**Alle 12:43 controllare prima di tutto:**
+- Gli stop. MONC è la più vicina: stop circa 39,1, oggi 40,89.
+- Gli altri stop: ISP 5,34, AMP 10,62, ENI 22,7, PIRC 5,92, UNI 22,6, PRY 92,2.
+- Niente rinforzi su MONC (-5,9% dal prezzo medio).
+
+**Pagella alle 18:03:** confrontare la settimana con il FTSE MIB. Valutare se semplificare le regole sul contante, visto che il contante è già nella fascia 20–30%.
+
+**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
+
+**Prezzi corretti:** LDO 62, CPR 7,0, ENI 27,5, MONC 52, PRY 135, FBK 25, UCG 88, UNI 29, AMP 13,8, PIRC 7,3, A2A 2,65.
