@@ -1519,3 +1519,20 @@ Testimone: **Sveglia del 26/11, ore 17:09.** Nessun ordine. Il patrimonio è 99.
 **Prezzi corretti:** LDO 62, CPR 7,0, ENI 27,5, MONC 52, PRY 135, FBK 25, UCG 88, UNI 29, AMP 13,8, PIRC 7,3, A2A 2,65.
 26/11 17:11 [chiusura] sveglia 2026-11-26-chiusura già fatta: non riparte
 26/11 18:52 nessuna sveglia prevista a quest'ora: non parte
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files: 100%|██████████| 2/2 [00:05<00:00,  2.88s/it]Fetching 2 files: 100%|██████████| 2/2 [00:05<00:00,  2.88s/it]
+27/11 08:12 [piano] patrimonio 99,234.72 € — 0 ordini eseguiti, 0 respinti
+Analisi: Ieri il FTSE MIB ha chiuso a +2,36% senza nessun titolo in ribasso. Sulla settimana la finanza resta debole (-4,3% a 5 giorni) e la tecnologia è il settore peggiore. I verbali della BCE confermano che la banca va verso un rialzo dei tassi: aiuta le banche, pesa sulle utility. In finanza ho già il 17,8%, sotto il tetto del 20%, quindi non aggiungo. Le notizie sui titoli in portafoglio sono buone: Poste ha chiuso nove mesi record con acconto a 0,43, Prysmian ha ricevuto molti giudizi «compra» dopo le commesse in Grecia, Eni prosegue il riacquisto di azioni proprie, A2A ha vinto contratti per le batterie e Campari ha avuto l'obiettivo alzato. I contanti sono al 28,9%: sotto il 30%, quindi la regola non mi obbliga a nessuna tranche. Nessuna posizione è vicina allo stop: la più vicina è MONC, a 40,31 con lo stop a circa 39,1. Il piano è non fare niente e lasciare solo un ingresso opportunistico su LDO in caso di forte calo.
+Testimone: **Sveglia del 27/11, ore 08:14 (piano).** Nessun ordine. Il patrimonio è 99.235 €, i contanti 28.695 € (28,9%), il rendimento dall'inizio -0,77%. Ieri il FTSE MIB ha chiuso a +2,36%.
+
+**Piano:** nessun acquisto obbligatorio, perché i contanti sono sotto il 30%. Lascio una sola soglia alla sentinella: compra 40 LDO a 47.
+
+**Alle 09:17:** controllare che nessuna posizione si avvicini allo stop.
+- Stop: ISP circa 5,34, MONC circa 39,1 (la più vicina, ieri 40,31), AMP circa 10,62, ENI circa 22,7, PIRC circa 5,92, UNI circa 22,6, PRY circa 92,2.
+- Niente rinforzi su MONC (-7% dal prezzo medio) né su ISP (-5%).
+
+**Pagella alle 18:03:** confrontare la settimana con il FTSE MIB e valutare se le regole sul contante vanno semplificate, visto che il contante oggi sta già nella fascia 20–30%.
+
+**Livelli di torto:** UNI 22, AMP 10,8, MONC 38,6, ENI 22,5, CPR 5,5, PRY 92, FBK 18,8, LDO 44, UCG 66, PIRC 6,0, A2A 2,05, ISP 5,5, ENEL 8,5, PST 21,5.
+
+**Prezzi corretti:** LDO 62, CPR 7,0, ENI 27,5, MONC 52, PRY 135, FBK 25, UCG 88, UNI 29, AMP 13,8, PIRC 7,3, A2A 2,65.
